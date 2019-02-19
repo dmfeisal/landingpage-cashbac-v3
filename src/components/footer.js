@@ -1,0 +1,79 @@
+import React from 'react';
+import { StaticQuery, graphql } from 'gatsby';
+import './style.scss';
+import Emoji from './emoji';
+
+const Footer = () => (
+	
+			<footer className="footer center">
+				<div className="content container">
+					<div class="columns is-desktop is-tablet">
+						  <div class="column">
+						  	<b>About </b>
+						  	<article>
+						  	<a href="#">Company</a>
+						  	</article>
+						  	<article>
+						  	<a href="#">Careers</a>
+						  	</article>
+						  	<article>
+						  	<a href="#">Blog</a>
+						  	</article>
+						  </div>
+						  
+						  	
+						  <div class="column">
+						  	<b>Get Help</b>
+						  	<article>
+						  	<a href="#">Help Center</a>
+						  	</article>
+						  	<article>
+						  	<a href="#">FAQ</a>
+						  	</article>
+						  </div>
+						  <div class="column">
+						  <b>Partnership with Us </b>
+						  <article>
+						  	<a href="#">Join As Merchant</a>
+						  	</article>
+						  	<article>
+						  	<a href="#">Marketing Partnership</a>
+						  	</article>
+						  	
+						  </div>
+						  <div class="column">
+						  <b>Follow Us</b>
+						  <article>
+						  	<a href="#">Instagram</a>
+						  	</article>
+						  	<article>
+						  	<a href="#">Youtube</a>
+						  	</article>
+						  	<article>
+						  	<a href="#">Facebook</a>
+						  	</article>
+
+						  </div>
+					</div>
+
+
+
+					<p>
+						Copyright 2019 DMG.
+					</p>
+					<p>
+						Cashbac is a free cashback app that pays you cash for everyday purchases. Ditch the coupons and get cash back the fun and easy ways. Cashbac has exclusive offer at your favorite merchants. No more searching around for offers, coupon or discount codes - find the best deals every time you shop with Cashbac
+					</p>
+					
+					&nbsp;
+					<p className="is-size-8">
+						<a href="#">Terms and Condition</a>
+						&nbsp; &nbsp; &nbsp; 
+						<a href="#">Privacy Policy</a>
+					</p>
+				</div>
+			</footer>
+	
+);
+
+export default Footer;
