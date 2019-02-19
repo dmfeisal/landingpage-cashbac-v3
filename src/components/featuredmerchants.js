@@ -22,41 +22,41 @@ const Featuredmerchants = () => (
 			
 			<br/>
 
-			<div class="container">
-				<div class="tile is-ancestor">
-					<div class="tile is-parent ">
-					    <article class="tile is-child">
+			<div className="container">
+				<div className="tile is-ancestor">
+					<div className="tile is-parent ">
+					    <article className="tile is-child">
 					      <img src={mcdLogo} id="featured-logo"/>
 					    </article>
 					</div>
 					
-					<div class="tile is-parent">
-					    <article class="tile is-child">
+					<div className="tile is-parent">
+					    <article className="tile is-child">
 					      <img src={familymartLogo} id="featured-logo"/>
 					    </article>
 					</div>
 
-					<div class="tile is-parent inline-block has-text-centered">
-					    <article class="tile is-child">
+					<div className="tile is-parent inline-block has-text-centered">
+					    <article className="tile is-child">
 					      <img src={shareteaLogo} id="featured-logo" />
 					    </article>
 					</div>
 
 
-					<div class="tile is-parent">
-					    <article class="tile is-child">
+					<div className="tile is-parent">
+					    <article className="tile is-child">
 					      <img  src={dcostLogo} id="featured-logo"/>
 					    </article>
 					</div>
 
-					<div class="tile is-parent ">
-					    <article class="tile is-child">
+					<div className="tile is-parent ">
+					    <article className="tile is-child">
 					      <img src={kopikenanganLogo} id="featured-logo"/>
 					    </article>
 					</div>
 
-					<div class="tile is-parent">
-					    <article class="tile is-child">
+					<div className="tile is-parent">
+					    <article className="tile is-child">
 					      <img  src={libericaLogo} id="featured-logo"/>
 					    </article>
 					</div>

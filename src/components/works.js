@@ -20,12 +20,12 @@ const Works = () => (
 
 			<h1 className="title has-text-centered-mobile has-text-centered-desktop "> How Cashbac Works </h1>
 			<br />
-			<p class="subtitle has-text-centered-mobile has-text-centered-desktop">
+			<p className="subtitle has-text-centered-mobile has-text-centered-desktop">
 			With our simple and easy-to-use app, you can now enjoy instant cashback anywhere and anytime
 			</p>
 				
-				<div class="container is-centered">
-					<div class="tabs is-toggle">
+				<div className="container is-centered">
+					<div className="tabs is-toggle">
 					  <ul>
 					    <li>
 					      <a href="#signup">

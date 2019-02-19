@@ -36,7 +36,7 @@ const Merchants = () => (
 						Where You Can Use Cashbac
 					</h2>
 					<br />
-					<p class="subtitle has-text-centered-mobile">
+					<p className="subtitle has-text-centered-mobile">
 					You can use Cashbac to shop, earn, and be rewarded at popular restaurants, coffee shops, and stores 
 					</p>
 			
@@ -44,146 +44,146 @@ const Merchants = () => (
 			
 			<br/>
 
-			<div class="container">
-					 <div class="tile is-ancestor is-flex-mobile">
-					  <div class="tile is-parent ">
-					    <article class="tile is-child box">
+			<div className="container">
+					 <div className="tile is-ancestor is-flex-mobile">
+					  <div className="tile is-parent ">
+					    <article className="tile is-child box">
 					      <img width="50px" src={mcdLogo}/>
 					    </article>
 					  </div>
 
-					  <div class="tile is-parent">
-					    <article class="tile is-child box">
+					  <div className="tile is-parent">
+					    <article className="tile is-child box">
 					      <img width="100px" height="50px" src={dcostLogo}/>
 					    </article>
 					  </div>
-					  <div class="tile is-parent">
-					    <article class="tile is-child box">
+					  <div className="tile is-parent">
+					    <article className="tile is-child box">
 					      <img width="50px" height="50px" src={erickayserLogo}/>
 					    </article>
 					  </div>
-					<div class="tile is-parent">
-					    <article class="tile is-child box">
+					<div className="tile is-parent">
+					    <article className="tile is-child box">
 					      <img width="50px" src={donburiLogo}/>
 					    </article>
 					  </div>
-					  <div class="tile is-parent">
-					    <article class="tile is-child box">
+					  <div className="tile is-parent">
+					    <article className="tile is-child box">
 					      <img width="50px" src={namnamLogo}/>
 					    </article>
 					  </div>
 					</div>
 
-					<div class="tile is-ancestor is-flex-mobile">
-					  <div class="tile is-parent">
-					    <article class="tile is-child box">
+					<div className="tile is-ancestor is-flex-mobile">
+					  <div className="tile is-parent">
+					    <article className="tile is-child box">
 					      <img width="50px" src={mamLogo}/>
 
 					    </article>
 					  </div>
-					  <div class="tile is-parent">
-					    <article class="tile is-child box">
+					  <div className="tile is-parent">
+					    <article className="tile is-child box">
 					      <img width="50px" src={osakaLogo}/>
 					    </article>
 					  </div>
-					  <div class="tile is-parent">
-					    <article class="tile is-child box">
+					  <div className="tile is-parent">
+					    <article className="tile is-child box">
 					     <img width="50px" src={lewiscarollLogo}/>
 					    </article>
 					  </div>
-					  <div class="tile is-parent">
-					    <article class="tile is-child box">
+					  <div className="tile is-parent">
+					    <article className="tile is-child box">
 					     	<img width="50px" src={altitudeLogo}/>
 					    </article>
 					  </div>
 					</div>
 
-					 <div class="tile is-ancestor is-flex-mobile"> 
-					  <div class="tile is-parent">
-					    <article class="tile is-child box">
+					 <div className="tile is-ancestor is-flex-mobile"> 
+					  <div className="tile is-parent">
+					    <article className="tile is-child box">
 					    	<img width="50px" src={shabu2Logo}/>
 					    </article>
 					  </div>
-					  <div class="tile is-parent">
-					    <article class="tile is-child box">
+					  <div className="tile is-parent">
+					    <article className="tile is-child box">
 					    	<img width="50px" src={sweethutLogo}/>
 					    </article>
 					  </div>
-					  <div class="tile is-parent">
-					    	<article class="tile is-child box">
+					  <div className="tile is-parent">
+					    	<article className="tile is-child box">
 					    	<img width="50px" src={annawijayaLogo}/>
 					    	</article>
 					  	</div>
 					  	
 					  	
-					  	<div class="tile is-parent">
-					    	<article class="tile is-child box">
+					  	<div className="tile is-parent">
+					    	<article className="tile is-child box">
 					      	<img width="50px" src={luxeLogo}/>
 					    	</article>
 					  	</div>
 					  	
-					  	<div class="tile is-parent">
-					    <article class="tile is-child box">
+					  	<div className="tile is-parent">
+					    <article className="tile is-child box">
 					     	<img width="50px" src={relaxlivingLogo}/>
 					    </article>
 					  	</div>
 					  </div>
 
 
-					 <div class="tile is-ancestor is-flex-mobile">  
-					  	<div class="tile is-parent">
-					    	<article class="tile is-child box">
+					 <div className="tile is-ancestor is-flex-mobile">  
+					  	<div className="tile is-parent">
+					    	<article className="tile is-child box">
 					      	<img width="50px" src={realyogaLogo}/>
 					    	</article>
 					    </div>
-					  	<div class="tile is-parent">
-					    	<article class="tile is-child box">
+					  	<div className="tile is-parent">
+					    	<article className="tile is-child box">
 					      	<img width="50px" src={alegroLogo}/>
 					    	</article>
 					  	</div>
-					  	<div class="tile is-parent">
-					    	<article class="tile is-child box">
+					  	<div className="tile is-parent">
+					    	<article className="tile is-child box">
 					      	<img width="50px" src={aromagelatoLogo}/>
 					    	</article>
 					  	</div>
-						<div class="tile is-parent">
-					    	<article class="tile is-child box">
+						<div className="tile is-parent">
+					    	<article className="tile is-child box">
 							<img width="50px" src={ombekoffieLogo}/>			    
 					    	</article>
 					  	</div>
-					  	<div class="tile is-parent">
-					    	<article class="tile is-child box">
+					  	<div className="tile is-parent">
+					    	<article className="tile is-child box">
 					      	<img width="50px" src={trafiqueLogo}/>
 					    	</article>
 					  	</div>
 					</div>
 					
-					  <div class="tile is-ancestor is-flex-mobile">
+					  <div className="tile is-ancestor is-flex-mobile">
 
-					  	<div class="tile is-parent">
-					    	<article class="tile is-child box">
+					  	<div className="tile is-parent">
+					    	<article className="tile is-child box">
 					      	<img width="50px" src={bebekbengilLogo}/>
 					    	</article>
 					  	</div>
-					  	<div class="tile is-parent">
-					    	<article class="tile is-child box">
+					  	<div className="tile is-parent">
+					    	<article className="tile is-child box">
 					      	<img width="50px" src={illuaLogo}/>
 					    	</article>
 					  	</div>
-					  	<div class="tile is-parent">
-					    	<article class="tile is-child box">
+					  	<div className="tile is-parent">
+					    	<article className="tile is-child box">
 					      	<img width="50px" src={gaiaLogo}/>
 					    	</article>
 					  	</div>
-					  	<div class="tile is-parent">
-					    	<article class="tile is-child box">
+					  	<div className="tile is-parent">
+					    	<article className="tile is-child box">
 					      	<img width="50px" src={cloudLogo}/>
 					    	</article>
 					  	</div>
 					  </div>
 
 					<br />
-					<p class="has-text-right has-text-centered-mobile">
+					<p className="has-text-right has-text-centered-mobile">
 					We are adding new merchants every day! see the complete list in Cashbac App. <a href="#">Download here > </a>
 					</p>
 					</div>

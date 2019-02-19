@@ -17,17 +17,17 @@ const Quotes = () => (
 			
 			<br/>
 
-			<div class="container">
-				<div class="tile is-ancestor is-desktop">
-					<div class="tile is-parent">
-							<article class="media tile box">
-							    <div class="media-left" id="logo-merchant">
-							      <figure class="image">
+			<div className="container">
+				<div className="tile is-ancestor is-desktop">
+					<div className="tile is-parent">
+							<article className="media tile box">
+							    <div className="media-left" id="logo-merchant">
+							      <figure className="image">
 							        <img src={mcdLogo}/>
 							      </figure>
 							    </div>
-							    <div class="media-content">
-							      <div class="content">
+							    <div className="media-content">
+							      <div className="content">
 							      	<p>
 							        "Since customers are able to use their existing credit/debit cards we've been able to see an increase in customer engagement."
 							        </p>
@@ -37,15 +37,15 @@ const Quotes = () => (
 							</article>
 							
 					</div>
-					<div class="tile is-parent">
-							<article class="media tile box">
-							    <div class="media-left" id="logo-merchant">
-							      <figure class="image">
+					<div className="tile is-parent">
+							<article className="media tile box">
+							    <div className="media-left" id="logo-merchant">
+							      <figure className="image">
 							        <img src={dcostLogo}/>
 							      </figure>
 							    </div>
-							    <div class="media-content">
-							      <div class="content">
+							    <div className="media-content">
+							      <div className="content">
 							      	<p>
 							        "Cashbac's marketing solution has proven to be successful as a customer awareness tool across our restaurant venues.
 							        </p>

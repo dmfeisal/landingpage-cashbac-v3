@@ -8,13 +8,13 @@ const Videos = () => (
 		<div>
 		<section className="section" id="videos">
 		<div className="container">
-			<div class="columns">
-				<div class="column">
+			<div className="columns">
+				<div className="column">
 					<h2 className="title">
 						Easiest way to earn cashback everytime you dine and shop
 					</h2>
 					<br />
-					<article class="subtitle">
+					<article className="subtitle">
 					Use Cashbac to save money all year round! With instant cashback on every purchase, use it immediately or save it for bigger purchase its up to you. Enjoy money saving deals every day on various dining, lifestyle, and entertainment merchants.
 					</article>
 
@@ -29,8 +29,8 @@ const Videos = () => (
 					</p>
 
 				</div>
-				<div class="column">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/-HMznZjWasw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div className="column">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/-HMznZjWasw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 				</div>
 
 			</div>

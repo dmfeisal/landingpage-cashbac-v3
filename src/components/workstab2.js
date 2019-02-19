@@ -15,56 +15,72 @@ import Emoji from './emoji';
 
 const Workstab2 = () => (
 	<div>
-		<section id="works" class="section is-platform is-medium">
-			<div class="container">
-				<div class="columns is-centered">
-					<div class="column is-12 is-10-fullhd">
-						<div class="columns is-vcentered">
-							<div class="column is-6">
-								<div class="section-header">
-									<h2 class="title is-2 is-spaced">A platform for families</h2>
-									<p class="subtitle is-4">We deeply care about captivating stories - Bedtime Stories is built to help you tell better stories and helps you engage with your family through storytelling.</p>
-								<hr class="spacer is-3"></hr>
+		<section id="works" className="section is-platform is-medium">
+			<div className="container">
+				<div className="columns is-centered">
+					<div className="column is-12 is-10-fullhd">
+						<div className="columns is-vcentered">
+							<div className="column is-6">
+								<div className="section-header">
+									<h2 className="title is-2 is-spaced">How Cashbac Works</h2>
+									<p className="subtitle is-4">With our simple and easy-to-use app, you can now enjoy instant cashback anywhere and anytime.</p>
+								<hr className="spacer is-3"></hr>
 								</div>
 								
-								<div class="section-body">
-									<div class="vertical-tabs">
-                        <a class="tab is-active" data-anchor="step#explore" href="#">
-                           <h3 class="title is-4"> Growing collection of Storyworlds </h3>
-                           <p class="subtitle"> Explore exciting Storyworlds in every imaginable genre for storytellers, readers and listeners from young to old. </p>
-                        </a>
-                        <a class="tab" data-anchor="step#storyworld" href="#">
-                           <h3 class="title is-4"> Stories to fall in love with </h3>
-                           <p class="subtitle"> Storyworlds are growing collections of thematically-related stories written by authors from around the world. </p>
-                        </a>
-                        <a class="tab" data-anchor="step#school" href="#">
-                           <h3 class="title is-4"> Become a better storyteller </h3>
-                           <p class="subtitle"> Join the Storytelling School for families to learn important storytelling techniques. </p>
-                        </a>
-                        <a class="tab" data-anchor="step#storybuilder" href="#">
-                           <h3 class="title is-4"> Endless source of storylines </h3>
-                           <p class="subtitle"> Interactively create your very own adventures - generate millions of hilarious stories in your genre of choice. </p>
-                        </a>
-                     </div>
-									<hr class="spacer is-3"></hr>
-									<a class="app-store-badge is-large" href="https://itunes.apple.com/us/app/bedtime-stories-read-tell/id1231933548" target="_blank" rel="noopener">
-									<img role="presentation" src="/assets/images/icons/app-store-badge-52d5e257.svg?1547214151" /></a></div>
+								<div className="section-body">
+									<div className="vertical-tabs">
+				                        <a className="tab is-active" data-anchor="step#download" href="#">
+				                           <h3 className="title is-4"> Download and Sign Up </h3>
+				                           <p className="subtitle"> Explore exciting Storyworlds in every imaginable genre for storytellers, readers and listeners from young to old. </p>
+				                        </a>
+				                        <a className="tab" data-anchor="step#explore" href="#">
+				                           <h3 className="title is-4"> Explore and find the best deals! </h3>
+				                           <p className="subtitle"> Storyworlds are growing collections of thematically-related stories written by authors from around the world. </p>
+				                        </a>
+				                        <a className="tab" data-anchor="step#linkcard" href="#">
+				                           <h3 className="title is-4"> Link your Card </h3>
+				                           <p className="subtitle"> Join the Storytelling School for families to learn important storytelling techniques. </p>
+				                        </a>
+				                        <a className="tab" data-anchor="step#enterpin" href="#">
+				                           <h3 className="title is-4"> Enter your Pin </h3>
+				                           <p className="subtitle"> Once you are ready to pay in front of Cashier, enter your PIN to secure your payment. </p>
+				                        </a>
+				                      	<a className="tab" data-anchor="step#tap" href="#">
+				                           <h3 className="title is-4"> Tap to Pay or Scan QR </h3>
+				                           <p className="subtitle"> Ask the cashier for the available payment options at the store. You can tap your smartphone to our Cashbac reader or scan QR code for payment. </p>
+				                        </a>
+				                        <a className="tab" data-anchor="step#getcashback" href="#">
+				                           <h3 className="title is-4"> Get Cashback </h3>
+				                           <p className="subtitle"> Once transaction is done, you will instantly get your cashback reward. Redeem the cashback you earned for your next transaction. </p>
+				                        </a>
+				                        
+
+
+				                     </div>
+									<hr className="spacer is-3"></hr>
+									</div>
 								</div>
 
-								<div class="column is-6 align-self-stretch">
-									<div class="section-media">
-										<div class="screens">
-											<div class="screen is-active" data-source="step#explore" href="#">
+								<div className="column is-6 align-self-stretch">
+									<div className="section-media">
+										<div className="screens">
+											<div className="screen is-active" data-source="step#download" href="#">
 												<img role="presentation" src={signupMockup} />
 											</div>
-											<div class="screen" data-source="step#storyworld" href="#">
+											<div className="screen" data-source="step#explore" href="#">
+												<img role="presentation" src={exploreMockup} />
+											</div>
+											<div className="screen" data-source="step#linkcard" href="#">
 												<img role="presentation" src={linkcardMockup} />
 											</div>
-											<div class="screen" data-source="step#school" href="#">
+											<div className="screen" data-source="step#enterpin" href="#">
 												<img role="presentation" src={enterpinMockup} />
 											</div>
-											<div class="screen" data-source="step#storybuilder" href="#">
+											<div className="screen" data-source="step#tap" href="#">
 												<img role="presentation" src={taptopayMockup} />
+											</div>
+											<div className="screen" data-source="step#getcashback" href="#">
+												<img role="presentation" src={getcashbackMockup} />
 											</div>
 										</div>
 								</div>

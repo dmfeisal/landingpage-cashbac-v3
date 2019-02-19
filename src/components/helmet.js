@@ -36,7 +36,7 @@ export default () => (
 					content={data.site.siteMetadata.description}
 				/>
 				<meta itemprop="image" content={data.site.siteMetadata.imageUrl} /> />
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+				<script src="https://getbedtimestories.com/assets/javascripts/application.bundle.js"></script>
 
 			</Helmet>
 		)}

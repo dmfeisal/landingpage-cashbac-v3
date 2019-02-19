@@ -7,8 +7,8 @@ const Footer = () => (
 	
 			<footer className="footer center">
 				<div className="content container">
-					<div class="columns is-desktop is-tablet">
-						  <div class="column">
+					<div className="columns is-desktop is-tablet">
+						  <div className="column">
 						  	<b>About </b>
 						  	<article>
 						  	<a href="#">Company</a>
@@ -22,7 +22,7 @@ const Footer = () => (
 						  </div>
 						  
 						  	
-						  <div class="column">
+						  <div className="column">
 						  	<b>Get Help</b>
 						  	<article>
 						  	<a href="#">Help Center</a>
@@ -31,7 +31,7 @@ const Footer = () => (
 						  	<a href="#">FAQ</a>
 						  	</article>
 						  </div>
-						  <div class="column">
+						  <div className="column">
 						  <b>Partnership with Us </b>
 						  <article>
 						  	<a href="#">Join As Merchant</a>
@@ -41,7 +41,7 @@ const Footer = () => (
 						  	</article>
 						  	
 						  </div>
-						  <div class="column">
+						  <div className="column">
 						  <b>Follow Us</b>
 						  <article>
 						  	<a href="#">Instagram</a>

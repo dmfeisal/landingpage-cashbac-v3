@@ -15,17 +15,17 @@ const Features = () => (
 		<h1 className="title has-text-centered-desktop"> Why Cashbac? </h1>
 			<br />
 
-			<div class="container">
-				<div class="tile is-ancestor is-desktop">
-					<div class="tile is-parent ">
-					    <article class=" media tile box">
+			<div className="container">
+				<div className="tile is-ancestor is-desktop">
+					<div className="tile is-parent ">
+					    <article className=" media tile box">
 
-							<div class="media-content">
-								<figure class="image" id="icon-features">
+							<div className="media-content">
+								<figure className="image" id="icon-features">
 							    	<img src={screenIcon}/>
 							    </figure>
-								<div class="content">
-					   				<h5 class=" title is-4">Not Only Cashless, but Cardless!</h5>
+								<div className="content">
+					   				<h5 className=" title is-4">Not Only Cashless, but Cardless!</h5>
 									<p>
 									Use Cashbac to save money all year round! With instant cashback on every purchase, use it immediately or save it for bigger purchase its up to you. Enjoy money saving deals every day on various dining, lifestyle, and entertainment merchants.
 									</p>
@@ -34,14 +34,14 @@ const Features = () => (
 					    </article>
 					</div>
 
-					<div class="tile is-parent">
-					    <article class="media tile box">
-							<div class="media-content">
-								<figure class="image" id="icon-features">
+					<div className="tile is-parent">
+					    <article className="media tile box">
+							<div className="media-content">
+								<figure className="image" id="icon-features">
 							    	<img src={funnelIcon}/>
 							    </figure>
-								<div class="content">
-					   				<h5 class=" title is-4">No Minimum Transaction</h5>
+								<div className="content">
+					   				<h5 className=" title is-4">No Minimum Transaction</h5>
 									<p>
 									Use Cashbac to save money all year round! With instant cashback on every purchase, use it immediately or save it for bigger purchase its up to you. Enjoy money saving deals every day on various dining, lifestyle, and entertainment merchants.
 									</p>
@@ -50,14 +50,14 @@ const Features = () => (
 					    </article>
 					</div>
 
-					<div class="tile is-parent ">
-					    <article class=" media tile box">
-							<div class="media-content">
-								<figure class="image" id="icon-features">
+					<div className="tile is-parent ">
+					    <article className=" media tile box">
+							<div className="media-content">
+								<figure className="image" id="icon-features">
 							    	<img src={moneyIcon}/>
 							    </figure>
-								<div class="content">
-					   				<h5 class=" title is-4">Secure with Bank Standard </h5>
+								<div className="content">
+					   				<h5 className=" title is-4">Secure with Bank Standard </h5>
 									<p>
 									Use Cashbac to save money all year round! With instant cashback on every purchase, use it immediately or save it for bigger purchase its up to you. Enjoy money saving deals every day on various dining, lifestyle, and entertainment merchants.
 									</p>
@@ -66,15 +66,15 @@ const Features = () => (
 						</article>
 					</div>
 
-					<div class="tile is-parent">
-					    <article class=" media tile box">
-							<div class="media-content">
-								<figure class="image" id="icon-features">
+					<div className="tile is-parent">
+					    <article className=" media tile box">
+							<div className="media-content">
+								<figure className="image" id="icon-features">
 							    	<img src={secureIcon}/>
 							    </figure>
 					   				
-								<div class="content">
-								<h5 class=" title is-4">Anonimity </h5>
+								<div className="content">
+								<h5 className=" title is-4">Anonimity </h5>
 									<p>
 									Use Cashbac to save money all year round! With instant cashback on every purchase, use it immediately or save it for bigger purchase its up to you. Enjoy money saving deals every day on various dining, lifestyle, and entertainment merchants.
 									
