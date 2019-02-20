@@ -37,7 +37,7 @@ export default () => (
 				/>
 				<meta itemprop="image" content={data.site.siteMetadata.imageUrl} /> />
 				<script src="https://getbedtimestories.com/assets/javascripts/application.bundle.js"></script>
-
+				<script type="text/javascript" src="https://wikiki.github.io/node_modules/bulma-extensions/bulma-carousel/dist/js/bulma-carousel.js"></script>
 			</Helmet>
 		)}
 	/>

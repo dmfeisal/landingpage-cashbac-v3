@@ -19,45 +19,45 @@ const Workstab2 = () => (
 			<div className="container">
 				<div className="columns is-centered">
 					<div className="column is-12 is-10-fullhd">
-						<div className="columns is-vcentered">
+						<div className="columns">
 							<div className="column is-6">
 								<div className="section-header">
-									<h2 className="title is-2 is-spaced">How Cashbac Works</h2>
-									<p className="subtitle is-4">With our simple and easy-to-use app, you can now enjoy instant cashback anywhere and anytime.</p>
-								<hr className="spacer is-3"></hr>
+									<h2 className="title is-4 is-spaced">How Cashbac Works</h2>
+									<p className="subtitle is-6">With our simple and easy-to-use app, you can now enjoy instant cashback anywhere and anytime.</p>
+								<hr className="spacer is-1"></hr>
 								</div>
 								
 								<div className="section-body">
 									<div className="vertical-tabs">
 				                        <a className="tab is-active" data-anchor="step#download" href="#">
-				                           <h3 className="title is-4"> Download and Sign Up </h3>
-				                           <p className="subtitle"> Explore exciting Storyworlds in every imaginable genre for storytellers, readers and listeners from young to old. </p>
+				                           <h3 className="title is-6"> Download and Sign Up </h3>
+				                           <p className="subtitle is-6"> Explore exciting Storyworlds in every imaginable genre for storytellers, readers and listeners from young to old. </p>
 				                        </a>
 				                        <a className="tab" data-anchor="step#explore" href="#">
-				                           <h3 className="title is-4"> Explore and find the best deals! </h3>
-				                           <p className="subtitle"> Storyworlds are growing collections of thematically-related stories written by authors from around the world. </p>
+				                           <h3 className="title is-6"> Explore and find the best deals! </h3>
+				                           <p className="subtitle is-6"> Storyworlds are growing collections of thematically-related stories written by authors from around the world. </p>
 				                        </a>
 				                        <a className="tab" data-anchor="step#linkcard" href="#">
-				                           <h3 className="title is-4"> Link your Card </h3>
-				                           <p className="subtitle"> Join the Storytelling School for families to learn important storytelling techniques. </p>
+				                           <h3 className="title is-6"> Link your Card </h3>
+				                           <p className="subtitle is-6"> Join the Storytelling School for families to learn important storytelling techniques. </p>
 				                        </a>
 				                        <a className="tab" data-anchor="step#enterpin" href="#">
-				                           <h3 className="title is-4"> Enter your Pin </h3>
-				                           <p className="subtitle"> Once you are ready to pay in front of Cashier, enter your PIN to secure your payment. </p>
+				                           <h3 className="title is-6"> Enter your Pin </h3>
+				                           <p className="subtitle is-6"> Once you are ready to pay in front of Cashier, enter your PIN to secure your payment. </p>
 				                        </a>
 				                      	<a className="tab" data-anchor="step#tap" href="#">
-				                           <h3 className="title is-4"> Tap to Pay or Scan QR </h3>
-				                           <p className="subtitle"> Ask the cashier for the available payment options at the store. You can tap your smartphone to our Cashbac reader or scan QR code for payment. </p>
+				                           <h3 className="title is-6"> Tap to Pay or Scan QR </h3>
+				                           <p className="subtitle is-6"> Ask the cashier for the available payment options at the store. You can tap your smartphone to our Cashbac reader or scan QR code for payment. </p>
 				                        </a>
 				                        <a className="tab" data-anchor="step#getcashback" href="#">
-				                           <h3 className="title is-4"> Get Cashback </h3>
-				                           <p className="subtitle"> Once transaction is done, you will instantly get your cashback reward. Redeem the cashback you earned for your next transaction. </p>
+				                           <h3 className="title is-6"> Get Cashback </h3>
+				                           <p className="subtitle is-6"> Once transaction is done, you will instantly get your cashback reward. Redeem the cashback you earned for your next transaction. </p>
 				                        </a>
 				                        
 
 
 				                     </div>
-									<hr className="spacer is-3"></hr>
+									<hr className="spacer is-1"></hr>
 									</div>
 								</div>
 

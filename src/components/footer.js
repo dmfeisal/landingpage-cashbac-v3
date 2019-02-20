@@ -2,6 +2,7 @@ import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import './style.scss';
 import Emoji from './emoji';
+import { Link } from "gatsby";
 
 const Footer = () => (
 	
@@ -67,9 +68,9 @@ const Footer = () => (
 					
 					&nbsp;
 					<p className="is-size-8">
-						<a href="#">Terms and Condition</a>
+						<Link to="/terms">Terms and Condition</Link>
 						&nbsp; &nbsp; &nbsp; 
-						<a href="#">Privacy Policy</a>
+						<Link to="/privacy">Privacy Policy</Link>
 					</p>
 				</div>
 			</footer>

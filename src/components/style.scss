@@ -4,6 +4,7 @@
 // Importing Bulma from node_modules
 @import '~bulma/bulma.sass';
 @import 'bulma';
+@import '~bulma-carousel/dist/css/bulma-carousel.sass';
 
 #navbar-business {
 	a {
@@ -32,6 +33,23 @@
 
 	}
 
+#privacypage,#termspage {
+	ol {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		li {
+		margin-left: 30px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		list-style-type: decimal;
+		}
+	}
+
+.list-bullet {
+	list-style-type: square;
+	}
+
+}
 #features.section {
 	background-color: white;
 	padding-top: 4rem;
@@ -60,19 +78,19 @@
 
 #videos.section {
 	padding-top: 8rem;
-	padding-bottom: 8rem;
+	padding-bottom: 4rem;
 
 }
 
 #works.section {
-	padding-top: 8rem;
-	padding-bottom: 8rem;
+	padding-top: 4rem;
+	padding-bottom: 2rem;
 
 }
 
 #merchants.section {
-	padding-top: 8rem;
-	padding-bottom: 8rem;
+	padding-top: 6rem;
+	padding-bottom: 4rem;
 
 }
 
@@ -230,9 +248,9 @@
 
 .screens .screen {
 	position: absolute;
-	top: 0;
-	left: 60%;
-	width: 100%;
+	margin-top: 60px;
+	left: 50%;
+	width: 60%;
 	height: 100%;
 	max-width: 380px;
 	opacity: 0;
