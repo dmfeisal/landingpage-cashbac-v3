@@ -1,5 +1,4 @@
 import React from 'react';
-import '../components/style.scss';
 import Helmet from '../components/helmet';
 import Businessnavbar from '../components/businessnavbar';
 import Privacycomponent from '../components/Privacycomponent';

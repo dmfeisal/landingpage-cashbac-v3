@@ -1,35 +1,26 @@
 import React from 'react';
-import './style.scss';
-import 'bulma';
-import bulmaCarousel from '../../node_modules/bulma-carousel/dist/js/bulma-carousel.min.js';
+import bulmaCarousel from 'bulma-carousel'
 
 const Header = ({ siteTitle }) => (
 	<section>
 		<div className='carousel carousel-animated carousel-animate-slide' data-autoplay="true">
 		  <div className='carousel-container'>
 		    <div className='carousel-item has-background is-active'>
-		      <img className="is-background" src="https://wikiki.github.io/images/merry-christmas.jpg" alt="" width="640" height="310" />
-		      <div className="title">Merry Christmas</div>
+		      <img className="is-background" src="https://i.postimg.cc/Fh1y0MtS/french-fries-banner-web.jpg" alt="Makan sampai Lupa Daratan #JanganDipikirin pasti dapat #cashbac" />
 		    </div>
 		    <div className='carousel-item has-background'>
-		      <img className="is-background" src="https://wikiki.github.io/images/singer.jpg" alt="" width="640" height="310" />
-		      <div className="title">Original Gift: Offer a song with <a href="https://lasongbox.com" target="_blank">La Song Box</a></div>
+		      <img className="is-background" src="https://i.postimg.cc/nn5v23ZP/credit-card-banner-web.jpg" alt="Pakai kartu yang mana aja #JanganDipikirin pasti dapat #cashbac" />
 		    </div>
 		    <div className='carousel-item has-background'>
-		      <img className="is-background" src="https://wikiki.github.io/images/sushi.jpg" alt="" width="640" height="310" />
-		      <div className="title">Sushi time</div>
-		    </div>
-		    <div className='carousel-item has-background'>
-		      <img className="is-background" src="https://wikiki.github.io/images/life.jpg" alt="" width="640" height="310" />
-		      <div className="title">Life</div>
+		      <img className="is-background" src="https://i.postimg.cc/8NZdJ1YD/hair-styles-banner-web.jpg" alt="Ganti rambut tiap hari #JanganDipikirn pasti dapat #cashbac" />
 		    </div>
 		  </div>
-		  <div className="carousel-navigation">
+		  <div className="carousel-navigation is-overlay">
 		    <div className="carousel-nav-left">
-		      <i className="fa fa-chevron-left" aria-hidden="true">kiri</i>
+		      <i className="fa fa-chevron-left" aria-hidden="true">PREV</i>
 		    </div>
 		    <div className="carousel-nav-right">
-		      <i className="fa fa-chevron-right" aria-hidden="true">kanan</i>
+		      <i className="fa fa-chevron-right" aria-hidden="true">NEXT</i>
 		    </div>
 		  </div>
 		</div>

@@ -1,9 +1,8 @@
 import React from 'react';
-import './style.scss';
-import 'bulma';
-import heroBusiness from '../images/slider/cashbac-business-hero.png';
-import Navbar from './navbar';
-import Carousel from 'bulma-carousel';
+// import 'bulma';
+// import heroBusiness from '../images/slider/cashbac-business-hero.png';
+// import Navbar from './navbar';
+// import Carousel from 'bulma-carousel';
 
 
 const Businesshero = ({ siteTitle }) => (

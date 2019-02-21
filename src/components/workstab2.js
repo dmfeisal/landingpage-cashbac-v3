@@ -8,9 +8,6 @@ import exploreMockup from '../images/mockup/explore@2x.png';
 import taptopayMockup from '../images/mockup/tap-to-pay@2x.png';
 import getcashbackMockup from '../images/mockup/get-cashback@2x.png';
 
-
-
-import './style.scss';
 import Emoji from './emoji';
 
 const Workstab2 = () => (

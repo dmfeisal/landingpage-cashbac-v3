@@ -1,12 +1,10 @@
 import React from 'react';
-import './style.scss';
 import funnelIcon from '../images/business/funnel-icon.png';
 import moneyIcon from '../images/business/money-icon.png';
 import screenIcon from '../images/business/screen-icon.png';
 import secureIcon from '../images/business/secure-icon.png';
 
 const BusinessFeatures = () => (
-
 		<div>
 		<section className="section has-background-light" id="business-features">
 		<div className="container ">
@@ -23,7 +21,7 @@ const BusinessFeatures = () => (
 					    <article className=" media tile box">
 					   		<div className="media-left">
 							    <figure className="image" id="icon-features">
-							    	<img src={screenIcon}/>
+							    	<img alt="Cashbac Features screen" src={screenIcon}/>
 							    </figure>
 							</div>
 							<div className="media-content">
@@ -41,7 +39,7 @@ const BusinessFeatures = () => (
 					    <article className=" media tile box">
 					   		<div className="media-left">
 							    <figure className="image" id="icon-features">
-							    	<img src={funnelIcon}/>
+							    	<img alt="Cashbac Features Funnel" src={funnelIcon}/>
 							    </figure>
 							</div>
 							<div className="media-content">
@@ -60,7 +58,7 @@ const BusinessFeatures = () => (
 					    <article className=" media tile box">
 					   		<div className="media-left">
 							    <figure className="image" id="icon-features">
-							    	<img src={moneyIcon}/>
+							    	<img alt="Cashbac Features Money" src={moneyIcon}/>
 							    </figure>
 							</div>
 							<div className="media-content">
@@ -78,7 +76,7 @@ const BusinessFeatures = () => (
 					    <article className=" media tile box">
 					   		<div className="media-left" >
 							    <figure className="image" id="icon-features">
-							    	<img src={secureIcon}/>
+							    	<img alt="Cashbac Features Secure" src={secureIcon}/>
 							    </figure>
 							</div>
 							<div className="media-content">

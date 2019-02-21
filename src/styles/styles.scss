@@ -1,10 +1,13 @@
 // Importing variables
-@import './variables.scss';
+@import './variables';
 
 // Importing Bulma from node_modules
 @import '~bulma/bulma.sass';
 @import 'bulma';
-@import '~bulma-carousel/dist/css/bulma-carousel.sass';
+@import '~bulma-carousel/dist/css/bulma-carousel';
+@import './fonts';
+@import './global';
+@import './carousel';
 
 #navbar-business {
 	a {
@@ -15,41 +18,37 @@
 	}
 }
 
-
-#navbar.section{	
-}
-
-	.navbar {
-		position: absolute;
-		padding-right: 20px;
-		padding-left: 40px;
+.navbar {
+	position: absolute;
+	padding-right: 20px;
+	padding-left: 40px;
 	a {
 		color: $cashbac-primary;
-		}
 	}
-	.navbar-item {
-		font-weight: bold;
-		font-size: 12px;
+}
 
-	}
+.navbar-item {
+	font-weight: bold;
+	font-size: 12px;
+}
 
 #privacypage,#termspage {
 	ol {
 		margin-top: 10px;
 		margin-bottom: 10px;
 		li {
-		margin-left: 30px;
-		margin-top: 10px;
-		margin-bottom: 10px;
-		list-style-type: decimal;
+			margin-left: 30px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			list-style-type: decimal;
 		}
 	}
 
-.list-bullet {
-	list-style-type: square;
+	.list-bullet {
+		list-style-type: square;
 	}
-
 }
+
 #features.section {
 	background-color: white;
 	padding-top: 4rem;
@@ -60,7 +59,6 @@
 	p {
 		font-size: 12px;
 	}
-
 }
 
 #business-features.section {
@@ -71,15 +69,18 @@
 	.is-4 {
 	margin-bottom: 5px;
 	}
-
 }
-
-
 
 #videos.section {
 	padding-top: 8rem;
 	padding-bottom: 4rem;
+}
 
+#videos {
+	.video-container {
+		overflow: hidden;
+		border-radius: 30px
+	}
 }
 
 #works.section {
@@ -122,10 +123,7 @@
 		border: 0;
 		padding: 3rem 3rem 3rem 3rem;
 	}
-
 }
-
-
 
 .gradientBg {
 	display: flex;
@@ -168,8 +166,6 @@
 	bottom: 0;
 }
 
-
-
 .center {
 	display: flex;
 	justify-content: center;
@@ -196,10 +192,9 @@
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 	border: 1px solid white;
 	border-radius: 5px;
-  	-webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  	transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+	-webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+	transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-
 
 .box::after {
   content: "";

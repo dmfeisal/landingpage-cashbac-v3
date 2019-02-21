@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.scss';
 import buttonGooglePlay from '../images/google_badge_en_get.svg';
 import buttonAppStore from '../images/appstore_badge_en.svg';
 

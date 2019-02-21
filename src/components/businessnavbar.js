@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.scss';
+import { Link } from 'gatsby';
 
 import cashbacLogoWhite from '../images/cashbac-logo-white.png';
 import cashbacLogoColor from '../images/cashbac-logo-color.png';
@@ -8,9 +8,9 @@ const Businessnavbar = () => (
  <section id="navbar-business"> 
  <nav className="navbar is-transparent" role="navigation" aria-label="main navigation">
   <div className="navbar-brand">
-    <a className="navbar-item" href="https://cashbac.com">
+    <Link className="navbar-item" to="https://cashbac.com" title="Cashbac for user">
       <img src={cashbacLogoWhite} alt="Cashbac App"  />
-    </a>
+    </Link>
     <div className="navbar-burger burger" aria-label="menu" aria-expanded="false">
       <span></span>
       <span></span>
@@ -27,9 +27,9 @@ const Businessnavbar = () => (
       	</div>
         <div className="navbar-item">
           <div className="buttons">
-                <a className="button is-primary is-small is-rounded" href="/business" target="_blank">
+                <Link className="button is-primary is-small is-rounded" to="/" target="_blank">
                   CASHBAC FOR CONSUMER
-                </a>
+                </Link>
           </div>
         </div>
         </div>

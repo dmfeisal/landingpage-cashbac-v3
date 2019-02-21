@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.scss';
 
 const Businessform = () => (
 		<section className="section has-background-light" id="businessform">

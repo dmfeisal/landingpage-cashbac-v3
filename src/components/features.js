@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.scss';
 import buttonGooglePlay from '../images/google_badge_en_get.svg';
 import buttonAppStore from '../images/appstore_badge_en.svg';
 import funnelIcon from '../images/business/funnel-icon.png';
@@ -22,7 +21,7 @@ const Features = () => (
 
 							<div className="media-content">
 								<figure className="image" id="icon-features">
-							    	<img src={screenIcon}/>
+							    	<img alt="Cashbac Features Dashboard" src={screenIcon}/>
 							    </figure>
 								<div className="content">
 					   				<h5 className=" title is-4">Not Only Cashless, but Cardless!</h5>
@@ -38,7 +37,7 @@ const Features = () => (
 					    <article className="media tile box">
 							<div className="media-content">
 								<figure className="image" id="icon-features">
-							    	<img src={funnelIcon}/>
+							    	<img alt="Cashbac Features Funnel" src={funnelIcon}/>
 							    </figure>
 								<div className="content">
 					   				<h5 className=" title is-4">No Minimum Transaction</h5>
@@ -54,7 +53,7 @@ const Features = () => (
 					    <article className=" media tile box">
 							<div className="media-content">
 								<figure className="image" id="icon-features">
-							    	<img src={moneyIcon}/>
+							    	<img alt="Cashbac Features Transactions" src={moneyIcon}/>
 							    </figure>
 								<div className="content">
 					   				<h5 className=" title is-4">Secure with Bank Standard </h5>
@@ -70,7 +69,7 @@ const Features = () => (
 					    <article className=" media tile box">
 							<div className="media-content">
 								<figure className="image" id="icon-features">
-							    	<img src={secureIcon}/>
+							    	<img alt="Cashbac Features Secure Money" src={secureIcon}/>
 							    </figure>
 					   				
 								<div className="content">

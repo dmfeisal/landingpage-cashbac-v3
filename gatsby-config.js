@@ -1,15 +1,12 @@
 module.exports = {
 	siteMetadata: {
 		title: 'Cashback App with Best Deals in Indonesia | cashbac.com',
-		author: 'Daeng Muhammad Feisal',
+		author: 'PT. Global Pay Indonesia',
 		imageUrl: 'https://i.imgur.com/Vz81GEl.png',
-		description: 'A Project to bootstrap your next Gatsby + Bulma site.',
-		keywords: `Web developer, Web, Developer, CSS, HTML, JS, Javascript, Gatsby, Bulma Developer, CSS3, HTML5, Seo, Starter`,
+		description: 'Cashback App with the Best Deals in Indonesia | Cashbac.com',
+		keywords: `Cashbac is a cashback app with many rewards promo that can be used at your favorite merchants in Indonesia. Download Cashbac now!`,
 		twitter: 'https://twitter.com/cashbacapp',
-		github: `https://github.com/cashbacapp`,
-		medium: 'https://medium.com/@amanhimself',
 		gatsby: 'https://www.gatsbyjs.org/',
-		bulma: 'https://bulma.io/',
 		siteUrl: `https://cashbac.com`
 	},
 	plugins: [
@@ -21,13 +18,27 @@ module.exports = {
 				path: `${__dirname}/src/images`
 			}
 		},
+		{
+			resolve: `gatsby-source-filesystem`,
+			options: {
+				name: `modules`,
+				path: `${__dirname}/node_modules`
+			}
+		},
+		`gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/data/`,
+      },
+    },
 		'gatsby-transformer-sharp',
 		'gatsby-plugin-sharp',
 		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
-				name: 'Makefolio',
-				short_name: 'Makefolio',
+				name: 'Cashbac Reward App',
+				short_name: 'Cashbac',
 				start_url: '/',
 				background_color: '#2980b9',
 				theme_color: '#2980b9',

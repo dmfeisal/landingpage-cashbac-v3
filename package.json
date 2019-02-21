@@ -1,8 +1,8 @@
 {
-	"name": "gatsby-bulma-quickstart",
-	"description": "A Project to bootstrap your next Gatsby + Bulma site.",
+	"name": "cashbac-landing",
+	"description": "Cashbac landing pages for users & business",
 	"version": "1.0.0",
-	"author": "Aman Mittal <amandeepmittal@live.com>",
+	"author": "Cashbac Dev <dev@casbhac.com>",
 	"dependencies": {
 		"bulma": "^0.7.2",
 		"bulma-carousel": "^3.0.0",
@@ -16,6 +16,7 @@
 		"gatsby-plugin-sharp": "^2.0.17",
 		"gatsby-plugin-sitemap": "^2.0.2",
 		"gatsby-source-filesystem": "^2.0.4",
+		"gatsby-transformer-json": "^2.1.8",
 		"gatsby-transformer-sharp": "^2.1.4",
 		"node-sass": "^4.10.0",
 		"react": "^16.5.1",
@@ -33,6 +34,7 @@
 	"license": "MIT",
 	"scripts": {
 		"build": "gatsby build",
+		"serve": "gatsby serve",
 		"develop": "gatsby develop",
 		"start": "npm run develop",
 		"format": "prettier --write \"src/**/*.js\"",
@@ -42,7 +44,7 @@
 		"prettier": "^1.14.2"
 	},
 	"repository": {
-		"type": "git",
+		"type": "gitlab",
 		"url": "https://github.com/amandeepmittal/gatsby-bulma-quickstart"
 	}
 }
