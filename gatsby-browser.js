@@ -31,10 +31,23 @@ const carouselScript = (carouselJS) => {
   }(document, "script", "carousel-wjs"));
 `)
 }
+
+const howItWorks = (target) => {
+  const elm = target
+  console.log(elm, 'query selector')
+}
+
 export const onClientEntry = () => {
-  // import script first
-  console.log('load script')
+  const timeStories = document.querySelector('.vertical-tabs .tab')
   carouselScript();
+  console.log(timeStories)
+  // run time stories
+  if(timeStories) {
+    timeStories.addEventListener('click', (event) => {
+      // event.preventDefault()
+      console.log('click here')
+    })
+  }
 }
 
 export const onInitialClientRender = () => {

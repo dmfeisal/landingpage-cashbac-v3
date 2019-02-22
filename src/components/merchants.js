@@ -36,8 +36,6 @@ class Merchants extends Component {
 	// }
 	
 	render() {
-		console.log(merchant)
-		console.log('item')
 		return (
 
 			<div>
