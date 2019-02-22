@@ -36,7 +36,7 @@ const BusinessFeatures = () => (
 					</div>
 
 					<div className="tile is-parent">
-					    <article className=" media tile box">
+					    <article className="media tile box">
 					   		<div className="media-left">
 							    <figure className="image" id="icon-features">
 							    	<img alt="Cashbac Features Funnel" src={funnelIcon}/>

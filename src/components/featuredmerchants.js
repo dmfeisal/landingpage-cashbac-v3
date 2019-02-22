@@ -21,7 +21,7 @@ const Featuredmerchants = () => (
 			
 			<br/>
 
-			<div className="container">
+			<div className="container has-text-centered-mobile">
 				<div className="tile is-ancestor">
 					<div className="tile is-parent ">
 					    <article className="tile is-child">

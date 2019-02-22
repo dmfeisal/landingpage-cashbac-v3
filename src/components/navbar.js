@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
-
-import cashbacLogoWhite from '../images/cashbac-logo-white.png';
 import cashbacLogoColor from '../images/cashbac-logo-color.png';
 
 const Navbar = () => (
+ <div className="container"> 
  <section id="navbar">
  <nav className="navbar is-fixed-top is-white has-shadow is-boxed" role="navigation" aria-label="main navigation">
   <div className="navbar-brand">
@@ -47,6 +46,7 @@ const Navbar = () => (
   </nav>
 
 </section>
+</div>
 
 );
 

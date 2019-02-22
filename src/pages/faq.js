@@ -8,16 +8,14 @@ import Businessfeatures from '../components/businessfeatures';
 import Featuredmerchants from '../components/featuredmerchants';
 import Businessform from '../components/Businessform';
 import Footer from '../components/footer';
+import Faqcomponent from '../components/faqcomponent';
 
 const BusinessPage = ({ children }) => (
 	<div>
 		<Helmet />
 		<Businessnavbar />
 		<Businesshero />
-		<Featuredmerchants />
-		<Businessfeatures />
-		<Quotes />
-		<Businessform />
+		<Faqcomponent />
 		<Footer />
 	</div>
 );

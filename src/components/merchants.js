@@ -39,17 +39,20 @@ class Merchants extends Component {
 		console.log(merchant)
 		console.log('item')
 		return (
+
 			<div>
+				<hr className="spacer is-3"></hr>
 				<section className="section" id="merchants">
 					<div className="container">
 					
 							<h2 className="title has-text-centered-mobile">
 								Where You Can Use Cashbac
 							</h2>
-							<br />
+							<hr className="spacer is-0.5"></hr>
 							<p className="subtitle has-text-centered-mobile">
 							You can use Cashbac to shop, earn, and be rewarded at popular restaurants, coffee shops, and stores 
 							</p>
+							<hr className="spacer is-3"></hr>
 					</div>
 					<div className="container">
 							<div className="tile is-ancestor is-flex-mobile">

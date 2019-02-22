@@ -9,19 +9,9 @@
 @import './global';
 @import './carousel';
 
-#navbar-business {
-	a {
-		color: white;
-	}
-	.is-transparent {
-	background-color: $cashbac-primary;
-	}
-}
-
 .navbar {
 	position: absolute;
-	padding-right: 20px;
-	padding-left: 40px;
+
 	a {
 		color: $cashbac-primary;
 	}
@@ -32,7 +22,17 @@
 	font-size: 12px;
 }
 
-#privacypage,#termspage {
+#navbar-business {
+	a {
+		color: white;
+	}
+	.is-transparent {
+	background-color: $cashbac-primary;
+	}
+}
+
+#privacypage,#termspage,#faqpage {
+	padding: 1.5rem 1.5rem;
 	ol {
 		margin-top: 10px;
 		margin-bottom: 10px;
@@ -52,7 +52,7 @@
 #features.section {
 	background-color: white;
 	padding-top: 4rem;
-	padding-bottom: 8rem;
+	padding-bottom: 4rem;
 	h5 {
 		color: $cashbac-primary;
 	}
@@ -112,10 +112,15 @@
 }
 
 #featured-logo {
-	padding: 0px 0px 0px 0px;
+	padding: 5px 5px 5px 5px;
 }
 
 #quotes.section {
+	img {
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+	}
 	padding-top: 3rem;
 	padding-bottom: 6rem;
 }
@@ -128,6 +133,10 @@
 		box-shadow-size: 10px 10px 10px 10px;
 		border: 0;
 		padding: 3rem 3rem 3rem 3rem;
+	label {
+		text-align: left;
+
+		}
 	}
 }
 
