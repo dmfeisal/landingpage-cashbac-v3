@@ -3,6 +3,7 @@ import React from 'react';
 const Businessform = () => (
 		<section className="section has-text-centered has-background-light" id="businessform">
 
+	{/*VIEW ON DESTOP AND TAB*/}
 			<div className="container box is-6 is-hidden-mobile">
 				<div className="has-text-centered-desktop">
 				<h1 className="title "> Love your business? </h1>
@@ -69,8 +70,8 @@ const Businessform = () => (
 					
 				</div>
 
-
-				<div className="container  is-6 is-hidden-desktop">
+			{/*VIEW ON MOBILE*/}
+				<div className="container is-6 is-hidden-desktop is-hidden-tablet">
 				<div className="has-text-centered-desktop">
 				<h1 className="title "> Love your business? </h1>
 				<p className="has-text-centered-desktop">
