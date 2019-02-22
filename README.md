@@ -1,72 +1,99 @@
-# Gatsby Bulma Quickstart
+# Cashbac Static pages rendered by gatsby js
 
-> A Project to bootstrap your next Gatsby + Bulma site.
+* Gatsby JS
+* Bulma
+* CSS Modules
+* Long term caching for static assets
+* Images optimization ([libpngissue fix for OSX user](https://github.com/tcoopman/image-webpack-loader#libpng-issues))
+* React component creation wizard
+* Eslint
 
-![ss](https://i.imgur.com/Vz81GEl.png)
+## How it works
 
-## Demo 💯
+This boilerplate uses React Router v4, with server side rendering.
+SSR for CSS modules use `css-loader/locals`, no extra wrapper function for component is needed.
 
-- [Demo Link](https://tender-raman-99e09b.netlify.com/)
+* [Installation](#installation)
+* [Development](#development)
+* [Production](#production)
+* [Static](#static)
+* [Component](#component)
+* [After deploy](#after-deploy)
 
-## Features 🚀
+## Installation
+```javascript
+npm install
+```
+...as usual...
 
-- Gatsby v2
-- Bulma CSS
-- Responsive design
-- Google Analytics
-- SEO
-- Netlify Deployment
+## Development
 
-## Languages and Frameworks ⚛️
+Run website in development mode on `localhost:3001`, with Hot Module Replacement for Reducers and Components
 
-- Gatsby
-- Bulma
-- SASS
-- GraphQL
-
-## How to use it? 👨‍💻
-
-You need npm and Gatsby CLI installed on your development machine.
-
-### 1. Clone the repository/Installation
-
-If you have Git installed on your system you can run the following command:
-
-`git clone https://github.com/amandeepmittal/gatsby-bulma-quickstart.git`
-
-Otherwise you can directly download it clicking on download button on this repository.
-
-### 2. Running in development mode
-
-Go inside `gatsby-bulma-quickstart/` directory and run the following command:
-
-`npm run dev`
-
-### 3. Open the source code and start editing!
-
-The site is now running at
-[http://localhost:8000](http://localhost:8000).
-
-Open `gatsby-bulma-quickstart/` directory in your code editor of choice and edit it. Save your changes and the browser will update them in real time!
-
-### 4. Add your own Google Analytics Id
-
-Once you have google-analytics tracking id for your site, you can configure in `gatsby-config.js` file:
-
-```js
-resolve: `gatsby-plugin-google-analytics`,
-  options: {
-    // Your Tracking Id 👇
-    trackingId: 'UA-XXXXXXXX-X',
-    anonymize: true
-    }
-  }
+```javascript
+npm run dev
 ```
 
-## Contact me
+## Production
 
-If you find any possible improvement or suggestion related to code or UI/UX please contribute by submitting a PR.
+### Build
 
-You can also back or support this project for me to keep it updated by [**Buying Me a Coffee**](https://www.paypal.me/amanhimself/2)
+Run build server and client ( SSR and Styled Components Active )
 
-**Happy Coding!** 🎉🎉
+```
+npm run build
+```
+
+Run build Static ( CSS Modules and PWA )
+
+```
+npm run serve
+```
+
+### Start 
+
+Run website in production mode on `localhost:8000`
+
+```
+npm run start
+```
+
+## Static
+
+This command runs a static build, that contains plain html files.
+
+The navigation will use hash router, instead of browser history.
+
+```
+npm run build:static
+```
+
+## Component
+
+This command launches simple wizard for the creation of a react component.
+The component will be created on `src/components`.
+
+```
+npm run component
+
+Type the name of the component: Test
+
+What kind of component do you need? (Use arrow keys)
+> functional
+  stateless
+  
+Component succesfully created. Do you need another component? (Y/n)
+```
+
+## After deploy
+
+After deploy, you can run these commands for a complete live environment on `localhost:3000`:
+ 
+```
+npm install --production
+npm run build
+npm start
+```
+
+## Contributing
+[https://github.com/cashbac](https://github.com/cashbac)

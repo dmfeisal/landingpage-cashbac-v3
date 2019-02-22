@@ -89,10 +89,18 @@
 
 }
 
-#merchants.section {
-	padding-top: 6rem;
-	padding-bottom: 4rem;
-
+#merchants {
+	figure {
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		height: 120px;
+	}
+	
+	.section {
+		padding-top: 6rem;
+		padding-bottom: 4rem;
+	}
 }
 
 #featured-merchants.section {
@@ -103,11 +111,9 @@
 	}
 }
 
-
 #featured-logo {
 	padding: 0px 0px 0px 0px;
 }
-
 
 #quotes.section {
 	padding-top: 3rem;
@@ -217,7 +223,7 @@
 }
 
 .box:hover::after {
-    opacity: 1;
+  opacity: 1;
 }
 
 #logo-merchant {

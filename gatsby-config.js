@@ -1,3 +1,5 @@
+require('dotenv').config
+
 module.exports = {
 	siteMetadata: {
 		title: 'Cashback App with Best Deals in Indonesia | cashbac.com',
@@ -7,7 +9,7 @@ module.exports = {
 		keywords: `Cashbac is a cashback app with many rewards promo that can be used at your favorite merchants in Indonesia. Download Cashbac now!`,
 		twitter: 'https://twitter.com/cashbacapp',
 		gatsby: 'https://www.gatsbyjs.org/',
-		siteUrl: `https://cashbac.com`
+		siteUrl: `${process.env.CB_HOST}`
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
