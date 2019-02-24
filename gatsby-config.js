@@ -1,9 +1,11 @@
-// require("dotenv").config({
-// 	path: `.env`
-// })
+'use strict';
+require("dotenv").config({
+	path: `.env`
+});
+
+const siteUrl = ``;
 
 module.exports = {
-	gtm : `${process.env.GTM}`,
 	siteMetadata: {
 		title: 'Cashback App with Best Deals in Indonesia | cashbac.com',
 		author: 'PT. Global Pay Indonesia',
@@ -12,7 +14,7 @@ module.exports = {
 		keywords: `Cashbac is a cashback app with many rewards promo that can be used at your favorite merchants in Indonesia. Download Cashbac now!`,
 		twitter: 'https://twitter.com/cashbacapp',
 		gatsby: 'https://www.gatsbyjs.org/',
-		siteUrl: `${process.env.CB_HOST}`
+		siteUrl: 'localhost:8000'
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
