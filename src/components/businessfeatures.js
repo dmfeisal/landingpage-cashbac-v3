@@ -5,7 +5,7 @@ import screenIcon from '../images/business/screen-icon.png';
 import secureIcon from '../images/business/secure-icon.png';
 
 const BusinessFeatures = () => (
-		<div>
+	<div>
 		<section className="section has-background-light" id="business-features">
 		<div className="container ">
 		<h1 className="title has-text-centered-desktop has-text-centered-mobile"> FEATURES </h1>
@@ -90,8 +90,6 @@ const BusinessFeatures = () => (
 						</article>
 					</div>
 				</div>
-			
-
 	</div>
 
 

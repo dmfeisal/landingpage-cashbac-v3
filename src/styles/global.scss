@@ -1,8 +1,7 @@
 @import './variables.scss';
 
 html, body {
-  font-size: 14px;
-  font-family: "Open Sans", Helvetica, Arial, sans;
+  font: normal 14px/1.5 "Open Sans", Helvetica, Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   color: $cb-body-color;

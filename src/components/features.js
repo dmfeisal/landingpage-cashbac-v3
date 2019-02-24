@@ -1,6 +1,6 @@
 import React from 'react';
-import buttonGooglePlay from '../images/google_badge_en_get.svg';
-import buttonAppStore from '../images/appstore_badge_en.svg';
+// import buttonGooglePlay from '../images/google_badge_en_get.svg';
+// import buttonAppStore from '../images/appstore_badge_en.svg';
 import funnelIcon from '../images/business/funnel-icon.png';
 import moneyIcon from '../images/business/money-icon.png';
 import screenIcon from '../images/business/screen-icon.png';
@@ -17,31 +17,28 @@ const Features = () => (
 			<div className="container">
 				<div className="tile is-ancestor is-desktop">
 					<div className="tile is-parent ">
-					    <article className=" media tile box">
-
-							<div className="media-content">
+					  <article className=" media tile box">
+							<div className="media-content has-text-centered">
 								<figure className="image" id="icon-features">
-							    	<img alt="Cashbac Features Dashboard" src={screenIcon}/>
-							    </figure>
+							    <img alt="Cashbac Features Dashboard" src={screenIcon}/>
+								</figure>
 								<div className="content">
-					   				<h5 className=" title is-4">Not Only Cashless, but Cardless!</h5>
-									<p>
-									Use Cashbac to save money all year round! With instant cashback on every purchase, use it immediately or save it for bigger purchase its up to you. Enjoy money saving deals every day on various dining, lifestyle, and entertainment merchants.
-									</p>
+					   			<h5 className=" title is-4">Not Only Cashless, but Cardless!</h5>
+									<p className="has-text-left">Use Cashbac to save money all year round! With instant cashback on every purchase, use it immediately or save it for bigger purchase its up to you. Enjoy money saving deals every day on various dining, lifestyle, and entertainment merchants.</p>
 								</div>
 							</div>
-					    </article>
+					  </article>
 					</div>
 
 					<div className="tile is-parent">
 					    <article className="media tile box">
-							<div className="media-content">
+							<div className="media-content has-text-centered">
 								<figure className="image" id="icon-features">
 							    	<img alt="Cashbac Features Funnel" src={funnelIcon}/>
 							    </figure>
 								<div className="content">
 					   				<h5 className=" title is-4">No Minimum Transaction</h5>
-									<p>
+									<p className="has-text-left">
 									Use Cashbac to save money all year round! With instant cashback on every purchase, use it immediately or save it for bigger purchase its up to you. Enjoy money saving deals every day on various dining, lifestyle, and entertainment merchants.
 									</p>
 								</div>
@@ -51,13 +48,13 @@ const Features = () => (
 
 					<div className="tile is-parent ">
 					    <article className=" media tile box">
-							<div className="media-content">
+							<div className="media-content has-text-centered">
 								<figure className="image" id="icon-features">
 							    	<img alt="Cashbac Features Transactions" src={moneyIcon}/>
 							    </figure>
 								<div className="content">
 					   				<h5 className=" title is-4">Secure with Bank Standard </h5>
-									<p>
+									<p className="has-text-left">
 									Use Cashbac to save money all year round! With instant cashback on every purchase, use it immediately or save it for bigger purchase its up to you. Enjoy money saving deals every day on various dining, lifestyle, and entertainment merchants.
 									</p>
 								</div>
@@ -67,14 +64,14 @@ const Features = () => (
 
 					<div className="tile is-parent">
 					    <article className=" media tile box">
-							<div className="media-content">
+							<div className="media-content has-text-centered">
 								<figure className="image" id="icon-features">
 							    	<img alt="Cashbac Features Secure Money" src={secureIcon}/>
 							    </figure>
 					   				
 								<div className="content">
 								<h5 className=" title is-4">Anonimity </h5>
-									<p>
+									<p className="has-text-left">
 									Use Cashbac to save money all year round! With instant cashback on every purchase, use it immediately or save it for bigger purchase its up to you. Enjoy money saving deals every day on various dining, lifestyle, and entertainment merchants.
 									
 									</p>

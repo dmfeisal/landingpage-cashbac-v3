@@ -28,7 +28,7 @@ npm install
 
 ## Development
 
-Run website in development mode on `localhost:3001`, with Hot Module Replacement for Reducers and Components
+Run website in development mode on `localhost:8000`, with Hot Module Replacement for Reducers and Components
 
 ```javascript
 npm run dev

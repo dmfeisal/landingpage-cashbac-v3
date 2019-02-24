@@ -1,5 +1,5 @@
 import React from 'react';
-import Emoji from './emoji';
+// import Emoji from './emoji';
 import { Link } from "gatsby";
 
 const Footer = () => (
@@ -9,46 +9,49 @@ const Footer = () => (
 				<div className="column">
 					<b>About </b>
 					<article>
-						<a href="#">Company</a>
+						<a href="https://www.linkedin.com/company/13423684/" title="Cashbac Company Page">Company</a>
 					</article>
 					<article>
-						<a href="#">Careers</a>
+						<a href="mailto:recruitment@cashbac.com" title="Email your cv to recruitment@cashbac.com">Careers</a>
 					</article>
 					<article>
-						<a href="#">Blog</a>
+						<a href="https://cashbac.com/blog/" title="Cashbac Blog Page" target="_blank" rel="noopener noreferrer">Blog</a>
 					</article>
 				</div>
 					
 				<div className="column">
 					<b>Get Help</b>
 					<article>
-						<a href="#">Help Center</a>
+							
 					</article>
 					<article>
-						<a href="#">FAQ</a>
+						<Link to="/faq" title="Find answer about cashbac on faq center" target="_blank" rel="noopener noreferrer">FAQ</Link>
 					</article>
 				</div>
 
 				<div className="column">
 					<b>Partnership with Us </b>
 					<article>
-						<a href="#">Join As Merchant</a>
+						<Link to="/business" title="Join other merchant on Cashbac">Join As Merchant</Link>
 					</article>
 					<article>
-						<a href="#">Marketing Partnership</a>
+						<a href="mailto:partnership@cashbac.com" title="Send inquiry and marketing partnership to partnership@cashbac.com">Marketing Partnership</a>
 					</article>
 				</div>
 				
 				<div className="column">
 					<b>Follow Us</b>
 					<article>
-						<a href="#">Instagram</a>
+						<a href="https://www.instagram.com/cashbacapp/" title="Cashbac Instagram profile" target="_blank" rel="noopener noreferrer">Instagram</a>
 					</article>
 					<article>
-						<a href="#">Youtube</a>
+						<a href="https://www.youtube.com/channel/UC9QEz3fWvpp1guO81L6ejBw" title="Cashbac Youtube channel" target="_blank" rel="noopener noreferrer">Youtube</a>
 					</article>
 					<article>
-						<a href="#">Facebook</a>
+						<a href="https://www.facebook.com/cashbacapp/" tiele="Cashbac Facebook profile" target="_blank" rel="noopener noreferrer">Facebook</a>
+					</article>
+					<article>
+						<a href="https://www.twitter.com/cashbacapp/" tiele="Cashbac twitter profile" target="_blank" rel="noopener noreferrer">Twitter</a>
 					</article>
 				</div>
 			</div>

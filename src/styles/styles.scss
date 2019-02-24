@@ -244,16 +244,11 @@
 #icon-features {
 	width: 100px;
 	padding: 5px 5px 5px 5px;
+	margin: 0 auto;
 }
 
 .screens {
 	position: relative
-}
-
-@media screen and (max-width: 768px) {
-	.screens {
-		display: none
-	}
 }
 
 .screens .screen {
@@ -267,12 +262,6 @@
 	visibility: hidden;
 	transform: translateX(-50%);
 	transition: all 688ms ease
-}
-
-@media screen and (min-width: 1088px) {
-	.screens .screen {
-		max-width: 460px
-	}
 }
 
 .screens .screen img {
@@ -310,12 +299,6 @@
 	content: "";
 }
 
-@media screen and (max-width: 768px) {
-	.vertical-tabs:before {
-		background-color: $cashbac-primary;
-	}
-}
-
 .vertical-tabs .tab {
 	position: relative;
 	display: -ms-flexbox;
@@ -327,12 +310,6 @@
 	transition-duration: 86ms;
 	will-change: opacity;
 	transition-duration: 86ms
-}
-
-@media screen and (max-width: 768px) {
-	.vertical-tabs .tab {
-		opacity: 1
-	}
 }
 
 .vertical-tabs .tab:before {
@@ -524,3 +501,35 @@
 	background: rgba(142, 81, 199, 0.15)
 }
 
+
+
+// media screen 768
+@media screen and (max-width: 768px) {
+	.screens {
+		display: none
+	}
+
+	.vertical-tabs:before {
+		background-color: $cashbac-primary;
+	}
+
+	.vertical-tabs .tab {
+		opacity: 1
+	}
+
+	#merchants .is-flex-mobile {
+		width: 100%;
+		flex-wrap: wrap;
+
+		.is-parent {
+			width: 30%;
+		}
+	}
+}
+
+// media query 1088px
+@media screen and (min-width: 1088px) {
+	.screens .screen {
+		max-width: 460px
+	}
+}

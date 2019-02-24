@@ -1,5 +1,5 @@
 import React from 'react';
-import bulmaCarousel from 'bulma-carousel'
+// import bulmaCarousel from 'bulma-carousel'
 
 const Header = ({ siteTitle }) => (
 	<section>
@@ -25,7 +25,6 @@ const Header = ({ siteTitle }) => (
 		  </div>
 		</div>
 	</section>
-
 );
 
 export default Header;

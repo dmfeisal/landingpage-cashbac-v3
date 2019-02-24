@@ -1,6 +1,9 @@
-require('dotenv').config
+// require("dotenv").config({
+// 	path: `.env`
+// })
 
 module.exports = {
+	gtm : `${process.env.GTM}`,
 	siteMetadata: {
 		title: 'Cashback App with Best Deals in Indonesia | cashbac.com',
 		author: 'PT. Global Pay Indonesia',
