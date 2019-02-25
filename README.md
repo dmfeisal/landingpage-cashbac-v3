@@ -1,11 +1,11 @@
 # Cashbac Static pages rendered by gatsby js
 
+* Node JS
 * Gatsby JS
 * Bulma
 * CSS Modules
 * Long term caching for static assets
 * Images optimization ([libpngissue fix for OSX user](https://github.com/tcoopman/image-webpack-loader#libpng-issues))
-* React component creation wizard
 * Eslint
 
 ## How it works
@@ -19,6 +19,12 @@ SSR for CSS modules use `css-loader/locals`, no extra wrapper function for compo
 * [Static](#static)
 * [Component](#component)
 * [After deploy](#after-deploy)
+
+## Development guide
+
+## Prerequisites
+- [Node.js](https://nodejs.org/en/) (8.0.0+)
+- [Yarn](https://yarnpkg.com) (Optional. You can still use `npm` if you want, but highly recommended for your own sanity.)
 
 ## Installation
 ```javascript
@@ -58,42 +64,21 @@ Run website in production mode on `localhost:8000`
 npm run start
 ```
 
-## Static
-
-This command runs a static build, that contains plain html files.
-
-The navigation will use hash router, instead of browser history.
-
-```
-npm run build:static
-```
-
-## Component
-
-This command launches simple wizard for the creation of a react component.
-The component will be created on `src/components`.
-
-```
-npm run component
-
-Type the name of the component: Test
-
-What kind of component do you need? (Use arrow keys)
-> functional
-  stateless
-  
-Component succesfully created. Do you need another component? (Y/n)
-```
-
 ## After deploy
 
-After deploy, you can run these commands for a complete live environment on `localhost:3000`:
+After deploy, you can run these commands for a complete live environment on `localhost:`:
  
-```
-npm install --production
+````
 npm run build
-npm start
+npm run serve
 ```
+
+## deployment reference
+[https://www.gatsbyjs.org/docs/deploying-and-hosting/](https://www.gatsbyjs.org/docs/deploying-and-hosting/)
+
+## server reference
+[https://www.netlify.com/features/](https://www.netlify.com/features/)
+
 
 ## Contributing
 [https://github.com/cashbac](https://github.com/cashbac)
