@@ -6,9 +6,6 @@
 // load css here
 import './src/styles/styles.scss';
 
-// load config
-import { gtm } from './gatsby-config.js';
-console.log(gtm)
 // custom javascript here
 const addJS = (jsCode) => {
     var s = document.createElement(`script`)
@@ -47,6 +44,25 @@ const gtmTag = () => {
   `)
 }
 
+const mailchimpTag = () => {
+  addJS(`
+    window.mailchimp = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.mailchimp || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js";
+      fjs.parentNode.insertBefore(js, fjs);
+      t._e = [];
+      t.ready = function(f) {
+        t._e.push(f);
+      };
+      return t;
+    }(document, "script", "mailchimp-wjs"));
+  `)
+}
+
 // toggle for menu mobile
 const toggleMenu = () => {
   // Get all "navbar-burger" elements
@@ -75,6 +91,7 @@ export const onClientEntry = () => {
   // run embed script
   carouselScript();
   gtmTag();
+  mailchimpTag();
 }
 
 export const onInitialClientRender = () => {
