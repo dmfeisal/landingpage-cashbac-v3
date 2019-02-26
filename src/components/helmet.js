@@ -31,6 +31,8 @@ export default () => (
 					content={data.site.siteMetadata.description}
 				/>
 				<meta itemprop="image" content={data.site.siteMetadata.imageUrl} />
+				<script type="text/javascript" src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
+				<link  rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
 			</Helmet>
 		)}
 	/>
