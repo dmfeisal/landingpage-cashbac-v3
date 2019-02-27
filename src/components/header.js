@@ -1,4 +1,7 @@
 import React from 'react';
+import { FaAngleLeft } from 'react-icons/fa';
+import { FaAngleRight } from 'react-icons/fa';
+
 // import bulmaCarousel from 'bulma-carousel'
 
 const Header = ({ siteTitle }) => (
@@ -17,12 +20,14 @@ const Header = ({ siteTitle }) => (
 		  </div>
 		  <div className="carousel-navigation is-overlay">
 		    <div className="carousel-nav-left">
-		      <i className="fa fa-chevron-left" aria-hidden="true">
-		      <figure>Sebelum
-		      </figure></i>
+		      	<span className="icon">
+					<FaAngleLeft size="fa-2x" />
+				</span>
 		    </div>
 		    <div className="carousel-nav-right">
-		      <i className="fa fa-chevron-right" aria-hidden="true">Sesudah</i>
+		    	<span className="icon">
+					<FaAngleRight size="fa-2x" />
+				</span>
 		    </div>
 		  </div>
 		</div>
