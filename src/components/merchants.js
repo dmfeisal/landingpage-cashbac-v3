@@ -61,113 +61,113 @@ class Merchants extends Component {
 
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac Mcd" width="100px" height="50px" src={dcostLogo}/>
+										<img alt="Merchant Cashbac" height="50px" src={dcostLogo}/>
 									</figure>
 								</div>
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac Mcd" width="50px" height="50px" src={erickayserLogo}/>
+										<img alt="Merchant Cashbac" width="70px" src={erickayserLogo}/>
 									</figure>
 								</div>
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac Mcd" width="50px" src={donburiLogo}/>
+										<img alt="Merchant Cashbac" width="70px" src={donburiLogo}/>
 									</figure>
 								</div>
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac Mcd" width="50px" src={namnamLogo}/>
+										<img alt="Merchant Cashbac" width="70px" src={namnamLogo}/>
 									</figure>
 								</div>
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac Mcd" width="50px" src={mamLogo}/>
+										<img alt="Merchant Cashbac" width="100px" src={mamLogo}/>
 									</figure>
 								</div>
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac Mcd" width="50px" src={osakaLogo}/>
+										<img alt="Merchant Cashbac" width="100px" src={osakaLogo}/>
 									</figure>
 								</div>
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-									<img alt="Merchant Cashbac Mcd" width="50px" src={lewiscarollLogo}/>
+									<img alt="Merchant Cashbac" width="70px" src={lewiscarollLogo}/>
 									</figure>
 								</div>
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac Mcd" width="50px" src={altitudeLogo}/>
+										<img alt="Merchant Cashbac" width="100px" src={altitudeLogo}/>
 									</figure>
 								</div>
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac Mcd" width="50px" src={shabu2Logo}/>
+										<img alt="Merchant Cashbac" width="50px" src={shabu2Logo}/>
 									</figure>
 								</div>
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac Mcd" width="50px" src={sweethutLogo}/>
+										<img alt="Merchant Cashbac" width="100px" src={sweethutLogo}/>
 									</figure>
 								</div>
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-									<img alt="Merchant Cashbac Mcd" width="50px" src={annawijayaLogo}/>
+									<img alt="Merchant Cashbac" width="100px" src={annawijayaLogo}/>
 									</figure>
 								</div>
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac Mcd" width="50px" src={luxeLogo}/>
+										<img alt="Merchant Cashbac" width="70px" src={luxeLogo}/>
 									</figure>
 								</div>
 								
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac Mcd" width="50px" src={relaxlivingLogo}/>
+										<img alt="Merchant Cashbac" width="70px" src={relaxlivingLogo}/>
 									</figure>
 								</div>
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac Mcd" width="50px" src={realyogaLogo}/>
+										<img alt="Merchant Cashbac" width="70px" src={realyogaLogo}/>
 									</figure>
 								</div>
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac Mcd" width="50px" src={alegroLogo}/>
+										<img alt="Merchant Cashbac" width="70px" src={alegroLogo}/>
 									</figure>
 								</div>
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac Mcd" width="50px" src={aromagelatoLogo}/>
+										<img alt="Merchant Cashbac" width="70px" src={aromagelatoLogo}/>
 									</figure>
 								</div>
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac Mcd" width="50px" src={ombekoffieLogo}/>			    
+										<img alt="Merchant Cashbac" width="70px" src={ombekoffieLogo}/>			    
 									</figure>
 								</div>
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac Mcd" width="50px" src={trafiqueLogo}/>
+										<img alt="Merchant Cashbac" width="70px" src={trafiqueLogo}/>
 									</figure>
 								</div>
 									<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 										<figure className="box">
-											<img alt="Merchant Cashbac Mcd" width="50px" src={bebekbengilLogo}/>
+											<img alt="Merchant Cashbac" width="70px" src={bebekbengilLogo}/>
 										</figure>
 									</div>
 									<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 										<figure className="box">
-											<img alt="Merchant Cashbac Mcd" width="50px" src={illuaLogo}/>
+											<img alt="Merchant Cashbac" width="70px" src={illuaLogo}/>
 										</figure>
 									</div>
 									<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 										<figure className="box">
-											<img alt="Merchant Cashbac Mcd" width="50px" src={gaiaLogo}/>
+											<img alt="Merchant Cashbac" width="60px" src={gaiaLogo}/>
 										</figure>
 									</div>
 									<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 										<figure className="box">
-											<img alt="Merchant Cashbac Mcd" width="50px" src={cloudLogo}/>
+											<img alt="Merchant Cashbac" width="70px" src={cloudLogo}/>
 										</figure>
 									</div>	
 							</div>
