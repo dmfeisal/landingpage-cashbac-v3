@@ -1,14 +1,14 @@
 import React from 'react';
 import Helmet from '../components/helmet';
-import Businessnavbar from '../components/businessnavbar';
+import Navbar from '../components/navbar';
 import Privacycomponent from '../components/privacycomponent';
 import Footer from '../components/footer';
 
 const PrivacyPage = ({ children }) => (
 	<div>
 		<Helmet />
-		<Businessnavbar />
-		<privacycomponent />
+		<Navbar />
+		<Privacycomponent />
 		<Footer />
 	</div>
 );
