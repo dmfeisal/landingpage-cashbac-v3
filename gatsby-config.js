@@ -1,9 +1,9 @@
-'use strict';
-// require("dotenv").config({
-// 	path: `.env`
-// });
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`
+});
 
-const siteUrl = ``;
+const siteURL = `${process.env.CB_HOST}`
+console.log(siteURL, 'siteurl')
 
 module.exports = {
 	siteMetadata: {
@@ -14,7 +14,7 @@ module.exports = {
 		keywords: `Cashbac is a cashback app with many rewards promo that can be used at your favorite merchants in Indonesia. Download Cashbac now!`,
 		twitter: 'https://twitter.com/cashbacapp',
 		gatsby: 'https://www.gatsbyjs.org/',
-		siteUrl: 'localhost:8000'
+		siteUrl: siteURL
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
