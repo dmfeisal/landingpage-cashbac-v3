@@ -100,11 +100,15 @@ const toggleMenu = () => {
 }
 
 export const onClientEntry = () => {
+  const formcontainer = document.querySelector('#mc-embedded-subscribe-form')
   // run embed script
   carouselScript();
   gtmTag();
-  mailchimpTag();
   pixelTag();
+
+  if (formcontainer) {
+    mailchimpTag();
+  }
 }
 
 export const onInitialClientRender = () => {
@@ -117,7 +121,6 @@ export const onInitialClientRender = () => {
   }
   // run toggle menu 
   toggleMenu();
-  
 
   if (window.$ && formcontainer) {
     window.$("#mc-embedded-subscribe-form").validate()
@@ -135,6 +138,9 @@ export const onRouteUpdate = ({ location, prevLocation }) => {
    // run toggle menu 
    toggleMenu();
    
+    if (formcontainer) {
+      mailchimpTag();
+    }
  
    if (window.$ && formcontainer) {
      window.$("#mc-embedded-subscribe-form").validate()
