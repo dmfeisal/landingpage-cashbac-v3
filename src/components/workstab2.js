@@ -28,6 +28,7 @@ class Workstab2 extends React.Component {
 		return (
 			<div>
 				<section id="works" className="section is-platform is-medium">
+					<hr className="spacer is-4"></hr>
 					<div className="container">
 						<div className="columns is-centered">
 							<div className="column is-12 is-10-fullhd">
@@ -98,6 +99,7 @@ class Workstab2 extends React.Component {
 							</div>
 						</div>
 					</div>
+					<hr className="spacer is-6"></hr>
 				</section>
 			</div>
 		)

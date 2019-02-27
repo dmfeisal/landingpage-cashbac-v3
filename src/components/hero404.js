@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 // import 'bulma';
 // import heroBusiness from '../images/slider/cashbac-business-hero.png';
 // import Navbar from './navbar';
@@ -6,10 +7,9 @@ import React from 'react';
 
 
 const Hero404 = ({ siteTitle }) => (
-	<section className="hero is-medium has-carousel" id="404-hero">
-		<div className="ccontainer hero-body">
-			<div className="hero-carousel carousel-animated carousel-animate-fade">
-
+	<section className="hero" id="404-hero">
+		<div className="container hero-body">
+			<div>
 
 			</div>
 						<div className="container" id="hero-404">
@@ -18,12 +18,16 @@ const Hero404 = ({ siteTitle }) => (
 				      		</h1>
 
 				      		<p className="subtitle">
-				      		Ooops! the page you requested was not found
+				      		Ooops! the page you requested was not found!
 				      		</p>
 				      		
-				      		<div className="button is-info is-rounded">Back to Homepage</div>
+				      		<div className="button is-info is-rounded">
+					      		<Link to="/">
+	            					Back to Homepage
+					          	</Link>
+				      		</div>
 				      	</div>
-		</div>
+			</div>
 	</section>
 );
 

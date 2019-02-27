@@ -6,6 +6,7 @@ const Videos = () => (
 
 		<div>
 		<section className="section" id="videos">
+		<hr className="spacer is-4"></hr>
 		<div className="container">
 			<div className="columns">
 				<div className="column">
@@ -32,6 +33,7 @@ const Videos = () => (
 
 			</div>
 			</div>
+			<hr className="spacer is-4"></hr>
 		</section>
 	</div>
 

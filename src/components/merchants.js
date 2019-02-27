@@ -39,8 +39,8 @@ class Merchants extends Component {
 		return (
 
 			<div>
-				<hr className="spacer is-3"></hr>
-				<section className="section" id="merchants">
+				<section className="section has-background-light" id="merchants">
+				<hr className="spacer is-4"></hr>
 					<div className="container">
 							<h2 className="title has-text-centered-mobile">
 								Where You Can Use Cashbac
@@ -55,7 +55,7 @@ class Merchants extends Component {
 							<div className="columns is-multiline is-mobile">
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac Mcd" width="50px" src={mcdLogo}/>
+										<img alt="Merchant Cashbac Mcd" width="70px" src={mcdLogo}/>
 									</figure>
 								</div>
 
@@ -177,7 +177,7 @@ class Merchants extends Component {
 							We are adding new merchants every day! see the complete list in Cashbac App. <a href="#">Download here > </a>
 							</p>
 							</div>
-					
+					<hr className="spacer is-4"></hr>
 				</section>
 			</div>
 		)

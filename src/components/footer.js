@@ -5,6 +5,7 @@ import { Link } from "gatsby";
 const Footer = () => (
 	<footer className="footer center">
 		<div className="content container">
+			<hr className="spacer is-4"></hr>
 			<div className="columns is-desktop is-tablet">
 				<div className="column">
 					<b>About </b>
@@ -67,6 +68,7 @@ const Footer = () => (
 				&nbsp; &nbsp; &nbsp; 
 				<Link to="/privacy">Privacy Policy</Link>
 			</p>
+		<hr className="spacer is-1"></hr>
 		</div>
 	</footer>
 );

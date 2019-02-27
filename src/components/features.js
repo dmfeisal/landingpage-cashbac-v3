@@ -10,6 +10,7 @@ const Features = () => (
 
 		<div>
 		<section className="section has-background-light" id="features">
+		<hr className="spacer is-4"></hr>
 		<div className="container ">
 		<h1 className="title has-text-centered-desktop"> Why Cashbac? </h1>
 			<br />
@@ -83,7 +84,9 @@ const Features = () => (
 				</div>
 				</div>
 			</div>
+		<hr className="spacer is-4"></hr>
 		</section>
+
 	</div>
 
 	);

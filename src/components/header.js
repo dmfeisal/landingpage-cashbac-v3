@@ -17,10 +17,12 @@ const Header = ({ siteTitle }) => (
 		  </div>
 		  <div className="carousel-navigation is-overlay">
 		    <div className="carousel-nav-left">
-		      <i className="fa fa-chevron-left" aria-hidden="true">PREV</i>
+		      <i className="fa fa-chevron-left" aria-hidden="true">
+		      <figure>Sebelum
+		      </figure></i>
 		    </div>
 		    <div className="carousel-nav-right">
-		      <i className="fa fa-chevron-right" aria-hidden="true">NEXT</i>
+		      <i className="fa fa-chevron-right" aria-hidden="true">Sesudah</i>
 		    </div>
 		  </div>
 		</div>
