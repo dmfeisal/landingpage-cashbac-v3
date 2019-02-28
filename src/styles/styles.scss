@@ -19,9 +19,6 @@
 
 
 .navbar {
-	position: relative;
-	z-index: 2;
-
 	a {
 		color: $cashbac-primary;
 	}
@@ -33,6 +30,10 @@
 }
 
 #navbar-business {
+	.navbar-menu {
+    background-color: $cashbac-primary;
+	}
+
 	a {
 		color: white;
 	}
