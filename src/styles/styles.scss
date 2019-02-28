@@ -9,6 +9,15 @@
 @import './global';
 @import './carousel';
 
+
+.title {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: $cashbac-primary;
+
+}
+
+
 .navbar {
 	position: relative;
 	z-index: 2;
