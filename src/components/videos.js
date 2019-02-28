@@ -14,7 +14,7 @@ const Videos = () => (
 					</h2>
 					<br />
 					<article className="content">Use Cashbac to save money all year round! With instant cashback on every purchase, use it immediately or save it for bigger purchase its up to you. Enjoy money saving deals every day on various dining, lifestyle, and entertainment merchants.</article>
-
+					{/* COMMENT
 					<div  className="column has-left-text-mobile content">
 						<a href="https://cashbac.onelink.me/1sXQ/homepage">
 						<img width="153px" height="45px" src={buttonGooglePlay} alt="Get Cashbac App on Google Play" />
@@ -25,6 +25,7 @@ const Videos = () => (
 						</a>
 					</div>	
 
+					*/}
 				</div>
 				<div className="column center">
 					<div className="video-container">
