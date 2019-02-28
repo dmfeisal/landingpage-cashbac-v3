@@ -13,7 +13,7 @@ const Featuredmerchants = () => (
 		<section className="section" id="featured-merchants">
 			<div className="container">
 			
-					<h1 className="title has-text-centered-desktop has-text-centered-mobile">
+					<h1 className="title has-text-centered-desktop has-text-centered-mobile has-text-centered-tablet">
 						OUR HAPPY MERCHANTS
 					</h1>
 			

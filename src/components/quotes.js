@@ -8,7 +8,7 @@ const Quotes = () => (
 		<section className="section" id="quotes">
 			<div className="container">
 			
-					<h2 className="title has-text-centered-desktop has-text-centered-mobile">
+					<h2 className="title has-text-centered-desktop has-text-centered-mobile has-text-centered-tablet ">
 						Here's what our Customer said
 					</h2>
 			

@@ -6,8 +6,8 @@ const Footer = () => (
 	<footer className="footer center">
 		<div className="content container">
 			<hr className="spacer is-4"></hr>
-			<div className="columns is-desktop is-tablet">
-				<div className="column">
+			<div className="columns is-multiline is-mobile is-tablet">
+				<div className="column is-6-mobile is-3-desktop is-3-tablet">
 					<b>About </b>
 					<article>
 						<a href="https://www.linkedin.com/company/13423684/" title="Cashbac Company Page">Company</a>
@@ -20,7 +20,7 @@ const Footer = () => (
 					</article>
 				</div>
 					
-				<div className="column">
+				<div className="column is-6-mobile is-3-desktop is-3-tablet">
 					<b>Get Help</b>
 					<article>
 							
@@ -30,7 +30,7 @@ const Footer = () => (
 					</article>
 				</div>
 
-				<div className="column">
+				<div className="column is-6-mobile is-3-desktop is-3-tablet">
 					<b>Partnership with Us </b>
 					<article>
 						<Link to="/business" title="Join other merchant on Cashbac">Join As Merchant</Link>
@@ -40,7 +40,7 @@ const Footer = () => (
 					</article>
 				</div>
 				
-				<div className="column">
+				<div className="column is-6-mobile is-3-desktop is-3-tablet">
 					<b>Follow Us</b>
 					<article>
 						<a href="https://www.instagram.com/cashbacapp/" title="Cashbac Instagram profile" target="_blank" rel="noopener noreferrer">Instagram</a>

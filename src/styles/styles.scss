@@ -98,12 +98,13 @@
 }
 
 #business-features.section {
+	padding-top: 3rem;
+	padding-bottom: 6rem;
 	.subtitle {
 		display: block;
 		margin-top: 20px;
 	}
 	.is-4 {
-	margin-bottom: 5px;
 	}
 }
 
@@ -168,7 +169,7 @@
 	.box {
 		width: 500px;
 		box-shadow-size: 10px 10px 10px 10px;
-		display: block;		
+		display: block;
 		border: 0;
 		padding: 3rem 3rem 3rem 3rem;
 	label {
@@ -185,39 +186,67 @@
 }
 
 .hero {
-	width: 100;
 	height: 100%;
-	min-height: 850px;
+	min-height: 720px;
 	position: relative;
-	// z-index: -1;
 	background: url('../images/slider/cashbac-business-hero.png');
 	background-size: cover;
+	background-position: center;
+  	background-repeat: no-repeat;
 }
 
-#hero-text {
-	.title{
-		color: white;
-		width: 550px;
-		word-wrap: break-all;
-		font-size: 60px;
-		margin-bottom: 30px;
-	}
-	.subtitle {
-		display: block;
-		width: 550px;
-		word-wrap: break-all;
-		margin-bottom: 20px;
-		color: white;
-	}
+.hero-text-title {
 	color: white;
-	padding-bottom: 50px;
-	padding-left: 50px;
-	padding-right: 50px;
-	position: absolute;
-	z-index: 1;
-	bottom: 0;
-	margin-bottom: 100px;
+	font-size: 40px;
+	margin-top: 170px;
 }
+
+.hero-text-subtitle {
+	color: white;
+	font-size: 18px;
+}
+
+
+#business-hero-dektop {
+	margin-left: 120px;
+	button {
+	margin-left: 120px;
+	}
+
+}
+
+.hero-text-title-desktop {
+	color: white;
+	font-size: 55px;
+	width: 500px;
+	bottom: 0;
+	margin-top: 250px;
+	margin-left: 120px;	
+
+}
+
+.hero-text-subtitle-desktop {
+	color: white;
+	font-size: 26px;
+	width: 450px;
+	padding-top: 30px;
+	margin-left: 120px;
+}
+
+.cta-business {
+	margin-left: 120px;
+	a {
+		color: white;
+	}
+}
+
+.cta-business-mobile {
+	a {
+		color: white;
+	}
+}
+
+
 
 .center {
 	display: flex;
@@ -319,6 +348,13 @@
 	width: 2rem;
 	margin-bottom: 5px;
 	color: $cashbac-primary;
+}
+
+.business-icon-feature {
+	height: 5rem;
+	width: 5rem;
+	margin-bottom: 5px;
+
 }
 
 .screens {
@@ -563,15 +599,15 @@
 }
 
 ::-moz-selection {
-	background: rgba(142, 81, 199, 0.15)
+	background: rgba(131, 191, 230, 0.94)
 }
 
 ::selection {
-	background: rgba(142, 81, 199, 0.15)
+	background: rgba(131, 191, 230, 0.94)
 }
 
 ::-moz-selection {
-	background: rgba(142, 81, 199, 0.15)
+	background: rgba(131, 191, 230, 0.94)
 }
 
 
