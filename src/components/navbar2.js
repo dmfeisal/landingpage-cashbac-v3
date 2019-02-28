@@ -18,7 +18,7 @@ const Navbar2 = () => (
         </div>
         <div id="cb-navbar" className="navbar-menu are-small">
           <div className="navbar-end">
-            <div className="navbar-item is-tab">
+            <div className="navbar-item">
                 <a className="navbar-item" href="https://cashbac.com/blog/" target="_blank">
                   BLOG
                 </a>

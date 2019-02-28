@@ -15,11 +15,11 @@ const Downloadapp = () => (
 					</h2>
 				</div>
 				<div  className="column center">
-					<a href="https://d9fe2.app.goo.gl/kCdB">
+					<a href="https://cashbac.onelink.me/1sXQ/homepage">
 					<img width="153px" height="45px" src={buttonGooglePlay} alt="Get On Google Play" />
 					</a>
 					&nbsp; &nbsp;
-					<a href="https://d9fe2.app.goo.gl/kCdB">
+					<a href="https://cashbac.onelink.me/1sXQ/homepage">
 					<img width="153px" height="45px" src={buttonAppStore} alt="Get On App Store" />
 					</a>
 				</div>	
