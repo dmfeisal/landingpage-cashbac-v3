@@ -42,7 +42,13 @@
 }
 
 #privacypage,#termspage,#faqpage {
-	padding: 1.5rem 1.5rem;
+	padding: 1.5rem 1.5rem;	
+	h3 {
+		font-size: 16px;
+		font-weight: 700;
+		color: $cashbac-primary;
+		padding-top: 1rem;
+	}
 	ol {
 		margin-top: 10px;
 		margin-bottom: 10px;
@@ -54,10 +60,17 @@
 		}
 	}
 
-	.list-bullet {
-		list-style-type: square;
+	ol.list-pointer {
+		li {
+			list-style-type: square;
+			} 
 	}
+
+
 }
+
+
+
 
 	.faq {
 		color: $cashbac-primary;

@@ -17,7 +17,7 @@ const Privacycomponent = () => (
 				<ol>
 					<li>CASHBAC menetapkan Kebijakan Privasi ini untuk membantu User membuat keputusan yang jelas
 						tentang apakah User tidak menggunakan atau tetap menggunakan CASHBAC, yaitu :
-						<ol>
+						<ol className="list-pointer">
 							<li>Menjelaskan cara CASHBAC menggunakan informasi User untuk memberikan penawaran istimewa
 								bagi User apabila User melakukan transaksi, yang mana penawaran istimewa tersebut dapat
 								berupa Cashback, potongan harga, diskon, harga khusus dan lain sebagainya;
@@ -31,7 +31,7 @@ const Privacycomponent = () => (
 						</ol>
 					</li>
 					<li>Secara garis besar ada 2 (dua) kategori informasi yang CASHBAC kumpulkan :
-						<ol>
+						<ol className="list-pointer">
 							<li>Informasi yang harus CASHBAC miliki agar User dapat menggunakan CASHBAC yaitu seperti
 								meliputi perlakuan terhadap informasi User, termasuk informasi identitas pribadi,
 								informasi Metode Pembayaran User dan informasi lainnya yang diterima saat User
@@ -45,7 +45,7 @@ const Privacycomponent = () => (
 						</ol>
 					</li>
 					<li>
-						<ol>
+						<ol className="list-pointer">
 							<li>Informasi yang User berikan melalui website dan/atau aplikasi CASHBAC.</li>
 							<li>Informasi yang User berikan melalui media komunikasi dengan CASHBAC.</li>
 							<li>Dari sumber lainnya yang tersedia dan/atau lembaga lain yang bekerjasama/belum
@@ -63,7 +63,7 @@ const Privacycomponent = () => (
 					<li>Dalam mengakses dan/atau melanjutkan layanan produk dan aplikasi CASHBAC. User setuju untuk
 						terikat dengan Kebijakan Privasi ini dan dianggap telah memahami serta menyetujui semua isi
 						dalam Kebijakan Privasi termasuk :
-						<ol>
+						<ol className="list-pointer">
 							<li>Penggunaan teknologi CASHBAC;</li>
 							<li>Pengumpulan, penggunaan, pembagian dan pengolahan lainnya dari informasi User, termasuk
 								untuk tujuan terkait pengiklanan;
@@ -102,7 +102,7 @@ const Privacycomponent = () => (
 						juga dapat digunakan untuk membantu mengidentifikasi dan melawan tindakan-tindakan yang bersifat
 						penipuan (fraud).
 					</li>
-					<li>nformasi dari sumber pihak ketiga lainnya.</li>
+					<li>Informasi dari sumber pihak ketiga lainnya.</li>
 				</ol>
 				<div>
 					<h3 className='margin--medium-v'>
@@ -113,9 +113,9 @@ const Privacycomponent = () => (
 					<li>CASHBAC dalam mengunakan dan mengungkapkan Informasi User senantiasa tunduk kepada peraturan
 						hukum yang berlaku. Sehingga informasi tersebut hanya untuk menyediakan produk dan layanan
 						kepada User, atau untuk melaksanakan bisnis CASHBAC, yaitu dengan penegasan sebagai berikut :
-						<ol>
+						<ol className="list-pointer">
 							<li>Penggunaan Informasi Oleh CASHBAC :
-								<ol>
+								<ol className="list-pointer">
 									<li>Melaksanakan, mengawasi dan menganalisa layanan CASHBAC.</li>
 									<li>Berkorespodensi dengan User melalui CASHBAC seperti surat elektronik, sms,
 										telepon maupun site visit (apabila diperlukan).
@@ -169,7 +169,7 @@ const Privacycomponent = () => (
 				<ol>
 					<li>CASHBAC sangat menyadari betapa pentingnya melindungi dan mengelola informasi yang User
 						serahkan.
-						<ol>
+						<ol className="list-pointer">
 							<li>CASHBAC menggunakan perlindungan computer seperti firewall dan data enkripsi serta
 								menerapkan control akses fisik dan file, dan CASHBAC hanya memberikan akses kepada
 								karyawan yang memerlukannya untuk memenuhi tanggung jawab pekerjaan.
@@ -202,7 +202,7 @@ const Privacycomponent = () => (
 						CASHBAC.
 					</li>
 				</ol>
-				<div>Pihak Ketiga :</div>
+				<h3>Pihak Ketiga :</h3>
 				<ol>
 					<li>
 						CASHBAC tidak membagikan informasi User dengan web/aplikasi pihak ketiga lainnya (kecuali
@@ -210,7 +210,7 @@ const Privacycomponent = () => (
 						bertanggung jawab dengan kebijakan privasi pihak ketiga lainnya tersebut.
 					</li>
 				</ol>
-				<div>Transisi Bisnis :</div>
+				<h3>Transisi Bisnis :</h3>
 				<ol>
 					<li>
 						Dalam hal CASHBAC melakukan transisi bisnis, seperti merger dan akuisisi dengan pihak lain, atau
