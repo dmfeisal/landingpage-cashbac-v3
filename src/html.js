@@ -6,8 +6,6 @@ import React from "react"
 import PropTypes from "prop-types"
 import * as extScript from './components/externaljs'
 
-console.log(extScript.GtmBody, 'gtmbody')
-
 export default class HTML extends React.Component {
   render() {
     return (

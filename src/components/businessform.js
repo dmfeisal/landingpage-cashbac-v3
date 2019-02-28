@@ -27,7 +27,6 @@ class Businessform extends Component {
 	}
 	
 	handleChangeFN(event) {
-		console.log(event)
     this.setState({FNAME: event.target.FNAME});
 	}
 	handleChangeLN(event) {
@@ -102,7 +101,7 @@ class Businessform extends Component {
 									<strong>Newsletter </strong>
 									<ul>
 										<li>
-											<input value={this.state.value} onChange={this.handleChange} type="checkbox" value="1" name="group[3][1]" id="mce-group[3]-3-0" /><label htmlFor="mce-group[3]-3-0">Sign
+											<input value="1" type="checkbox" name="group[3][1]" id="mce-group[3]-3-0" /><label htmlFor="mce-group[3]-3-0">Sign
 												up to receive our newsletter and exclusive resources.</label>
 										</li>
 									</ul>
