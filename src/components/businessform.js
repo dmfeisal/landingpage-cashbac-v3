@@ -53,9 +53,9 @@ class Businessform extends Component {
 	
 	render() {
 		return (
-			<section className="section has-text-centered has-background-light" id="businessform">
+			<section className="section columns has-text-centered has-background-light" id="businessform">
 				{/*VIEW ON DESTOP AND TAB*/}
-				<div className="container box is-6">
+				<div className="container column is-12-mobile has-text-centered box is-6">
 					<div className="has-text-centered-desktop">
 						<h1 className="title "> Love your business? </h1>
 						<p className="has-text-centered-desktop">Cashbac is helping business across the country understand how their digital promotions are impacting offline sales. Let's connect and find out how we can help you.</p>

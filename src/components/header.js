@@ -24,12 +24,12 @@ const Header = ({ siteTitle }) => (
 		  <div className="carousel-navigation is-overlay">
 		    <div className="carousel-nav-left">
 		      	<span className="icon">
-					<FaAngleLeft />
+					<FaAngleLeft className="icon-carousel" />
 				</span>
 		    </div>
 		    <div className="carousel-nav-right">
 		    	<span className="icon">
-					<FaAngleRight />
+					<FaAngleRight className="icon-carousel"/>
 				</span>
 		    </div>
 		  </div>

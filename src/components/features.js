@@ -9,7 +9,7 @@ const Features = () => (
 
 		<div>
 		<section className="section has-background-light" id="features">
-		<hr className="spacer is-4"></hr>
+
 		<div className="container ">
 		<h1 className="title has-text-centered-desktop"> Why Cashbac? </h1>
 			<br />
@@ -17,24 +17,24 @@ const Features = () => (
 			<div className="container">
 				<div className="columns is-multiline is-mobile is-tablet"> 
 					<div className="column is-12-mobile is-3-desktop is-6-tablet ">
-					  <article className="media box">
+					  <figure className="media box">
 							<div className="media-content">
-					   			<span className="icon">
-									<FiRepeat />
+					   			<span>
+									<FiRepeat className="icon-feature"/>
 								</span>
 								<div className="content">
 					   			<h5 className="title-feature">Instant Cashback</h5>
 									<p className="has-text-left">Your cashback rewards can immediately be used for your next transaction or saved for another time.</p>
 								</div>
 							</div>
-					  </article>
+					  </figure>
 					</div>
 
 					<div className="column is-12-mobile is-3-desktop is-6-tablet">
-					    <article className="media box">
+					    <figure className="media box">
 							<div className="media-content">
-								<span className="icon">
-									<FiClock />
+								<span>
+									<FiClock className="icon-feature"/>
 								</span>
 								<div className="content">
 					   				<h5 className="title-feature">No Expiry Period</h5>
@@ -43,14 +43,14 @@ const Features = () => (
 									</p>
 								</div>
 							</div>
-					    </article>
+					    </figure>
 					</div>
 
 					<div className="column is-12-mobile is-3-desktop is-6-tablet">
-					    <article className="media box">
+					    <figure className="media box">
 							<div className="media-content">
-					   			<span className="icon">
-									<FiXCircle />
+					   			<span>
+									<FiXCircle className="icon-feature"/>
 								</span>
 								<div className="content">
 					   				<h5 className="title-feature">No Need for Top-Ups</h5>
@@ -59,14 +59,14 @@ const Features = () => (
 									</p>
 								</div>
 							</div>
-						</article>
+						</figure>
 					</div>
 
 					<div className="column is-12-mobile is-3-desktop is-6-tablet">
-					    <article className="media box">
+					    <figure className="media box">
 							<div className="media-content">
-					   			<span className="icon">
-									<FiLock />
+					   			<span>
+									<FiLock className="icon-feature"/>
 									
 								</span>
 								<div className="content">
@@ -76,28 +76,28 @@ const Features = () => (
 									</p>
 								</div>
 							</div>
-						</article>
+						</figure>
 					</div>
 			
 					<div className="column is-12-mobile is-3-desktop is-6-tablet">
-					  <article className=" media box">
+					  <figure className=" media box">
 							<div className="media-content">
-								<span className="icon">
-									<FiCheckCircle />
+								<span>
+									<FiCheckCircle className="icon-feature"/>
 								</span>
 								<div className="content">
 					   			<h5 className="title-feature">Simple Transaction</h5>
 									<p className="has-text-left">Making a transaction and earning your rewards is as easy as tapping your phone to a beacon or scanning a QR code.</p>
 								</div>
 							</div>
-					  </article>
+					  </figure>
 					</div>
 
 					<div className="column is-12-mobile is-3-desktop is-6-tablet">
-					    <article className="media box">
+					    <figure className="media box">
 							<div className="media-content">
-								<span className="icon">
-									<FiPercent />
+								<span>
+									<FiPercent className="icon-feature"/>
 								</span>
 								<div className="content">
 					   				<h5 className="title-feature">The Best Promos Around You</h5>
@@ -106,14 +106,14 @@ const Features = () => (
 									</p>
 								</div>
 							</div>
-					    </article>
+					    </figure>
 					</div>
 
 					<div className="column is-12-mobile is-3-desktop is-6-tablet">
-					    <article className="media box">
+					    <figure className="media box">
 							<div className="media-content">
-								<span className="icon-feature">
-									<FiShoppingCart />
+								<span>
+									<FiShoppingCart className="icon-feature"/>
 								</span>
 								<div className="content">
 					   				<h5 className="title-feature">1000+ Merchants </h5>
@@ -122,14 +122,14 @@ const Features = () => (
 									</p>
 								</div>
 							</div>
-						</article>
+						</figure>
 					</div>
 
 					<div className="column is-12-mobile is-3-desktop is-6-tablet">
-					    <article className="media box">
+					    <figure className="media box">
 							<div className="media-content">
-					   			<span className="icon-feature">
-									<FiGift />
+					   			<span>
+									<FiGift className="icon-feature" />
 								</span>	
 								<div className="content">
 								<h5 className="title-feature">Multiple Rewards</h5>
@@ -138,7 +138,7 @@ const Features = () => (
 									</p>
 								</div>
 							</div>
-						</article>
+						</figure>
 					</div>
 					
 
@@ -146,7 +146,7 @@ const Features = () => (
 
 				</div>
 			</div>
-		<hr className="spacer is-4"></hr>
+
 		</section>
 
 	</div>
