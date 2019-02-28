@@ -1,0 +1,17 @@
+@import './variables.scss';
+
+html, body {
+  font: normal 14px/1.5 "Open Sans", Helvetica, Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: $cb-body-color;
+  cursor: auto;
+}
+
+p { color: $cb-body-color; }
+
+h1, h2, h3, h4, h5, h6, span, p { cursor: auto; }
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+}

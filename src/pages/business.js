@@ -1,13 +1,12 @@
 import React from 'react';
-import '../components/style.scss';
-import Layout from '../components/layout';
+// import Layout from '../components/layout';
 import Helmet from '../components/helmet';
 import Businessnavbar from '../components/businessnavbar';
 import Businesshero from '../components/businesshero';
 import Quotes from '../components/quotes';
 import Businessfeatures from '../components/businessfeatures';
 import Featuredmerchants from '../components/featuredmerchants';
-import Businessform from '../components/Businessform';
+import Businessform from '../components/businessform';
 import Footer from '../components/footer';
 
 const BusinessPage = ({ children }) => (

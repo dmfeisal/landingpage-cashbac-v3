@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.scss';
 import mcdLogo from '../images/merchants/mcdonalds.png';
 import dcostLogo from '../images/merchants/dcost.png';
 import shareteaLogo from '../images/merchants/sharetea.png';
@@ -22,42 +21,42 @@ const Featuredmerchants = () => (
 			
 			<br/>
 
-			<div className="container">
+			<div className="container has-text-centered-mobile">
 				<div className="tile is-ancestor">
 					<div className="tile is-parent ">
 					    <article className="tile is-child">
-					      <img src={mcdLogo} id="featured-logo"/>
+					      <img alt="Merchant Mc. Donald" src={mcdLogo} id="featured-logo"/>
 					    </article>
 					</div>
 					
 					<div className="tile is-parent">
 					    <article className="tile is-child">
-					      <img src={familymartLogo} id="featured-logo"/>
+					      <img alt="Merchant FamilyMart" src={familymartLogo} id="featured-logo"/>
 					    </article>
 					</div>
 
 					<div className="tile is-parent inline-block has-text-centered">
 					    <article className="tile is-child">
-					      <img src={shareteaLogo} id="featured-logo" />
+					      <img alt="Merchant Sharetea" src={shareteaLogo} id="featured-logo" />
 					    </article>
 					</div>
 
 
 					<div className="tile is-parent">
 					    <article className="tile is-child">
-					      <img  src={dcostLogo} id="featured-logo"/>
+					      <img alt="Merchant dCost" src={dcostLogo} id="featured-logo"/>
 					    </article>
 					</div>
 
 					<div className="tile is-parent ">
 					    <article className="tile is-child">
-					      <img src={kopikenanganLogo} id="featured-logo"/>
+					      <img alt="Merchant Kopi Kenangan" src={kopikenanganLogo} id="featured-logo"/>
 					    </article>
 					</div>
 
 					<div className="tile is-parent">
 					    <article className="tile is-child">
-					      <img  src={libericaLogo} id="featured-logo"/>
+					      <img alt="Merchant Liberica" src={libericaLogo} id="featured-logo"/>
 					    </article>
 					</div>
 				</div>

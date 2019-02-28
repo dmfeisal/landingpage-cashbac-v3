@@ -1,5 +1,5 @@
-import React from 'react';
-import './style.scss';
+import React, { Component } from 'react';
+// import merchant from '../data/merchant.json';
 import mcdLogo from '../images/merchants/mcd.svg';
 import dcostLogo from '../images/merchants/dcost.png';
 import erickayserLogo from '../images/merchants/Eric_Kayser.png';
@@ -9,7 +9,7 @@ import mamLogo from '../images/merchants/mam.svg';
 import osakaLogo from '../images/merchants/osaka.png';
 import lewiscarollLogo from '../images/merchants/lewiscaroll.png';
 import altitudeLogo from '../images/merchants/altitude.jpg';
-import enmaruLogo from '../images/merchants/enmaru.png';
+// import enmaruLogo from '../images/merchants/enmaru.png';
 import shabu2Logo from '../images/merchants/shabu2.png';
 import sweethutLogo from '../images/merchants/sweethut.png';
 import annawijayaLogo from '../images/merchants/annawijaya.svg';
@@ -26,171 +26,161 @@ import gaiaLogo from '../images/merchants/gaia.svg';
 import cloudLogo from '../images/merchants/cloud.svg';
 
 
-const Merchants = () => (
+class Merchants extends Component {
+	// listItem = listData => {
+  //   return listData.map((list, li) => (
+  //     <Col key={li} xs={12} sm={6} md={4}>
+  //       {list.map((l, ai) => (<p key={ai}><Link to={formatListItemLink(l.name, active)}>{l.name}</Link></p>))}
+  //     </Col>
+  //   ))
+	// }
+	
+	render() {
+		return (
 
-		<div>
-		<section className="section" id="merchants">
-			<div className="container">
-			
-					<h2 className="title has-text-centered-mobile">
-						Where You Can Use Cashbac
-					</h2>
-					<br />
-					<p className="subtitle has-text-centered-mobile">
-					You can use Cashbac to shop, earn, and be rewarded at popular restaurants, coffee shops, and stores 
-					</p>
-			
+			<div>
+				<section className="section has-background-light" id="merchants">
+				<hr className="spacer is-4"></hr>
+					<div className="container">
+							<h2 className="title has-text-centered-mobile">
+								Where You Can Use Cashbac
+							</h2>
+							<hr className="spacer is-0.5"></hr>
+							<p className="subtitle has-text-centered-mobile">
+							You can use Cashbac to shop, earn, and be rewarded at popular restaurants, coffee shops, and stores 
+							</p>
+							<hr className="spacer is-3"></hr>
+					</div>
+					<div className="container">
+							<div className="columns is-multiline is-mobile">
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+										<img alt="Merchant Cashbac Mcd" width="70px" src={mcdLogo}/>
+									</figure>
+								</div>
+
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+										<img alt="Merchant Cashbac" height="50px" src={dcostLogo}/>
+									</figure>
+								</div>
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+										<img alt="Merchant Cashbac" width="70px" src={erickayserLogo}/>
+									</figure>
+								</div>
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+										<img alt="Merchant Cashbac" width="70px" src={donburiLogo}/>
+									</figure>
+								</div>
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+										<img alt="Merchant Cashbac" width="70px" src={namnamLogo}/>
+									</figure>
+								</div>
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+										<img alt="Merchant Cashbac" width="100px" src={mamLogo}/>
+									</figure>
+								</div>
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+										<img alt="Merchant Cashbac" width="100px" src={osakaLogo}/>
+									</figure>
+								</div>
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+									<img alt="Merchant Cashbac" width="70px" src={lewiscarollLogo}/>
+									</figure>
+								</div>
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+										<img alt="Merchant Cashbac" width="100px" src={altitudeLogo}/>
+									</figure>
+								</div>
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+										<img alt="Merchant Cashbac" width="50px" src={shabu2Logo}/>
+									</figure>
+								</div>
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+										<img alt="Merchant Cashbac" width="100px" src={sweethutLogo}/>
+									</figure>
+								</div>
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+									<img alt="Merchant Cashbac" width="100px" src={annawijayaLogo}/>
+									</figure>
+								</div>
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+										<img alt="Merchant Cashbac" width="70px" src={luxeLogo}/>
+									</figure>
+								</div>
+								
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+										<img alt="Merchant Cashbac" width="70px" src={relaxlivingLogo}/>
+									</figure>
+								</div>
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+										<img alt="Merchant Cashbac" width="70px" src={realyogaLogo}/>
+									</figure>
+								</div>
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+										<img alt="Merchant Cashbac" width="70px" src={alegroLogo}/>
+									</figure>
+								</div>
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+										<img alt="Merchant Cashbac" width="70px" src={aromagelatoLogo}/>
+									</figure>
+								</div>
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+										<img alt="Merchant Cashbac" width="50px" src={ombekoffieLogo}/>			    
+									</figure>
+								</div>
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+										<img alt="Merchant Cashbac" width="70px" src={trafiqueLogo}/>
+									</figure>
+								</div>
+									<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+										<figure className="box">
+											<img alt="Merchant Cashbac" width="70px" src={bebekbengilLogo}/>
+										</figure>
+									</div>
+									<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+										<figure className="box">
+											<img alt="Merchant Cashbac" width="70px" src={illuaLogo}/>
+										</figure>
+									</div>
+									<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+										<figure className="box">
+											<img alt="Merchant Cashbac" width="60px" src={gaiaLogo}/>
+										</figure>
+									</div>
+									<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+										<figure className="box">
+											<img alt="Merchant Cashbac" width="70px" src={cloudLogo}/>
+										</figure>
+									</div>	
+							</div>
+
+							<br />
+							<p className="has-text-right has-text-centered-mobile">
+							We are adding new merchants every day! see the complete list in Cashbac App. <a href="#">Download here > </a>
+							</p>
+							</div>
+					<hr className="spacer is-4"></hr>
+				</section>
 			</div>
-			
-			<br/>
-
-			<div className="container">
-					 <div className="tile is-ancestor is-flex-mobile">
-					  <div className="tile is-parent ">
-					    <article className="tile is-child box">
-					      <img width="50px" src={mcdLogo}/>
-					    </article>
-					  </div>
-
-					  <div className="tile is-parent">
-					    <article className="tile is-child box">
-					      <img width="100px" height="50px" src={dcostLogo}/>
-					    </article>
-					  </div>
-					  <div className="tile is-parent">
-					    <article className="tile is-child box">
-					      <img width="50px" height="50px" src={erickayserLogo}/>
-					    </article>
-					  </div>
-					<div className="tile is-parent">
-					    <article className="tile is-child box">
-					      <img width="50px" src={donburiLogo}/>
-					    </article>
-					  </div>
-					  <div className="tile is-parent">
-					    <article className="tile is-child box">
-					      <img width="50px" src={namnamLogo}/>
-					    </article>
-					  </div>
-					</div>
-
-					<div className="tile is-ancestor is-flex-mobile">
-					  <div className="tile is-parent">
-					    <article className="tile is-child box">
-					      <img width="50px" src={mamLogo}/>
-
-					    </article>
-					  </div>
-					  <div className="tile is-parent">
-					    <article className="tile is-child box">
-					      <img width="50px" src={osakaLogo}/>
-					    </article>
-					  </div>
-					  <div className="tile is-parent">
-					    <article className="tile is-child box">
-					     <img width="50px" src={lewiscarollLogo}/>
-					    </article>
-					  </div>
-					  <div className="tile is-parent">
-					    <article className="tile is-child box">
-					     	<img width="50px" src={altitudeLogo}/>
-					    </article>
-					  </div>
-					</div>
-
-					 <div className="tile is-ancestor is-flex-mobile"> 
-					  <div className="tile is-parent">
-					    <article className="tile is-child box">
-					    	<img width="50px" src={shabu2Logo}/>
-					    </article>
-					  </div>
-					  <div className="tile is-parent">
-					    <article className="tile is-child box">
-					    	<img width="50px" src={sweethutLogo}/>
-					    </article>
-					  </div>
-					  <div className="tile is-parent">
-					    	<article className="tile is-child box">
-					    	<img width="50px" src={annawijayaLogo}/>
-					    	</article>
-					  	</div>
-					  	
-					  	
-					  	<div className="tile is-parent">
-					    	<article className="tile is-child box">
-					      	<img width="50px" src={luxeLogo}/>
-					    	</article>
-					  	</div>
-					  	
-					  	<div className="tile is-parent">
-					    <article className="tile is-child box">
-					     	<img width="50px" src={relaxlivingLogo}/>
-					    </article>
-					  	</div>
-					  </div>
-
-
-					 <div className="tile is-ancestor is-flex-mobile">  
-					  	<div className="tile is-parent">
-					    	<article className="tile is-child box">
-					      	<img width="50px" src={realyogaLogo}/>
-					    	</article>
-					    </div>
-					  	<div className="tile is-parent">
-					    	<article className="tile is-child box">
-					      	<img width="50px" src={alegroLogo}/>
-					    	</article>
-					  	</div>
-					  	<div className="tile is-parent">
-					    	<article className="tile is-child box">
-					      	<img width="50px" src={aromagelatoLogo}/>
-					    	</article>
-					  	</div>
-						<div className="tile is-parent">
-					    	<article className="tile is-child box">
-							<img width="50px" src={ombekoffieLogo}/>			    
-					    	</article>
-					  	</div>
-					  	<div className="tile is-parent">
-					    	<article className="tile is-child box">
-					      	<img width="50px" src={trafiqueLogo}/>
-					    	</article>
-					  	</div>
-					</div>
-					
-					  <div className="tile is-ancestor is-flex-mobile">
-
-					  	<div className="tile is-parent">
-					    	<article className="tile is-child box">
-					      	<img width="50px" src={bebekbengilLogo}/>
-					    	</article>
-					  	</div>
-					  	<div className="tile is-parent">
-					    	<article className="tile is-child box">
-					      	<img width="50px" src={illuaLogo}/>
-					    	</article>
-					  	</div>
-					  	<div className="tile is-parent">
-					    	<article className="tile is-child box">
-					      	<img width="50px" src={gaiaLogo}/>
-					    	</article>
-					  	</div>
-					  	<div className="tile is-parent">
-					    	<article className="tile is-child box">
-					      	<img width="50px" src={cloudLogo}/>
-					    	</article>
-					  	</div>
-					  </div>
-
-					<br />
-					<p className="has-text-right has-text-centered-mobile">
-					We are adding new merchants every day! see the complete list in Cashbac App. <a href="#">Download here > </a>
-					</p>
-					</div>
-			
-		</section>
-	</div>
-
-	);
-
+		)
+	}
+}
 export default Merchants;

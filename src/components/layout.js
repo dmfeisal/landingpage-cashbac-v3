@@ -1,14 +1,14 @@
 import React from 'react';
-import './style.scss';
 import Helmet from './helmet';
 import Navbar from './navbar';
 import Videos from './videos';
 import Header from './header';
-import Features from './features';
-import Workstab2 from './workstab2';
+import Features from '../components/features';
+import Workstab from './workstab';
 import Merchants from './merchants';
 import Downloadapp from './downloadapp';
 import Footer from './footer';
+
 
 const Layout = ({ children }) => (
 	<div>
@@ -16,9 +16,9 @@ const Layout = ({ children }) => (
 		<Navbar />
 		<Header />
 		<Features />
-		<Videos />
-		<Workstab2 />
+		<Workstab />
 		<Merchants />
+		<Videos />
 		<Downloadapp />
 		<Footer />
 	</div>

@@ -1,24 +1,14 @@
 import React from 'react';
-import '../components/style.scss';
-import Layout from '../components/layout';
 import Helmet from '../components/helmet';
-import Businessnavbar from '../components/businessnavbar';
-import Businesshero from '../components/businesshero';
-import Quotes from '../components/quotes';
-import Businessfeatures from '../components/businessfeatures';
-import Featuredmerchants from '../components/featuredmerchants';
-import Businessform from '../components/Businessform';
+import Navbar2 from '../components/navbar2';
 import Footer from '../components/footer';
+import Faqcomponent from '../components/faqcomponent';
 
 const BusinessPage = ({ children }) => (
 	<div>
 		<Helmet />
-		<Businessnavbar />
-		<Businesshero />
-		<Featuredmerchants />
-		<Businessfeatures />
-		<Quotes />
-		<Businessform />
+		<Navbar2 />
+		<Faqcomponent />
 		<Footer />
 	</div>
 );

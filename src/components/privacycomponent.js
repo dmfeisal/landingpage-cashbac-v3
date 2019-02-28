@@ -1,11 +1,10 @@
 import React from 'react';
-import './style.scss';
 
 const Privacycomponent = () => (
 
 	<section id="privacypage">
 	<div>
-		<hr className="spacer is-1"></hr>
+		<hr className="spacer is-5"></hr>
 		<div className="container">
 			<div>
 			

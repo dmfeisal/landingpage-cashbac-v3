@@ -1,39 +1,69 @@
 import React from 'react';
-import './style.scss';
-import 'bulma';
-import bulmaCarousel from '../../node_modules/bulma-carousel/dist/js/bulma-carousel.min.js';
+import { FaAngleLeft } from 'react-icons/fa';
+import { FaAngleRight } from 'react-icons/fa';
+
+// import bulmaCarousel from 'bulma-carousel'
 
 const Header = ({ siteTitle }) => (
 	<section>
-		<div className='carousel carousel-animated carousel-animate-slide' data-autoplay="true">
+
+{/* SLIDER ON DESKTOP VIEW*/}
+
+		<div className='carousel carousel-animated carousel-animate-slide is-hidden-mobile' data-autoplay="true">
 		  <div className='carousel-container'>
 		    <div className='carousel-item has-background is-active'>
-		      <img className="is-background" src="https://wikiki.github.io/images/merry-christmas.jpg" alt="" width="640" height="310" />
-		      <div className="title">Merry Christmas</div>
+		      <img className="is-background" src="https://i.postimg.cc/Fh1y0MtS/french-fries-banner-web.jpg" alt="Makan sampai Lupa Daratan #JanganDipikirin pasti dapat #cashbac" />
 		    </div>
 		    <div className='carousel-item has-background'>
-		      <img className="is-background" src="https://wikiki.github.io/images/singer.jpg" alt="" width="640" height="310" />
-		      <div className="title">Original Gift: Offer a song with <a href="https://lasongbox.com" target="_blank">La Song Box</a></div>
+		      <img className="is-background" src="https://i.postimg.cc/nn5v23ZP/credit-card-banner-web.jpg" alt="Pakai kartu yang mana aja #JanganDipikirin pasti dapat #cashbac" />
 		    </div>
 		    <div className='carousel-item has-background'>
-		      <img className="is-background" src="https://wikiki.github.io/images/sushi.jpg" alt="" width="640" height="310" />
-		      <div className="title">Sushi time</div>
-		    </div>
-		    <div className='carousel-item has-background'>
-		      <img className="is-background" src="https://wikiki.github.io/images/life.jpg" alt="" width="640" height="310" />
-		      <div className="title">Life</div>
+		      <img className="is-background" src="https://i.postimg.cc/8NZdJ1YD/hair-styles-banner-web.jpg" alt="Ganti rambut tiap hari #JanganDipikirn pasti dapat #cashbac" />
 		    </div>
 		  </div>
-		  <div className="carousel-navigation">
+		  <div className="carousel-navigation is-overlay">
 		    <div className="carousel-nav-left">
-		      <i className="fa fa-chevron-left" aria-hidden="true">kiri</i>
+		      	<span className="icon">
+					<FaAngleLeft />
+				</span>
 		    </div>
 		    <div className="carousel-nav-right">
-		      <i className="fa fa-chevron-right" aria-hidden="true">kanan</i>
+		    	<span className="icon">
+					<FaAngleRight />
+				</span>
+		    </div>
+		  </div>
+		</div>
+	
+	{/* SLIDER ON MOBILE VIEW*/}
+
+		<div className="carousel carousel-animated carousel-animate-slide is-hidden-desktop is-hidden-tablet" data-autoplay="true">
+		  <div className='carousel-container'>
+		    <div className='carousel-item has-background is-active'>
+		      <img className="is-background" src="https://i.postimg.cc/rMVCwdQQ/french-fries-banner-mobile.jpg" alt="Makan sampai Lupa Daratan #JanganDipikirin pasti dapat #cashbac" />
+		    </div>
+		    <div className='carousel-item has-background'>
+		      <img className="is-background" src="https://i.postimg.cc/Gr1x6gY0/credit-card-banner-mobile.jpg" alt="Pakai kartu yang mana aja #JanganDipikirin pasti dapat #cashbac" />
+		    </div>
+		    <div className='carousel-item has-background'>
+		      <img className="is-background" src="https://i.postimg.cc/TGqJxjqK/hair-styles-banner-mobile.jpg" alt="Ganti rambut tiap hari #JanganDipikirn pasti dapat #cashbac" />
+		    </div>
+		  </div>
+		  <div className="carousel-navigation is-overlay">
+		    <div className="carousel-nav-left">
+		      	<span className="icon">
+					<FaAngleLeft />
+				</span>
+		    </div>
+		    <div className="carousel-nav-right">
+		    	<span className="icon">
+					<FaAngleRight />
+				</span>
 		    </div>
 		  </div>
 		</div>
 	</section>
+
 
 );
 

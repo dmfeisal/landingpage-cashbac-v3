@@ -1,11 +1,10 @@
 import React from 'react';
-import './style.scss';
 
 const Termscomponent = () => (
 
 	<section id="termspage">
 	<div>
-		<hr className="spacer is-1"></hr>
+		<hr className="spacer is-5"></hr>
 		<div className="container">
 			<div>
 				<h2 className="title">SYARAT DAN KETENTUAN PENGGUNAAN CASHBAC</h2>

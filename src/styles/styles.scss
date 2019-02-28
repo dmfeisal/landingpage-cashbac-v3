@@ -1,10 +1,36 @@
 // Importing variables
-@import './variables.scss';
+@import './variables';
 
 // Importing Bulma from node_modules
 @import '~bulma/bulma.sass';
 @import 'bulma';
-@import '~bulma-carousel/dist/css/bulma-carousel.sass';
+@import '~bulma-carousel/dist/css/bulma-carousel';
+@import './fonts';
+@import './global';
+@import './carousel';
+
+
+.title {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: $cashbac-primary;
+
+}
+
+
+.navbar {
+	position: relative;
+	z-index: 2;
+
+	a {
+		color: $cashbac-primary;
+	}
+}
+
+.navbar-item {
+	font-weight: bold;
+	font-size: 12px;
+}
 
 #navbar-business {
 	a {
@@ -15,52 +41,42 @@
 	}
 }
 
-
-#navbar.section{	
-}
-
-	.navbar {
-		position: absolute;
-		padding-right: 20px;
-		padding-left: 40px;
-	a {
-		color: $cashbac-primary;
-		}
-	}
-	.navbar-item {
-		font-weight: bold;
-		font-size: 12px;
-
-	}
-
-#privacypage,#termspage {
+#privacypage,#termspage,#faqpage {
+	padding: 1.5rem 1.5rem;
 	ol {
 		margin-top: 10px;
 		margin-bottom: 10px;
 		li {
-		margin-left: 30px;
-		margin-top: 10px;
-		margin-bottom: 10px;
-		list-style-type: decimal;
+			margin-left: 30px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			list-style-type: decimal;
 		}
 	}
 
-.list-bullet {
-	list-style-type: square;
+	.list-bullet {
+		list-style-type: square;
+	}
+}
+
+	.faq {
+		color: $cashbac-primary;
+		font-weight: bold;
+		font-size: 18px;
 	}
 
-}
+
+
 #features.section {
 	background-color: white;
 	padding-top: 4rem;
-	padding-bottom: 8rem;
+	padding-bottom: 4rem;
 	h5 {
 		color: $cashbac-primary;
 	}
 	p {
 		font-size: 12px;
 	}
-
 }
 
 #business-features.section {
@@ -71,27 +87,38 @@
 	.is-4 {
 	margin-bottom: 5px;
 	}
-
 }
-
-
 
 #videos.section {
 	padding-top: 8rem;
 	padding-bottom: 4rem;
+}
 
+#videos {
+	.video-container {
+		overflow: hidden;
+		border-radius: 30px
+	}
 }
 
 #works.section {
 	padding-top: 4rem;
-	padding-bottom: 2rem;
+	padding-bottom: 4rem;
 
 }
 
-#merchants.section {
-	padding-top: 6rem;
-	padding-bottom: 4rem;
-
+#merchants {
+	figure {
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		height: 120px;
+	}
+	
+	.section {
+		padding-top: 6rem;
+		padding-bottom: 4rem;
+	}
 }
 
 #featured-merchants.section {
@@ -102,13 +129,16 @@
 	}
 }
 
-
 #featured-logo {
-	padding: 0px 0px 0px 0px;
+	padding: 5px 5px 5px 5px;
 }
 
-
 #quotes.section {
+	img {
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+	}
 	padding-top: 3rem;
 	padding-bottom: 6rem;
 }
@@ -121,11 +151,12 @@
 		box-shadow-size: 10px 10px 10px 10px;
 		border: 0;
 		padding: 3rem 3rem 3rem 3rem;
+	label {
+		text-align: left;
+
+		}
 	}
-
 }
-
-
 
 .gradientBg {
 	display: flex;
@@ -133,12 +164,11 @@
 }
 
 .hero {
-	display: flex;
 	width: 100;
 	height: 100%;
-	min-height: 650px;
+	min-height: 850px;
 	position: relative;
-	z-index: -1;
+	// z-index: -1;
 	background: url('../images/slider/cashbac-business-hero.png');
 	background-size: cover;
 }
@@ -146,15 +176,14 @@
 #hero-text {
 	.title{
 		color: white;
-		display: block;
-		width: 450px;
+		width: 550px;
 		word-wrap: break-all;
 		font-size: 60px;
 		margin-bottom: 30px;
 	}
 	.subtitle {
 		display: block;
-		width: 450px;
+		width: 550px;
 		word-wrap: break-all;
 		margin-bottom: 20px;
 		color: white;
@@ -164,17 +193,51 @@
 	padding-left: 50px;
 	padding-right: 50px;
 	position: absolute;
-	z-index: 0;
+	z-index: 1;
 	bottom: 0;
+	margin-bottom: 100px;
 }
-
-
 
 .center {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
+#hero-404 {
+	.title{
+		color: white;
+		font-size: 100px;
+		width: 450px;
+		word-wrap: break-all;
+		margin-bottom: 30px;
+	}
+	.subtitle {
+		display: block;
+		font-size: 40px;
+		width: 600px;
+		word-wrap: break-all;
+		margin-bottom: 20px;
+		color: white;
+	}
+	
+	color: white;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	position: absolute;
+	z-index: 0;
+
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
 
 .footer {
 	display: flex;
@@ -196,10 +259,9 @@
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 	border: 1px solid white;
 	border-radius: 5px;
-  	-webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  	transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+	-webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+	transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-
 
 .box::after {
   content: "";
@@ -222,7 +284,7 @@
 }
 
 .box:hover::after {
-    opacity: 1;
+  opacity: 1;
 }
 
 #logo-merchant {
@@ -234,21 +296,15 @@
 #icon-features {
 	width: 100px;
 	padding: 5px 5px 5px 5px;
+	margin: 0 auto;
 }
 
 .screens {
 	position: relative
 }
 
-@media screen and (max-width: 768px) {
-	.screens {
-		display: none
-	}
-}
-
 .screens .screen {
 	position: absolute;
-	margin-top: 60px;
 	left: 50%;
 	width: 60%;
 	height: 100%;
@@ -257,12 +313,6 @@
 	visibility: hidden;
 	transform: translateX(-50%);
 	transition: all 688ms ease
-}
-
-@media screen and (min-width: 1088px) {
-	.screens .screen {
-		max-width: 460px
-	}
 }
 
 .screens .screen img {
@@ -300,12 +350,6 @@
 	content: "";
 }
 
-@media screen and (max-width: 768px) {
-	.vertical-tabs:before {
-		background-color: $cashbac-primary;
-	}
-}
-
 .vertical-tabs .tab {
 	position: relative;
 	display: -ms-flexbox;
@@ -317,12 +361,6 @@
 	transition-duration: 86ms;
 	will-change: opacity;
 	transition-duration: 86ms
-}
-
-@media screen and (max-width: 768px) {
-	.vertical-tabs .tab {
-		opacity: 1
-	}
 }
 
 .vertical-tabs .tab:before {
@@ -514,3 +552,35 @@
 	background: rgba(142, 81, 199, 0.15)
 }
 
+
+
+// media screen 768
+@media screen and (max-width: 768px) {
+	.screens {
+		display: none
+	}
+
+	.vertical-tabs:before {
+		background-color: $cashbac-primary;
+	}
+
+	.vertical-tabs .tab {
+		opacity: 1;
+	}
+
+	#merchants .is-flex-mobile {
+		width: 100%;
+		flex-wrap: wrap;
+
+		.is-parent {
+			width: 30%;
+		}
+	}
+}
+
+// media query 1088px
+@media screen and (min-width: 1088px) {
+	.screens .screen {
+		max-width: 460px
+	}
+}

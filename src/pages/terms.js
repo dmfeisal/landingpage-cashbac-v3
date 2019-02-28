@@ -1,14 +1,13 @@
 import React from 'react';
-import '../components/style.scss';
 import Helmet from '../components/helmet';
-import Businessnavbar from '../components/businessnavbar';
-import Termscomponent from '../components/Termscomponent';
+import Navbar2 from '../components/navbar2';
+import Termscomponent from '../components/termscomponent';
 import Footer from '../components/footer';
 
 const TermsPage = ({ children }) => (
 	<div>
 		<Helmet />
-		<Businessnavbar />
+		<Navbar2 />
 		<Termscomponent />
 		<Footer />
 	</div>

@@ -8,9 +8,6 @@ import exploreMockup from '../images/mockup/explore@2x.png';
 import taptopayMockup from '../images/mockup/tap-to-pay@2x.png';
 import getcashbackMockup from '../images/mockup/get-cashback@2x.png';
 
-
-
-import './style.scss';
 import Emoji from './emoji';
 
 const Works = () => (
@@ -72,7 +69,7 @@ const Works = () => (
 
 								<figure className="media-top">
 									<span className="is-medium">
-										<img width="200px" src={signupMockup} />
+										<img alt="How to use Cashbac" width="200px" src={signupMockup} />
 									</span>
 								</figure>
 									<h1 className="title is-size-4 has-text-centered">DOWNLOAD AND SIGN UP</h1>
@@ -90,7 +87,7 @@ const Works = () => (
 								<div className="content">
 									<figure className="media-top">
 										<span className="is-medium">
-											<img width="200px" src={linkcardMockup} />
+											<img alt="How to use Cashbac" width="200px" src={linkcardMockup} />
 										</span>
 									</figure>
 									<h1 className="title is-size-4 has-text-centered">LINK YOUR CARD</h1>
@@ -107,7 +104,7 @@ const Works = () => (
 								<div className="content">
 									<figure className="media-top">
 										<span className="is-medium">
-											<img width="200px" src={exploreMockup} />
+											<img alt="How to use Cashbac" width="200px" src={exploreMockup} />
 										</span>
 									</figure>
 							
@@ -126,7 +123,7 @@ const Works = () => (
 								<div className="content">
 									<figure className="media-top">
 										<span className="is-medium">
-											<img width="200px" src={enterpinMockup} />
+											<img alt="How to use Cashbac" width="200px" src={enterpinMockup} />
 										</span>
 									</figure>
 									<h1 className="title is-size-4 has-text-centered">ENTER YOUR PIN</h1>
@@ -146,7 +143,7 @@ const Works = () => (
 								<div className="content">
 									<figure className="media-top">
 										<span className="is-medium">
-											<img width="200px" src={taptopayMockup} />
+											<img alt="How to use Cashbac" width="200px" src={taptopayMockup} />
 										</span>
 							</figure>
 									<h1 className="title is-size-4 has-text-centered">TAP TO PAY OR SCAN QR</h1>
@@ -163,7 +160,7 @@ const Works = () => (
 								<div className="content">
 									<figure className="media-top">
 										<span className="is-medium">
-											<img width="200px" src={getcashbackMockup} />
+											<img alt="How to use Cashbac" width="200px" src={getcashbackMockup} />
 										</span>
 									</figure>
 									<h1 className="title is-size-4 has-text-centered">GET INSTANT CASHBACK</h1>

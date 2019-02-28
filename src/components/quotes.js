@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.scss';
 import mcdLogo from '../images/merchants/mcd.svg';
 import dcostLogo from '../images/merchants/dcost.png';
 
@@ -23,7 +22,7 @@ const Quotes = () => (
 							<article className="media tile box">
 							    <div className="media-left" id="logo-merchant">
 							      <figure className="image">
-							        <img src={mcdLogo}/>
+							        <img alt="Merchant McD" src={mcdLogo}/>
 							      </figure>
 							    </div>
 							    <div className="media-content">
@@ -41,7 +40,7 @@ const Quotes = () => (
 							<article className="media tile box">
 							    <div className="media-left" id="logo-merchant">
 							      <figure className="image">
-							        <img src={dcostLogo}/>
+							        <img alt="Merchant McD" src={dcostLogo}/>
 							      </figure>
 							    </div>
 							    <div className="media-content">
