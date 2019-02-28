@@ -142,7 +142,7 @@ class Merchants extends Component {
 								</div>
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac" width="70px" src={ombekoffieLogo}/>			    
+										<img alt="Merchant Cashbac" width="50px" src={ombekoffieLogo}/>			    
 									</figure>
 								</div>
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
