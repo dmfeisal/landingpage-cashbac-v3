@@ -85,11 +85,12 @@ const toggleMenu = () => {
     // Add a click event on each of them
     $navbarBurgers.forEach( el => {
       el.addEventListener('click', () => {
-
+        console.log(el)
         // Get the target from the "data-target" attribute
         const target = el.dataset.target;
         const $target = document.getElementById(target);
-
+        console.log(target)
+        console.log($target)
         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
         el.classList.toggle('is-active');
         $target.classList.toggle('is-active');
@@ -119,8 +120,6 @@ export const onInitialClientRender = () => {
   if(window.bulmaCarousel && carouselContainer) {
     window.bulmaCarousel.attach();
   }
-  // run toggle menu 
-  toggleMenu();
 
   if (window.$ && formcontainer) {
     window.$("#mc-embedded-subscribe-form").validate()
@@ -128,21 +127,19 @@ export const onInitialClientRender = () => {
 }
 
 export const onRouteUpdate = ({ location, prevLocation }) => {
-   // check if class name or id available on that page
-   const carouselContainer = document.querySelector('.carousel.carousel-animate-slide')
-   const formcontainer = document.querySelector('#mc-embedded-subscribe-form')
-   // load script carousel
-   if(window.bulmaCarousel && carouselContainer) {
-     window.bulmaCarousel.attach();
-   }
-   // run toggle menu 
-   toggleMenu();
-   
-    if (formcontainer) {
-      mailchimpTag();
-    }
- 
-   if (window.$ && formcontainer) {
-     window.$("#mc-embedded-subscribe-form").validate()
-   }
+  // check if class name or id available on that page
+  const carouselContainer = document.querySelector('.carousel.carousel-animate-slide')
+  const formcontainer = document.querySelector('#mc-embedded-subscribe-form')
+  // load script carousel
+  if(window.bulmaCarousel && carouselContainer) {
+    window.bulmaCarousel.attach();
+  }
+  
+  if (formcontainer) {
+    mailchimpTag();
+  }
+
+  if (window.$ && formcontainer) {
+    window.$("#mc-embedded-subscribe-form").validate()
+  }
 }

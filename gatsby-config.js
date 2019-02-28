@@ -1,9 +1,7 @@
 require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`
 });
-
 const siteURL = `${process.env.CB_HOST}`
-console.log(siteURL, 'siteurl')
 
 module.exports = {
 	siteMetadata: {
