@@ -17,7 +17,7 @@ const Businesshero = ({ siteTitle }) => (
 				      		<p className="subtitle">Cashbac business is an online marketing platform to help you attract a new customer, drive more sales and give an impact on your business
 				      		</p>
 				      		<div className="button is-info is-rounded">
-					      		<Link to="#business-feature">
+					      		<Link to="business/#business-features">
 	            					Learn More
 					          	</Link>
 				      		</div>

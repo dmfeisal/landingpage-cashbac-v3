@@ -1,10 +1,9 @@
 import React from 'react';
 // import buttonGooglePlay from '../images/google_badge_en_get.svg';
 // import buttonAppStore from '../images/appstore_badge_en.svg';
-import funnelIcon from '../images/business/funnel-icon.png';
-import moneyIcon from '../images/business/money-icon.png';
-import screenIcon from '../images/business/screen-icon.png';
-import secureIcon from '../images/business/secure-icon.png';
+import { FaAngleRight, FaClock, FaSyncAlt, FaTimesCircle, FaLock, FaCheckDouble, FaPercentage, FaStoreAlt, FaGift } from 'react-icons/fa';
+import { FiGift, FiLock, FiXCircle, FiShoppingCart, FiPercent, FiRepeat, FiClock, FiCheckCircle } from 'react-icons/fi';
+
 
 const Features = () => (
 
@@ -16,13 +15,13 @@ const Features = () => (
 			<br />
 
 			<div className="container">
-				<div className="tile is-ancestor is-desktop">
-					<div className="tile is-parent ">
-					  <article className="media tile box">
+				<div className="columns is-multiline is-mobile is-tablet"> 
+					<div className="column is-12-mobile is-3-desktop is-6-tablet ">
+					  <article className="media box">
 							<div className="media-content">
-								{/*<figure className="image" id="icon-features">
-							    <img alt="Cashbac Features Dashboard" src={screenIcon}/>
-								</figure>*/}
+					   			<span className="icon">
+									<FiRepeat />
+								</span>
 								<div className="content">
 					   			<h5 className="title-feature">Instant Cashback</h5>
 									<p className="has-text-left">Your cashback rewards can immediately be used for your next transaction or saved for another time.</p>
@@ -31,10 +30,12 @@ const Features = () => (
 					  </article>
 					</div>
 
-					<div className="tile is-parent">
-					    <article className="media tile box">
+					<div className="column is-12-mobile is-3-desktop is-6-tablet">
+					    <article className="media box">
 							<div className="media-content">
-								
+								<span className="icon">
+									<FiClock />
+								</span>
 								<div className="content">
 					   				<h5 className="title-feature">No Expiry Period</h5>
 									<p className="has-text-left">
@@ -45,10 +46,12 @@ const Features = () => (
 					    </article>
 					</div>
 
-					<div className="tile is-parent">
-					    <article className="media tile box">
+					<div className="column is-12-mobile is-3-desktop is-6-tablet">
+					    <article className="media box">
 							<div className="media-content">
-								
+					   			<span className="icon">
+									<FiXCircle />
+								</span>
 								<div className="content">
 					   				<h5 className="title-feature">No Need for Top-Ups</h5>
 									<p className="has-text-left">
@@ -59,10 +62,13 @@ const Features = () => (
 						</article>
 					</div>
 
-					<div className="tile is-parent">
-					    <article className="media tile box">
+					<div className="column is-12-mobile is-3-desktop is-6-tablet">
+					    <article className="media box">
 							<div className="media-content">
-					   				
+					   			<span className="icon">
+									<FiLock />
+									
+								</span>
 								<div className="content">
 								<h5 className="title-feature">Highly Secure</h5>
 									<p className="has-text-left">
@@ -72,14 +78,13 @@ const Features = () => (
 							</div>
 						</article>
 					</div>
-					
-
-				</div>
-
-				<div className="tile is-ancestor is-desktop">
-					<div className="tile is-parent ">
-					  <article className=" media tile box">
+			
+					<div className="column is-12-mobile is-3-desktop is-6-tablet">
+					  <article className=" media box">
 							<div className="media-content">
+								<span className="icon">
+									<FiCheckCircle />
+								</span>
 								<div className="content">
 					   			<h5 className="title-feature">Simple Transaction</h5>
 									<p className="has-text-left">Making a transaction and earning your rewards is as easy as tapping your phone to a beacon or scanning a QR code.</p>
@@ -88,9 +93,12 @@ const Features = () => (
 					  </article>
 					</div>
 
-					<div className="tile is-parent">
-					    <article className="media tile box">
+					<div className="column is-12-mobile is-3-desktop is-6-tablet">
+					    <article className="media box">
 							<div className="media-content">
+								<span className="icon">
+									<FiPercent />
+								</span>
 								<div className="content">
 					   				<h5 className="title-feature">The Best Promos Around You</h5>
 									<p className="has-text-left">
@@ -101,10 +109,12 @@ const Features = () => (
 					    </article>
 					</div>
 
-					<div className="tile is-parent ">
-					    <article className="media tile box">
+					<div className="column is-12-mobile is-3-desktop is-6-tablet">
+					    <article className="media box">
 							<div className="media-content">
-								
+								<span className="icon-feature">
+									<FiShoppingCart />
+								</span>
 								<div className="content">
 					   				<h5 className="title-feature">1000+ Merchants </h5>
 									<p className="has-text-left">
@@ -115,10 +125,12 @@ const Features = () => (
 						</article>
 					</div>
 
-					<div className="tile is-parent">
-					    <article className="media tile box">
+					<div className="column is-12-mobile is-3-desktop is-6-tablet">
+					    <article className="media box">
 							<div className="media-content">
-					   				
+					   			<span className="icon-feature">
+									<FiGift />
+								</span>	
 								<div className="content">
 								<h5 className="title-feature">Multiple Rewards</h5>
 									<p className="has-text-left">
