@@ -128,6 +128,12 @@
 #works.section {
 	padding-top: 4rem;
 	padding-bottom: 4rem;
+	p.subtitle.is-6 {
+		line-height: 1.7;
+		}
+	h3.title.is-6 {
+		padding-bottom: 10px;
+	}
 
 }
 
@@ -218,6 +224,35 @@
 	background: linear-gradient(277deg, #63c7c5, #5c8cc9 75%, #6273b7);
 }
 
+#hero-homepage {
+	background: url('../images/slider/hero-cashbac-bg.jpg');
+	height: 100%;
+	min-height: 720px;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+  	background-repeat: no-repeat;
+
+  	.hero-title-homepage {
+  		color: white;
+		font-size: 70px;
+		margin-top: 170px;
+		width: 900px;
+		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+
+  	}
+
+	.hero-subtitle-homepage {
+  		color: white;
+		font-size: 20px;
+		margin-top: 30px;
+		width: 900px;
+		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  	}
+
+}
+
+
 .hero {
 	height: 100%;
 	min-height: 720px;
@@ -240,10 +275,10 @@
 }
 
 
-#business-hero-dektop {
+#business-hero-desktop {
 	margin-left: 120px;
 	button {
-	margin-left: 120px;
+		margin-left: 120px;
 	}
 
 }
@@ -342,7 +377,7 @@
 	}
 }
 
-.cashac-logo-footer {
+.cashbac-logo-footer {
 	height: 2rem;
 	margin-bottom: 0.5rem;
 }
@@ -363,9 +398,8 @@
 .box {
 	position: relative;
 	display: flex;
+	border: 0px solid #ffffff;
 	background-color: #fff;
-	border: 1px solid white;
-	border-radius: 5px;
 	-webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 	transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -373,6 +407,7 @@
 
 .box::after {
   content: "";
+  border: none;
   border-radius: 5px;
   position: absolute;
   z-index: -1;
@@ -452,7 +487,8 @@
 	-ms-flex-direction: column;
 	flex-direction: column;
 	padding-left: 2rem;
-	max-width: 520px
+	max-width: 520px;
+	line-height: 2.9;
 }
 
 .vertical-tabs:before {

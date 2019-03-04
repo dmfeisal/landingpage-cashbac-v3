@@ -11,23 +11,24 @@ const Footer = () => (
 		<div className="content container">
 			<hr className="spacer is-2"></hr>
 			<div className="columns is-multiline is-desktop">
-				<div className="column is-12-mobile is-6-desktop is-12-tablet">
+				<div className="column is-12-mobile is-4-desktop is-12-tablet">
 					<Link to="/" title="cashbac.com">
-		                <img className="cashac-logo-footer" src={cashbacLogoColor} alt="Cashbac App"  />
+		                <img className="cashbac-logo-footer" src={cashbacLogoColor} alt="Cashbac App"  />
 		            </Link>
 
 					<p>
-						Cashbac is a free mobile app that gives you instant cashback for every transaction at your favorite merchants. With its features, Cashbac sets you free from many hassles of getting promos like topping up balances and allows you to get rewarded for eating, shopping, and taking care of yourself whenever and wherever you are.
+						Cashbac is a free mobile app that gives you instant cashback for every transaction at your favorite merchants.
 					</p>
 					<a href="https://cashbac.onelink.me/1sXQ/homepage">
 					<img width="140Px" src={buttonGooglePlay} alt="Get On Google Play" />
 					</a>
 					&nbsp; &nbsp;
 					<a href="https://cashbac.onelink.me/1sXQ/homepage">
-					<img width="140px" src={buttonAppStore} alt="Get On App Store" />
+					<img width="140	px" src={buttonAppStore} alt="Get On App Store" />
 					</a>
 				</div>
-				<div className="column is-6-mobile is-2-desktop is-3-tablet">
+
+				<div className="column is-6-mobile is-1-desktop is-3-tablet">
 					<b>About </b>
 					<article>
 						<a href="https://www.linkedin.com/company/13423684/" title="Cashbac Company Page">Company</a>
@@ -75,7 +76,7 @@ const Footer = () => (
 			
 			<div className="columns is-size-8">
 				<div  className="column">
-					<p> &copy; 2019 PT GLobalPay Indonesia.
+					<p> &copy; 2019 PT GlobalPay Indonesia.
 						&nbsp; &nbsp; &nbsp;
 						<Link to="/terms">Terms and Condition</Link>
 						&nbsp; &nbsp; &nbsp; 

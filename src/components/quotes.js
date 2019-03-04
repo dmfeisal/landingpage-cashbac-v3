@@ -1,6 +1,5 @@
 import React from 'react';
 import mcdLogo from '../images/merchants/mcd.svg';
-import dcostLogo from '../images/merchants/dcost.png';
 
 const Quotes = () => (
 
