@@ -80,15 +80,15 @@
 
 
 #features.section {
+	background-color: white;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
 	figure {
 		justify-content: center;
 		align-items: top;
 		display: flex;
 		height: 190px;
 	}
-	background-color: white;
-	padding-top: 4rem;
-	padding-bottom: 4rem;
 	h5 {
 		color: $cashbac-primary;
 	}
@@ -104,7 +104,12 @@
 		display: block;
 		margin-top: 20px;
 	}
-	.is-4 {
+	figure {
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		min-height: 130px;
+		height: auto;
 	}
 }
 
@@ -149,15 +154,36 @@
 }
 
 #featured-logo {
-	padding: 2rem 2rem 2rem 2rem;
 }
 
 #quotes.section {
-	img {
-		margin-top: 10px;
-		margin-bottom: 10px;
+	p {
+		font-size: 17px;
+	}
+
+	h5 {
+		font-size: 18px;
+	}
+
+	figure {
+		justify-content: center;
+		align-items: top;
+		display: flex;
+		height: auto;
+		min-height: 170px;
+		.media .box {
+			padding-top: 2rem;
+			padding-bottom: 2rem;
+		}
 
 	}
+
+	img {
+		height: 120px;
+		width: 120px;
+
+	}
+	
 	padding-top: 3rem;
 	padding-bottom: 6rem;
 }
@@ -300,14 +326,39 @@
 	display: flex;
 	padding: 1.5rem 1.5rem;
 	line-height: 1.5rem;
+	article {
+	margin-top: 10px;
+	}
+	b {
+		color: $cashbac-primary;
+
+	}
+
 	a {
-		border-bottom: 1px solid;
 		color: black;
 	}
 	a:hover {
 		color: $cashbac-primary;
 	}
 }
+
+.cashac-logo-footer {
+	height: 2rem;
+	margin-bottom: 0.5rem;
+}
+
+.icon-footer {
+	height: 100%;
+	width: 1.5rem;
+	margin-right: 15px;
+	color: $cashbac-primary;
+}
+
+.icon-footer:hover {
+  -webkit-transform: scale(1.20, 1.20);
+  transform: scale(1.20, 1.20);
+}
+
 
 .box {
 	position: relative;

@@ -20,7 +20,7 @@ const BusinessFeatures = () => (
 					  <figure className="media box">
 							<div className="media-left">
 					   			<span>
-									<img className="business-icon-feature" alt="Cashbac Features screen" src={screenIcon} />
+									<img className="business-icon-feature" alt="Manage Your Own Campaign" src={screenIcon} />
 								</span>
 							</div>
 							<div className="media-content">
@@ -36,7 +36,7 @@ const BusinessFeatures = () => (
 					    <figure className="media box">
 							<div className="media-left" id="business-icon-feature">
 								<span>
-									<img className="business-icon-feature" alt="Cashbac Features Funnel" src={funnelIcon}/>
+									<img className="business-icon-feature" alt="User Funnel" src={funnelIcon}/>
 								</span>
 							</div>
 							<div className="media-content">
@@ -54,7 +54,7 @@ const BusinessFeatures = () => (
 					    <figure className="media box">
 							<div className="media-left">
 					   			<span>
-									<img className="media-left business-icon-feature" alt="Cashbac Features Money" src={moneyIcon}/>
+									<img className=" business-icon-feature" alt="Realtime Transaction" src={moneyIcon}/>
 								</span>
 							</div>
 							<div className="media-content">
@@ -72,7 +72,7 @@ const BusinessFeatures = () => (
 					    <figure className="media box">
 							<div className="media-left">
 					   			<span>
-									<img className="business-icon-feature" alt="Cashbac Features Secure" src={secureIcon}/>
+									<img className="business-icon-feature" alt="Secure Money" src={secureIcon}/>
 								</span>
 							</div>
 							<div className="media-content">
@@ -86,11 +86,7 @@ const BusinessFeatures = () => (
 						</figure>
 					</div>
 				</div>
-
-
-			
-
-	</div>
+			</div>
 
 		</section>
 	</div>

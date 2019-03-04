@@ -22,39 +22,39 @@ const Featuredmerchants = () => (
 			<br/>
 
 			<div className="container has-text-centered-mobile">
-				<div className="tile is-ancestor">
-					<div className="tile is-parent ">
+				<div className="tile columns is-multiline is-mobile is-tablet is-ancestor">
+					<div className="tile column is-6-mobile is-2-desktop is-2-table is-parent ">
 					    <article className="tile is-child">
 					      <img alt="Merchant Mc. Donald" src={mcdLogo} id="featured-logo"/>
 					    </article>
 					</div>
 					
-					<div className="tile is-parent">
+					<div className="tile column is-6-mobile is-2-desktop is-2-table is-parent">
 					    <article className="tile is-child">
 					      <img alt="Merchant FamilyMart" src={familymartLogo} id="featured-logo"/>
 					    </article>
 					</div>
 
-					<div className="tile is-parent inline-block has-text-centered">
+					<div className="tile column is-6-mobile is-2-desktop is-2-table is-parent inline-block has-text-centered">
 					    <article className="tile is-child">
 					      <img alt="Merchant Sharetea" src={shareteaLogo} id="featured-logo" />
 					    </article>
 					</div>
 
 
-					<div className="tile is-parent">
+					<div className="tile column is-6-mobile is-2-desktop is-2-table is-parent">
 					    <article className="tile is-child">
 					      <img alt="Merchant dCost" src={dcostLogo} id="featured-logo"/>
 					    </article>
 					</div>
 
-					<div className="tile is-parent ">
+					<div className="tile column is-6-mobile is-2-desktop is-2-table is-parent ">
 					    <article className="tile is-child">
 					      <img alt="Merchant Kopi Kenangan" src={kopikenanganLogo} id="featured-logo"/>
 					    </article>
 					</div>
 
-					<div className="tile is-parent">
+					<div className="tile column is-6-mobile is-2-desktop is-2-table is-parent">
 					    <article className="tile is-child">
 					      <img alt="Merchant Liberica" src={libericaLogo} id="featured-logo"/>
 					    </article>
