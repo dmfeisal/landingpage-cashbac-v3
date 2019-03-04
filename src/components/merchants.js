@@ -172,10 +172,6 @@ class Merchants extends Component {
 									</div>	
 							</div>
 
-							<br />
-							<p className="has-text-right has-text-centered-mobile">
-							We are adding new merchants every day! see the complete list in Cashbac App. <a href="#">Download here > </a>
-							</p>
 							</div>
 					<hr className="spacer is-4"></hr>
 				</section>
