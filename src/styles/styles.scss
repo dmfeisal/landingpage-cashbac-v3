@@ -253,6 +253,36 @@
 }
 
 
+#hero-homepage-mobile {
+	background: url('../images/slider/hero-cashbac-bg.jpg');
+	height: 100%;
+	min-height: 720px;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+  	background-repeat: no-repeat;
+
+  	.title {
+  		color: white;
+		font-size: 30px;
+		margin-top: 170px;
+		width: 100%;
+		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+
+
+  	}
+
+	.subtitle {
+  		color: white;
+		font-size: 20px;
+		margin-top: 30px;
+		width: 100%;
+		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  	}
+}
+
+
+
 .hero {
 	height: 100%;
 	min-height: 720px;
@@ -398,7 +428,7 @@
 .box {
 	position: relative;
 	display: flex;
-	border: 0px solid #ffffff;
+	border-style: none;
 	background-color: #fff;
 	-webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 	transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
