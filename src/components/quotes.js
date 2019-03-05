@@ -8,7 +8,7 @@ const Quotes = () => (
 			<div className="container">
 			
 					<h2 className="title has-text-centered-desktop has-text-centered-mobile has-text-centered-tablet ">
-						Here's what our Customers said</h2>
+						Here's what our Partners said</h2>
 			
 			</div>
 			

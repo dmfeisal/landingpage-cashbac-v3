@@ -16,7 +16,7 @@ const Features = () => (
 
 			<div className="container">
 				<div className="columns is-multiline is-mobile is-tablet"> 
-					<div className="column is-12-mobile is-3-desktop is-6-tablet ">
+					<div className="column is-12-mobile is-4-desktop is-6-tablet ">
 					  <figure className="media box">
 							<div className="media-content">
 					   			<span>
@@ -30,7 +30,7 @@ const Features = () => (
 					  </figure>
 					</div>
 
-					<div className="column is-12-mobile is-3-desktop is-6-tablet">
+					<div className="column is-12-mobile is-4-desktop is-6-tablet">
 					    <figure className="media box">
 							<div className="media-content">
 								<span>
@@ -46,7 +46,7 @@ const Features = () => (
 					    </figure>
 					</div>
 
-					<div className="column is-12-mobile is-3-desktop is-6-tablet">
+					<div className="column is-12-mobile is-4-desktop is-6-tablet">
 					    <figure className="media box">
 							<div className="media-content">
 					   			<span>
@@ -62,7 +62,7 @@ const Features = () => (
 						</figure>
 					</div>
 
-					<div className="column is-12-mobile is-3-desktop is-6-tablet">
+					<div className="column is-12-mobile is-4-desktop is-6-tablet">
 					    <figure className="media box">
 							<div className="media-content">
 					   			<span>
@@ -78,22 +78,8 @@ const Features = () => (
 							</div>
 						</figure>
 					</div>
-			
-					<div className="column is-12-mobile is-3-desktop is-6-tablet">
-					  <figure className=" media box">
-							<div className="media-content">
-								<span>
-									<FiCheckCircle className="icon-feature"/>
-								</span>
-								<div className="content">
-					   			<h5 className="title-feature">Simple Transaction</h5>
-									<p className="has-text-left">Making a transaction and earning your rewards is as easy as tapping your phone to a beacon or scanning a QR code.</p>
-								</div>
-							</div>
-					  </figure>
-					</div>
 
-					<div className="column is-12-mobile is-3-desktop is-6-tablet">
+					<div className="column is-12-mobile is-4-desktop is-6-tablet">
 					    <figure className="media box">
 							<div className="media-content">
 								<span>
@@ -109,23 +95,7 @@ const Features = () => (
 					    </figure>
 					</div>
 
-					<div className="column is-12-mobile is-3-desktop is-6-tablet">
-					    <figure className="media box">
-							<div className="media-content">
-								<span>
-									<FiShoppingCart className="icon-feature"/>
-								</span>
-								<div className="content">
-					   				<h5 className="title-feature">1000+ Merchants </h5>
-									<p className="has-text-left">
-									From cafes and restaurants to gyms, spas, and karaoke outlet - Cashbac has plenty of options for you to treat yourself
-									</p>
-								</div>
-							</div>
-						</figure>
-					</div>
-
-					<div className="column is-12-mobile is-3-desktop is-6-tablet">
+					<div className="column is-12-mobile is-4-desktop is-6-tablet">
 					    <figure className="media box">
 							<div className="media-content">
 					   			<span>

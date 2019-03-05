@@ -14,7 +14,7 @@ const Featuredmerchants = () => (
 			<div className="container">
 			
 					<h1 className="title has-text-centered-desktop has-text-centered-mobile has-text-centered-tablet">
-						OUR HAPPY MERCHANTS
+						Our Happy Merchants
 					</h1>
 			
 			</div>

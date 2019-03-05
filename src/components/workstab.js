@@ -32,7 +32,7 @@ class Workstab extends React.Component {
 								<div className="columns">
 									<div className="column is-6">
 										<div className="section-header">
-											<h2 className="title is-4 is-spaced">How Cashbac Works</h2>
+											<h1 className="title is-spaced">How Cashbac Works</h1>
 											<p className="subtitle is-6">With our simple and easy-to-use app, you can now enjoy instant cashback anywhere and anytime.</p>
 										<hr className="spacer is-1"></hr>
 										</div>
@@ -44,12 +44,16 @@ class Workstab extends React.Component {
 													<p className="subtitle is-6"> To enable Cashbac for transaction, add at least one of your credit cards or debit cards or e-wallet on Cashbac app. Don’t worry about security – Cashbac implements Secure 3D Process to protect all your card details. </p>
 												</a>
 												<a className="tab" data-anchor="step-explore" href="#" onClick={e => { this.handleStories(e) } } >
-													<h3 className="title is-6"> Explore and find the best deals! </h3>
+													<h3 className="title is-6"> Explore and Find the Best Deals! </h3>
 													<p className="subtitle is-6"> Cashbac automatically provides the best recommendations of restaurants, grocery stores, coffee shops, beauty clinics, and even karaoke places based on your interests and locations. </p>
 												</a>
 												<a className="tab" data-anchor="step-getcashback" href="#" onClick={e => { this.handleStories(e) } } >
 													<h3 className="title is-6"> Get Instant Cashback </h3>
 													<p className="subtitle is-6"> To make a transaction, just tap your mobile phone on our beacon device or scan the QR code printed on the bill. Get instant cashback that you can directly use for your next purchase! </p>
+												</a>
+												<a className="tab" data-anchor="step-referral" href="#" onClick={e => { this.handleStories(e) } } >
+													<h3 className="title is-6"> Share Your Referral Code for Extras </h3>
+													<p className="subtitle is-6"> Invite your friends to register for Cashbac with your referral code and receive the rewards. Your friends receive Rp50.000 the moment they register their credit card for the first time and you will receive Rp25.000 when they make their first transaction with Cashbac. </p>
 												</a>
 												
 											</div>
@@ -67,6 +71,9 @@ class Workstab extends React.Component {
 														<img role="presentation" src={finddealsMockup} />
 													</div>
 													<div className="screen" id="step-getcashback" href="#">
+														<img role="presentation" src={getcashbackMockup} />
+													</div>
+													<div className="screen" id="step-referral" href="#">
 														<img role="presentation" src={getcashbackMockup} />
 													</div>
 												</div>

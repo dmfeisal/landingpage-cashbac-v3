@@ -16,7 +16,7 @@ const Hero = ({ siteTitle }) => (
 	      		Easiest way to get instant cashback. Anytime. Anywhere.
 	      		</h1>
 	      		<p className="subtitle has-text-centered-mobile has-text-centered-mobile">
-	      		Cashbac is a free mobile app that gives you instant cashback for every transaction at your favorite merchants. With its features, Cashbac sets you free from many hassles of getting promos like topping up balances and allows you to get rewarded for eating, shopping, and taking care of yourself whenever and wherever you are.
+	      		Cashbac is a free mobile app that gives you instant cashback for every transaction at your favorite merchants, setting you free from many hassles in getting promos and rewarding yourself.
 	      		</p>
 	      		
 	      	</div>
@@ -25,15 +25,15 @@ const Hero = ({ siteTitle }) => (
 
 
 {/* DESKTOP AND TABLET HERO*/}
-	<section className="section is-hidden-mobile" id="hero-homepage">
+	<section className="section has-text-left-tablet has-text-left-desktop is-hidden-mobile" id="hero-homepage">
 		<div className="container center">
 			<div>
 	      		<div>
-	      		<h1 className="hero-title-homepage has-text-centered-desktop has-text-centered-tablet title">
+	      		<h1 className="hero-title-homepage has-text-left-tablet has-text-left-desktop title">
 	      		Easiest way to get instant cashback. Anytime. Anywhere.
 	      		</h1>
-	      		<p className="hero-subtitle-homepage has-text-centered-desktop has-text-centered-tablet subtitle">
-	      		Cashbac is a free mobile app that gives you instant cashback for every transaction at your favorite merchants. With its features, Cashbac sets you free from many hassles of getting promos like topping up balances and allows you to get rewarded for eating, shopping, and taking care of yourself whenever and wherever you are.
+	      		<p className="hero-subtitle-homepage has-text-left-tablet has-text-left-desktop has-text-centered-tablet subtitle">
+	      		Cashbac is a free mobile app that gives you instant cashback for every transaction at your favorite merchants, setting you free from many hassles in getting promos and rewarding yourself.
 	      		</p>
 	      		</div>
 	      	</div>

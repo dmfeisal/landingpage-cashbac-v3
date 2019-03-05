@@ -57,8 +57,8 @@ class Businessform extends Component {
 				{/*VIEW ON DESTOP AND TAB*/}
 				<div className="container column is-12-mobile has-text-centered box is-6 is-hidden-mobile">
 					<div className="has-text-centered-desktop">
-						<h1 className="title "> Love your business? </h1>
-						<p className="has-text-centered-desktop">Cashbac is helping business across the country understand how their digital promotions are impacting offline sales. Let's connect and find out how we can help you.</p>
+						<h1 className="title "> Ready to change how you grow your business? </h1>
+						<p className="has-text-centered-desktop">Tell us how we can reach you for more discussions on Cashbac and how we can help drive you forward.</p>
 					</div>
 					<br />
 					<div id="mc_embed_signup" style={{ StyleForm }}>
@@ -101,7 +101,7 @@ class Businessform extends Component {
 									<strong>Newsletter </strong>
 									<ul>
 										<li>
-											<input value="1" type="checkbox" name="group[3][1]" id="mce-group[3]-3-0" /><label htmlFor="mce-group[3]-3-0">Sign
+											<input value="1" type="checkbox" name="group[3][1]" id="mce-group[3]-3-0" /><label htmlFor="mce-group[3]-3-0"> Sign
 												up to receive our newsletter and exclusive resources.</label>
 										</li>
 									</ul>
@@ -114,17 +114,17 @@ class Businessform extends Component {
 									<input type="text" name="b_3f44c3c094349bbc733eb377c_89d454641c /" tabIndex="-1" />
 									</div>
 								<div className="clear">
-									<input type="submit" value="Join Us" name="subscribe" id="mc-embedded-subscribe" className="button is-rounded" />
+									<input type="submit" value="Let's Talk!" name="subscribe" id="mc-embedded-subscribe" className="button is-rounded" />
 								</div>
 							</div>
 						</form>
 					</div>
 					</div>
-					
+
 					<div className="container column is-12-mobile has-text-centered is-6 is-hidden-desktop is-hidden-tablet">
 					<div className="has-text-centered-desktop">
-						<h1 className="title "> Love your business? </h1>
-						<p className="has-text-centered-desktop">Cashbac is helping business across the country understand how their digital promotions are impacting offline sales. Let's connect and find out how we can help you.</p>
+						<h1 className="title "> Ready to change how you grow your business? </h1>
+						<p className="has-text-centered-desktop">Tell us how we can reach you for more discussions on Cashbac and how we can help drive you forward.</p>
 					</div>
 					<br />
 					<div id="mc_embed_signup" style={{ StyleForm }}>
@@ -167,7 +167,7 @@ class Businessform extends Component {
 									<strong>Newsletter </strong>
 									<ul>
 										<li>
-											<input value="1" type="checkbox" name="group[3][1]" id="mce-group[3]-3-0" /><label htmlFor="mce-group[3]-3-0">Sign
+											<input value="1" type="checkbox" name="group[3][1]" id="mce-group[3]-3-0" /><label htmlFor="mce-group[3]-3-0"> Sign
 												up to receive our newsletter and exclusive resources.</label>
 										</li>
 									</ul>
@@ -180,7 +180,7 @@ class Businessform extends Component {
 									<input type="text" name="b_3f44c3c094349bbc733eb377c_89d454641c /" tabIndex="-1" />
 									</div>
 								<div className="clear">
-									<input type="submit" value="Join Us" name="subscribe" id="mc-embedded-subscribe" className="button is-rounded" />
+									<input type="submit" value="Let's Talk!" name="subscribe" id="mc-embedded-subscribe" className="button is-rounded" />
 								</div>
 							</div>
 						</form>

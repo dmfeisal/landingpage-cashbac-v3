@@ -13,9 +13,10 @@ const Businesshero = ({ siteTitle }) => (
 		<div id="business-hero">
 			<div className="has-text-centered-mobile">
 	      		<h1 className="hero-text-title title has-text-centered-mobile">
-	      		It’s easy to drive your business
+	      		Grow your business with the ones who matter
 	      		</h1>
-	      		<p className="subtitle hero-text-subtitle has-text-centered-mobile">Cashbac business is an online marketing platform to help you attract a new customer, drive more sales and give an impact on your business
+	      		<p className="subtitle hero-text-subtitle has-text-centered-mobile">
+	      		Increase your traffic and reach all your business goals with the ones who matter most: your customers. From understanding and captivating them to making them stay - Cashbac Business helps you to do it all in an effortless way through an online marketing platform that changes how you interact with your customers. 
 	      		</p>
 	      		<div className="button is-info is-rounded cta-business-mobile">
 		      		<Link to="business/#business-features">
@@ -33,9 +34,10 @@ const Businesshero = ({ siteTitle }) => (
 			<div className="has-text-left-desktop has-text-left-tablet">
 	      		<div>
 	      		<h1 className="hero-text-title-desktop title">
-	      		It’s easy to drive your business
+	      		Grow your business with the ones who matter
 	      		</h1>
-	      		<p className="subtitle hero-text-subtitle-desktop">Cashbac business is an online marketing platform to help you attract a new customer, drive more sales and give an impact on your business
+	      		<p className="subtitle hero-text-subtitle-desktop">
+	      		Increase your traffic and reach all your business goals with the ones who matter most: your customers. From understanding and captivating them to making them stay - Cashbac Business helps you to do it all in an effortless way through an online marketing platform that changes how you interact with your customers. 
 	      		</p>
 		      		<div className="button is-info is-rounded cta-business">
 			      		<Link className="has-text-left-desktop" to="business/#business-features">
