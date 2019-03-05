@@ -31,7 +31,7 @@ const Businesshero = ({ siteTitle }) => (
 {/* DESKTOP AND TABLET HERO*/}
 	<section className="section hero is-hidden-mobile">
 		<div id="business-hero-desktop">
-			<div className="has-text-left-desktop has-text-left-tablet">
+			<div className=" container has-text-left-desktop has-text-left-tablet">
 	      		<div>
 	      		<h1 className="hero-text-title-desktop title">
 	      		Grow your business with the ones who matter

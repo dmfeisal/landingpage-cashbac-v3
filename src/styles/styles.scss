@@ -87,7 +87,7 @@
 		justify-content: center;
 		align-items: top;
 		display: flex;
-		height: 190px;
+		min-height: 210px;
 	}
 	h5 {
 		color: $cashbac-primary;
@@ -306,12 +306,6 @@
 
 
 #business-hero-desktop {
-	padding-left: 200px;
-	padding-right: 200px;
-	button {
-		margin-left: 120px;
-	}
-
 }
 
 .hero-text-title-desktop {
@@ -468,10 +462,9 @@
 
 
 .icon-feature {
-	height: 2rem;
-	width: 2rem;
+	height: 6rem;
+	width: 6rem;
 	margin-bottom: 5px;
-	color: $cashbac-primary;
 }
 
 .business-icon-feature {

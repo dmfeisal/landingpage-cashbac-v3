@@ -2,8 +2,13 @@ import React from 'react';
 // import buttonGooglePlay from '../images/google_badge_en_get.svg';
 // import buttonAppStore from '../images/appstore_badge_en.svg';
 // import { FaAngleRight, FaClock, FaSyncAlt, FaTimesCircle, FaLock, FaCheckDouble, FaPercentage, FaStoreAlt, FaGift } from 'react-icons/fa';
-import { FiGift, FiLock, FiXCircle, FiShoppingCart, FiPercent, FiRepeat, FiClock, FiCheckCircle } from 'react-icons/fi';
-
+// import { FiGift, FiLock, FiXCircle, FiShoppingCart, FiPercent, FiRepeat, FiClock, FiCheckCircle } from 'react-icons/fi';
+import highlysecureIcon from '../images/icon/highly-secure-icon.png';
+import instantcashbackIcon from '../images/icon/instant-cashback-icon.png';
+import noexpiryIcon from '../images/icon/no-expiry-period-icon.png';
+import rewardsIcon from '../images/icon/multiple-rewards-icon.png';
+import topupsIcon from '../images/icon/no-need-for-top-ups-icon.png';
+import promoIcon from '../images/icon/the-best-promo-around-you-icon.png';
 
 const Features = () => (
 
@@ -20,7 +25,7 @@ const Features = () => (
 					  <figure className="media box">
 							<div className="media-content">
 					   			<span>
-									<FiRepeat className="icon-feature"/>
+									<img src={instantcashbackIcon} alt="Instant Cashback" className="icon-feature"/>
 								</span>
 								<div className="content">
 					   			<h5 className="title-feature">Instant Cashback</h5>
@@ -34,7 +39,7 @@ const Features = () => (
 					    <figure className="media box">
 							<div className="media-content">
 								<span>
-									<FiClock className="icon-feature"/>
+									<img src={noexpiryIcon} alt="No Expiry Period" className="icon-feature"/>
 								</span>
 								<div className="content">
 					   				<h5 className="title-feature">No Expiry Period</h5>
@@ -50,12 +55,12 @@ const Features = () => (
 					    <figure className="media box">
 							<div className="media-content">
 					   			<span>
-									<FiXCircle className="icon-feature"/>
+									<img src={topupsIcon} alt="No Needs for Top-Ups" className="icon-feature"/>
 								</span>
 								<div className="content">
 					   				<h5 className="title-feature">No Need for Top-Ups</h5>
 									<p className="has-text-left">
-									Simply connect your credit card/debit card/e-wallet to make transactions and collect rewards.
+									Simply connect your credit card, debit card or e-wallet to make transactions and collect rewards
 									</p>
 								</div>
 							</div>
@@ -66,13 +71,13 @@ const Features = () => (
 					    <figure className="media box">
 							<div className="media-content">
 					   			<span>
-									<FiLock className="icon-feature"/>
+									<img src={highlysecureIcon} alt="Highly Secure" className="icon-feature"/>
 									
 								</span>
 								<div className="content">
 								<h5 className="title-feature">Highly Secure</h5>
 									<p className="has-text-left">
-									Cashbac implements Secure 3D Process, adheres to PCI DSS Compliant rules, and requires a PIN for every transaction. It is not your wallet - it is as safe as your bank.
+									Cashbac implements procedures to keep your data safe and requires you to enter a PIN for every transaction.
 									</p>
 								</div>
 							</div>
@@ -83,7 +88,7 @@ const Features = () => (
 					    <figure className="media box">
 							<div className="media-content">
 								<span>
-									<FiPercent className="icon-feature"/>
+									<img src={promoIcon} alt="The Best Promos Around You" className="icon-feature"/>
 								</span>
 								<div className="content">
 					   				<h5 className="title-feature">The Best Promos Around You</h5>
@@ -99,12 +104,12 @@ const Features = () => (
 					    <figure className="media box">
 							<div className="media-content">
 					   			<span>
-									<FiGift className="icon-feature" />
+									<img src={rewardsIcon} alt="Multiple Rewards" className="icon-feature" />
 								</span>	
 								<div className="content">
 								<h5 className="title-feature">Multiple Rewards</h5>
 									<p className="has-text-left">
-									Multiply your cashback rewards for each transaction by simply connecting one of the credit cards from our bank partners to the app.
+									Multiply your cashback rewards by simply connecting one of the credit cards from our bank partners to the app.
 									</p>
 								</div>
 							</div>
