@@ -41,7 +41,7 @@ export default class HTML extends React.Component {
           <meta name="apple-mobile-web-app-status-bar-style" content=" #26ADE4" />
           <meta name="theme-color" content=" #26ADE4" />
           
-          <link href="http://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css" as="style"></link>
+          <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css" as="style"></link>
 
           {this.props.headComponents}
         </head>

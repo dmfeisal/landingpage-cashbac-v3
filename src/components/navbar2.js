@@ -18,14 +18,14 @@ const Navbar2 = () => (
         </div>
         <div id="cb-navbar" className="navbar-menu are-small">
           <div className="navbar-end">
-            <div className="navbar-item is-tab">
-                <a className="navbar-item" href="https://cashbac.com/blog/" target="_blank">
+            <div className="navbar-item">
+                <a className="navbar-item" href="https://cashbac.com/blog/" target="_blank" rel="noopener noreferrer">
                   BLOG
                 </a>
             </div>
             <div className="navbar-item">
               <div className="buttons">
-                    <Link className="button is-info is-small is-rounded" to="/business" target="_blank">
+                    <Link className="button is-info is-small is-rounded" to="/business">
                       CASHBAC FOR BUSINESS
                     </Link>
               </div>

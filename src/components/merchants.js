@@ -43,7 +43,7 @@ class Merchants extends Component {
 				<hr className="spacer is-4"></hr>
 					<div className="container">
 							<h2 className="title has-text-centered-mobile">
-								Where You Can Use Cashbac
+								Accepted at over 1000 merchants
 							</h2>
 							<hr className="spacer is-0.5"></hr>
 							<p className="subtitle has-text-centered-mobile">
@@ -172,10 +172,6 @@ class Merchants extends Component {
 									</div>	
 							</div>
 
-							<br />
-							<p className="has-text-right has-text-centered-mobile">
-							We are adding new merchants every day! see the complete list in Cashbac App. <a href="#">Download here > </a>
-							</p>
 							</div>
 					<hr className="spacer is-4"></hr>
 				</section>

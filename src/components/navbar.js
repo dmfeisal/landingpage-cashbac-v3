@@ -30,17 +30,17 @@ class Navbar extends React.Component {
             </div>
             <div id="cb-navbar" className="navbar-menu are-small">
               <div className="navbar-end">
-                <div className="navbar-item is-tab">
+                <div className="navbar-item">
                     <a className="navbar-item" href="/#works">
                       HOW IT WORKS
                     </a>
                 </div>
-                <div className="navbar-item is-tab">
+                <div className="navbar-item">
                   <a className="navbar-item" href="/#merchants">
                     MERCHANTS
                   </a>
                   </div>
-                <div className="navbar-item is-tab">
+                <div className="navbar-item">
                     <a className="navbar-item" href="https://cashbac.com/blog/" target="_blank">
                       BLOG
                     </a>

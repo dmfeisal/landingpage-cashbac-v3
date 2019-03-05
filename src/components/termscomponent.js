@@ -31,7 +31,7 @@ const Termscomponent = () => (
 					</li>
 					<li>Registrasi User dilakukan dengan melakukan pendaftaran oleh User
 								pertama kali di Aplikasi CASHBAC, yaitu dengan mekanisme sebagai berikut :
-								<ol className="list-bullet">
+								<ol className="list-pointer">
 									<li>Sebelum menggunakan layanan CASHBAC, (calon) User wajib mengunduh Aplikasi
 										CASHBAC melalui Smartphone melalui AppleStore (untuk iOS) atau GooglePlay (untuk
 										Android) dan menginstalnya terlebih dahulu.
@@ -57,7 +57,7 @@ const Termscomponent = () => (
 							</li>
 							<li>Registrasi Metode Pembayaran wajib dilakukan sebelum User
 								melakukan Transaksi, yaitu dengan mekanisme sebagai berikut :
-								<ol>
+								<ol className="list-pointer">
 									<li>Dilakukan melalui menu yang tersedia pada Aplikasi CASHBAC sesuai dengan Metode
 										Pembayaran yang tersedia. Metode Pembayaran adalah kartu kredit, kartu debit,
 										uang elektronik atau alat pembayaran lainnya yang didaftarkan pada sistem
@@ -77,7 +77,7 @@ const Termscomponent = () => (
 							</li>
 							<li>User wajib memiliki Password dan PIN, yaitu dengan mekanisme
 								sebagai berikut :
-								<ol>
+								<ol className="list-pointer">
 									<li>Password diperlukan untuk mengakses Aplikasi CASHBAC dan PIN diperlukan untuk
 										memvalidasi keabsahan User sekaligus sebagai sarana pengaksepan dan konfirmasi
 										User pada saat User melakukan Transaksi.
@@ -108,7 +108,7 @@ const Termscomponent = () => (
 								Merchant dapat dilakukan dalam waktu singkat (“AutoTransaksi”).
 							</li>
 							<li>AutoTransaksi dilakukan dengan mekanisme sebagai berikut :
-								<ol>
+								<ol className="list-pointer">
 									<li>User memilih Metode Pembayaran dan/atau saldo Cashback yang akan digunakan untuk
 										Transaksi (“Rekening Pembayaran”) pada Aplikasi CASHBAC sesuai dengan Metode
 										Pembayaran yang telah di registrasi sehingga selanjutnya Transaksi dapat
@@ -146,10 +146,10 @@ const Termscomponent = () => (
 							</li>
 							<li>Dalam hal terjadinya Gagal AutoTransaksi akan berakibat hal hal
 								sebagai berikut :
-								<ol>
+								<ol className="list-pointer">
 									<li>Merchant tidak dapat memberikan serah terima barang
 										dan/atau jasa, karena :
-										<ol>
+										<ol className="list-pointer">
 											<li>Adanya pembatalan Transaksi dari User pada Aplikasi CASHBAC.</li>
 											<li>Adanya penolakan dari pihak Penerbit atau Pihak Mitra Payment Processor
 												karena verifikasi atau otorisasi tidak berhasil. Terhadap kondisi ini
@@ -160,7 +160,7 @@ const Termscomponent = () => (
 									<li>Merchant dapat memberikan serah terima barang dan/atau
 										jasa dengan ketentuan User akan melakukan pembayaran kembali atas Transaksi yang
 										Gagal AutoTransaksi melalui Aplikasi CASHBAC :
-										<ol>
+										<ol className="list-pointer">
 											<li>User mengikuti arahan yang ditampilkan Aplikasi CASHBAC antara lain
 												dengan memilih Rekening Pembayaran dan mengkonfirmasikannya dengan
 												memasukkan PIN hingga status menjadi Sukses AutoTransaksi. Terhadap
@@ -181,7 +181,7 @@ const Termscomponent = () => (
 							</li>
 							<li>Akun CASHBAC milik User akan selalu aktif selama :
 								
-								<ol>
+								<ol className="list-pointer">
 									<li>(i) tidak ditutup secara permanen oleh User; atau (ii) tidak ditutup berdasarkan
 										kebijaksanaan DMG.
 									</li>
@@ -213,7 +213,7 @@ const Termscomponent = () => (
 								Center DMG di nomor 0888-1100-888 atau melalui email ke help@cashbac.com. User juga
 								dapat melihat informasi dan program terkini mengenai layanan CASHBAC secara langsung
 								pada Aplikasi CASHBAC atau via website di www.cashbac.com.
-								<ol>
+								<ol className="list-pointer">
 									<li>DMG tidak bertanggung jawab apapun atas keluhan User atas bentuk, tipe dan
 										kualitas barang dan/atau jasa yang dibeli oleh User di Merchant CASHBAC melalui
 										Aplikasi CASHBAC termasuk namun tidak terbatas pada kualitas layanan dan
@@ -235,12 +235,12 @@ const Termscomponent = () => (
 							</li>
 							<li>Penghentian layanan CASHBAC dapat dimungkinkan dalam hal sebagai
 								berikut :
-								<ol>
+								<ol className="list-pointer">
 									<li>DMG berhak untuk menghentikan sementara atau permanen
 										layanan CASHBAC bagi User, termasuk pemblokiran akses ke Aplikasi CASHBAC,
 										pemblokiran akun CASHBAC, dan lain sebagainya, apabila salah satu atau beberapa
 										hal di bawah ini berlaku:
-										<ol>
+										<ol className="list-pointer">
 											<li>User terindikasi atau terbukti melanggar Syarat dan Ketentuan Penggunaan
 												CASHBAC.
 											</li>
@@ -264,7 +264,7 @@ const Termscomponent = () => (
 							</li>
 							<li>Keamanan dan kerahasiaan Aplikasi CASHBAC milik User diuraikan
 								sebagaimana berikut :
-								<ol>
+								<ol className="list-pointer">
 									<li>User wajib menyimpan dan menjaga Smartphone miliknya dan sangat disarankan untuk
 										menggunakan sandi khusus untuk mengakses Smartphone milik User tersebut. DMG
 										tidak bertanggung jawab atas kerusakan atau kehilangan Smartphone milik User
@@ -314,7 +314,7 @@ const Termscomponent = () => (
 								CASHBAC yang dilakukan oleh pihak manapun tanpa sepengetahuan User.
 							</li>
 							<li>Gangguan teknis pada layanan CASHBAC, dijelaskan sebagai berikut:
-								<ol>
+								<ol className="list-pointer">
 									<li>Dalam hal terjadi gangguan teknis pada jaringan (network) yang terhubung dengan
 										sistem CASHBAC atau sedang dilakukannya peningkatan, perubahan, perbaikan dan
 										atau pemeliharaan jaringan (network) dan/atau sistem CASHBAC yang mengakibatkan
@@ -349,7 +349,7 @@ const Termscomponent = () => (
 							</li>
 							<li>Sehubungan dengan penggunaan Aplikasi CASHBAC, maka dengan ini
 								User memberikan pernyataan dan jaminan sebagai berikut :
-								<ol>
+								<ol className="list-pointer">
 									<li>Telah membaca, mengerti, dan menyetujui seluruh isi Syarat dan Ketentuan
 										Penggunaan CASHBAC ini termasuk pengkiniannya serta syarat dan ketentuan lainnya
 										yang dikeluarkan oleh DMG, Penerbit atau Mitra Payment Prosesor, Merchant
@@ -424,43 +424,43 @@ const Termscomponent = () => (
 
 						<h2 className="title">TERMINOLOGI</h2>
 						<ol>
-							<li>Beacon adalah suatu alat atau perangkat sensor yang menggunakan teknologi Bluetooth low
+							<li><strong>Beacon</strong> adalah suatu alat atau perangkat sensor yang menggunakan teknologi Bluetooth low
 								energy dalam berkomunikasi.
 							</li>
-							<li>Bluetooth adalah koneksi jaringan pribadi tanpa kabel yang menghubungkan Smartphone
+							<li><strong>Bluetooth</strong> adalah koneksi jaringan pribadi tanpa kabel yang menghubungkan Smartphone
 								dengan Perangkat Elektronik pada saat Transaksi dilakukan.
 							</li>
-							<li>Email adalah electronic mail atau surat elektronik.</li>
+							<li><strong>Email</strong> adalah electronic mail atau surat elektronik.</li>
 							<li>Hari Kerja adalah hari kerja resmi dari Senin hingga Jum’at selain hari libur nasional
 								di wilayah Republik Indonesia.
 							</li>
-							<li>MDN adalah singkatan dari Mobile Device Number yaitu atau nomor telepon selular
+							<li><strong>MDN</strong> adalah singkatan dari Mobile Device Number yaitu atau nomor telepon selular
 								(handphone/mobile phone) milik User yang didaftarkan dalam sistem CashBac pada saat
 								proses Registrasi User dilakukan.
 							</li>
-							<li>Mitra Payment Processor adalah pihak yang menjalin kerjasama dan terkoneksi dengan DMG
+							<li><strong>Mitra Payment Processor</strong> adalah pihak yang menjalin kerjasama dan terkoneksi dengan DMG
 								dalam hal pemrosesan Metode Pembayaran pada saat Transaksi.
 							</li>
-							<li>Password adalah kode sandi rahasia milik User yang didaftarkan dalam sistem CASHBAC agar
+							<li><strong>Password</strong> adalah kode sandi rahasia milik User yang didaftarkan dalam sistem CASHBAC agar
 								User dapat mengakses Aplikasi CASHBAC.
 							</li>
-							<li>PIN adalah singkatan dari Personal Identification Number yang merupakan nomor sandi
+							<li><strong>PIN</strong> adalah singkatan dari Personal Identification Number yang merupakan nomor sandi
 								pribadi milik User (6 digit numeric) yang didaftarkan pada sistem CASHBAC dan digunakan
 								untuk melakukan Transaksi.
 							</li>
-							<li>Penerbit adalah pihak penyedia jasa keuangan yang menerbitkan Metode Pembayaran.</li>
-							<li>Perangkat Elektronik adalah suatu perangkat elektronik (antara lain berupa Beacon) yang
+							<li><strong>Penerbit</strong> adalah pihak penyedia jasa keuangan yang menerbitkan Metode Pembayaran.</li>
+							<li><strong>Perangkat Elektronik</strong> adalah suatu perangkat elektronik (antara lain berupa Beacon) yang
 								tersedia di kasir Merchant CASHBAC dan digunakan sebagai sarana penerimaan Transaksi.
 							</li>
-							<li>Prinsipal adalah penyelenggara jaringan pembayaran kartu kredit maupun kartu debet
+							<li><strong>Prinsipal</strong> adalah penyelenggara jaringan pembayaran kartu kredit maupun kartu debet
 								antara lain seperti Visa, MasterCard, JCB, Union Pay dan lain sebagainya yang memiliki
 								kerjasama dengan anggotanya seperti Penerbit, pihak acquiring maupun pihak lainnya
 								seperti Mitra Payment Processor.
 							</li>
-							<li>Program CASHBAC adalah program promosi yang ditawarkan oleh DMG kepada User yang mana
+							<li><strong>Program CASHBAC</strong> adalah program promosi yang ditawarkan oleh DMG kepada User yang mana
 								User dapat menikmati promosi tersebut pada Merchant CASHBAC.
 							</li>
-							<li>Smartphone adalah telepon genggam pintar berbasis sistem operasi iOS atau Android yang
+							<li><strong>Smartphone</strong> adalah telepon genggam pintar berbasis sistem operasi iOS atau Android yang
 								digunakan oleh User untuk mengunduh, menginstal dan menggunakan Aplikasi CASHBAC.
 							</li>
 

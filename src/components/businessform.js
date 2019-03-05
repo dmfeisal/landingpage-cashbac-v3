@@ -53,12 +53,12 @@ class Businessform extends Component {
 	
 	render() {
 		return (
-			<section className="section has-text-centered has-background-light" id="businessform">
+			<section className="section columns has-text-centered has-background-light" id="businessform">
 				{/*VIEW ON DESTOP AND TAB*/}
-				<div className="container box is-6">
+				<div className="container column is-12-mobile has-text-centered box is-6 is-hidden-mobile">
 					<div className="has-text-centered-desktop">
-						<h1 className="title "> Love your business? </h1>
-						<p className="has-text-centered-desktop">Cashbac is helping business across the country understand how their digital promotions are impacting offline sales. Let's connect and find out how we can help you.</p>
+						<h1 className="title "> Ready to change how you grow your business? </h1>
+						<p className="has-text-centered-desktop">Tell us how we can reach you for more discussions on Cashbac and how we can help drive you forward.</p>
 					</div>
 					<br />
 					<div id="mc_embed_signup" style={{ StyleForm }}>
@@ -101,12 +101,12 @@ class Businessform extends Component {
 									<strong>Newsletter </strong>
 									<ul>
 										<li>
-											<input value="1" type="checkbox" name="group[3][1]" id="mce-group[3]-3-0" /><label htmlFor="mce-group[3]-3-0">Sign
+											<input value="1" type="checkbox" name="group[3][1]" id="mce-group[3]-3-0" /><label htmlFor="mce-group[3]-3-0"> Sign
 												up to receive our newsletter and exclusive resources.</label>
 										</li>
 									</ul>
 								</div>
-								<div id="mce-responses" className="clear">
+								<div id="mce-responses" className="clear ">
 									<div className="response" id="mce-error-response" style={{ 'display':'none' }}></div>
 									<div className="response" id="mce-success-response" style={{ 'display':'none' }}></div>
 								</div>
@@ -114,7 +114,73 @@ class Businessform extends Component {
 									<input type="text" name="b_3f44c3c094349bbc733eb377c_89d454641c /" tabIndex="-1" />
 									</div>
 								<div className="clear">
-									<input type="submit" value="Join Us" name="subscribe" id="mc-embedded-subscribe" className="button" />
+									<input type="submit" value="Let's Talk!" name="subscribe" id="mc-embedded-subscribe" className="button is-rounded" />
+								</div>
+							</div>
+						</form>
+					</div>
+					</div>
+
+					<div className="container column is-12-mobile has-text-centered is-6 is-hidden-desktop is-hidden-tablet">
+					<div className="has-text-centered-desktop">
+						<h1 className="title "> Ready to change how you grow your business? </h1>
+						<p className="has-text-centered-desktop">Tell us how we can reach you for more discussions on Cashbac and how we can help drive you forward.</p>
+					</div>
+					<br />
+					<div id="mc_embed_signup" style={{ StyleForm }}>
+						<form onSubmit={this.handleSubmit} action="https://cashbac.us17.list-manage.com/subscribe/post?u=3f44c3c094349bbc733eb377c&amp;id=89d454641c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
+							<div id="mc_embed_signup_scroll">
+								<div className="indicates-required"><span className="asterisk">*</span> indicates required</div>
+								<div className="mc-field-group">
+									<label htmlFor="mce-FNAME">First Name <span className="asterisk">*</span>
+									</label>
+									<input value={this.state.FNAME} onChange={this.handleChangeFN} type="text" name="FNAME" className="required" id="mce-FNAME" />
+								</div>
+								<div className="mc-field-group">
+									<label htmlFor="mce-LNAME">Last Name </label>
+									<input value={this.state.LNAME} onChange={this.handleChangeLN} type="text" name="LNAME" className="" id="mce-LNAME" />
+								</div>
+								<div className="mc-field-group">
+									<label htmlFor="mce-EMAIL">Email Address <span className="asterisk">*</span>
+									</label>
+									<input value={this.state.EMAIL} onChange={this.handleChangeEM} type="email" name="EMAIL" className="required email" id="mce-EMAIL" />
+								</div>
+								<div className="mc-field-group size1of2">
+									<label htmlFor="mce-PHONE">Phone Number <span className="asterisk">*</span>
+									</label>
+									<input value={this.state.PHONE} onChange={this.handleChangePH} type="text" name="PHONE" className="required" id="mce-PHONE" />
+								</div>
+								<div className="mc-field-group">
+									<label htmlFor="mce-MMERGE6">Brand Name <span className="asterisk">*</span>
+									</label>
+									<input value={this.state.MMERGE6} onChange={this.handleChangeBN} type="text" name="MMERGE6" className="required" id="mce-MMERGE6" />
+								</div>
+								<div className="mc-field-group">
+									<label htmlFor="mce-MMERGE3">Company Address </label>
+									<input value={this.state.MMERGE3} onChange={this.handleChangeAD} type="text" name="MMERGE3" className="" id="mce-MMERGE3" />
+								</div>
+								<div className="mc-field-group size1of2">
+									<label htmlFor="mce-MMERGE5">Number Of Outlet </label>
+									<input value={this.state.MMERGE5} onChange={this.handleChangeNO} type="number" name="MMERGE5" className="" id="mce-MMERGE5" />
+								</div>
+								<div className="mc-field-group input-group">
+									<strong>Newsletter </strong>
+									<ul>
+										<li>
+											<input value="1" type="checkbox" name="group[3][1]" id="mce-group[3]-3-0" /><label htmlFor="mce-group[3]-3-0"> Sign
+												up to receive our newsletter and exclusive resources.</label>
+										</li>
+									</ul>
+								</div>
+								<div id="mce-responses" className="clear ">
+									<div className="response" id="mce-error-response" style={{ 'display':'none' }}></div>
+									<div className="response" id="mce-success-response" style={{ 'display':'none' }}></div>
+								</div>
+								<div style={{ 'position': 'absolute', 'left': '-5000px' }} aria-hidden="true">
+									<input type="text" name="b_3f44c3c094349bbc733eb377c_89d454641c /" tabIndex="-1" />
+									</div>
+								<div className="clear">
+									<input type="submit" value="Let's Talk!" name="subscribe" id="mc-embedded-subscribe" className="button is-rounded" />
 								</div>
 							</div>
 						</form>
@@ -242,6 +308,7 @@ class Businessform extends Component {
 										<button className="button is-info is-rounded">Join Now</button>
 								</div>
 								*/ }
+				
 				</div>
 			</section>
 		)
