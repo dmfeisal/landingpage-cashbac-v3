@@ -225,8 +225,8 @@
 .hero-illustration {
 	width: 550px;
 	position: absolute;
-	right: 20px;
-	bottom: 100px;
+	right: 0;
+	bottom: 0;
 }
 
 #hero-homepage {
@@ -426,6 +426,32 @@
 	padding-right: 20px;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: $cashbac-primary;
+  border-radius: 5px;
+}
+
+.text-overlay {
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
 
 .box {
 	position: relative;
@@ -438,7 +464,7 @@
 }
 
 
-.box::after {
+.box::after .overlay {
   content: "";
   border-color: none;
   border-radius: 5px;
@@ -453,7 +479,8 @@
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.box:hover {
+.box:hover .overlay{
+  opacity: 1;
   -webkit-transform: scale(1.05, 1.05);
   transform: scale(1.05, 1.05);
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -462,6 +489,9 @@
 .box:hover::after {
   opacity: 1;
 }
+
+
+
 
 #logo-merchant {
 	width: 130px;

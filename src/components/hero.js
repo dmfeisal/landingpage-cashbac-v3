@@ -42,14 +42,13 @@ const Hero = ({ siteTitle }) => (
 
 	
 	<section className="section has-text-left-tablet has-text-left-desktop is-hidden-mobile" id="hero-homepage">
-			
-			<div>
-				<img src={consumerIllustration} alt="The Best Promos Around You" className="hero-illustration"/>
-		    </div>
-
+	
 			<div>
 	      		<div className="container">
-		      		<div className="columns">
+		      			<div>
+							<img src={consumerIllustration} alt="The Best Promos Around You" className="hero-illustration"/>
+		    			</div>
+			      		
 			      		<div className="column">
 			      		<h1 className="hero-title-homepage has-text-left-tablet has-text-left-desktop title">
 			      		Most effortless way to get instant cashback. Anytime. Anywhere.
@@ -66,7 +65,7 @@ const Hero = ({ siteTitle }) => (
 								<img width="140px" src={buttonAppStore} alt="Get On App Store" />
 								</a>
 							</div>
-					</div>
+					
 					
 	      		<hr className="spacer is-2"></hr>
 	      		</div>
