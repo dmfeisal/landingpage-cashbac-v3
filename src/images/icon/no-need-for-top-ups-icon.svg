@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>No Need for Top-Ups</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#64C0C6" offset="0%"></stop>
+            <stop stop-color="#6680C1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#64C0C6" offset="0%"></stop>
+            <stop stop-color="#6680C1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="No-Need-for-Top-Ups" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(18.000000, 24.000000)">
+            <g id="Group-5" transform="translate(2.200000, 0.000000)">
+                <path d="M11.9671807,18.8055159 L38.1510256,18.7 L44.7052708,18.7 C45.2596431,30.3356727 45.5410025,36.6210209 45.5493491,37.5560446 C45.5661196,39.4347681 45.6649096,41.0538371 45.5493491,41.9097163 C45.1149293,45.1271717 48.3683651,51.7 44.7052708,51.7 C35.3814279,51.7 34.1881416,49.2226266 28.2606359,47.7629784 C22.3331302,46.3033302 14.6073677,48.4 11.9671807,48.4 C10.2070561,48.4 10.2070561,44.3609409 11.9671807,36.2828227 L11.9671807,18.8055159 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                <rect id="Rectangle" stroke="#202D3E" stroke-width="2.7" fill="url(#linearGradient-2)" x="1.35" y="12.35" width="54.5" height="7.2" rx="3.6"></rect>
+                <circle id="Oval-Copy" fill="#E02020" cx="53.35" cy="8.25" r="8.25"></circle>
+                <path d="M10.9719227,19.8 L10.9719227,48.4 C10.9719227,50.8300529 12.9418698,52.8 15.3719227,52.8 L41.1493491,52.8 C43.579402,52.8 45.5493491,50.8300529 45.5493491,48.4 L45.5493491,19.8" id="Path-2" stroke="#202D3E" stroke-width="2.7"></path>
+                <path d="M33.3577306,19.8 L33.3577306,47.7629784" id="Path-3" stroke="#202D3E" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M50.05,5.5 L57.2,11.48125" id="Line-2" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M50.05,5.5 L57.2,11.48125" id="Line-2" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(53.350000, 8.800000) scale(-1, 1) translate(-53.350000, -8.800000) "></path>
+            </g>
+            <rect id="Rectangle" fill="#202D3E" x="0" y="26.4" width="40.7" height="15.4" rx="4.4"></rect>
+            <text id="Top-up" font-family="OpenSans-Extrabold, Open Sans" font-size="6.6" font-weight="600" fill="#FFFFFF">
+                <tspan x="8.8" y="36.7">Top up</tspan>
+            </text>
+        </g>
+        <rect id="Rectangle" fill="#FFFFFF" x="64" y="60" width="4" height="7" rx="2"></rect>
+    </g>
+</svg>

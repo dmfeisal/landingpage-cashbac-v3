@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Multiple Rewards</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#64C0C6" offset="0%"></stop>
+            <stop stop-color="#6680C1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Multiple-Rewards" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-7" transform="translate(23.000000, 23.000000)">
+            <path d="M2.25096378,11.2213021 L34.5503343,11.2213021 L46.6999315,11.2213021 C47.7557084,15.3833568 48.10002,18.3520417 47.7328663,20.1273568 C47.2689766,22.3704242 43.8421903,22.832868 42.9564061,24.4213021 C41.6827922,26.7052125 42.9526446,29.7064783 42.9564061,30.0773467 C42.975461,31.9560702 43.0877075,33.5751392 42.9564061,34.4310184 C42.4628127,37.6484738 46.159409,44.2213021 41.9973533,44.2213021 C31.4034812,44.2213021 30.0476536,41.7439287 23.3127442,40.2842805 C16.5778347,38.8246323 5.72730494,42.3809503 5.72730494,40.2842805 C5.72730494,38.8865007 5.72730494,36.0417016 5.72730494,31.7498834 C5.96496092,26.9003438 5.96496092,24.1533607 5.72730494,23.508934 C4.89336274,21.2476208 2.25096378,21.5671619 2.25096378,20.1273568 C2.25096378,18.0720804 2.25096378,15.1033955 2.25096378,11.2213021 Z" id="Path" fill="url(#linearGradient-1)"></path>
+            <g id="Group-2" transform="translate(0.000000, 9.021302)" stroke="#202D3E" stroke-width="2.7">
+                <rect id="Rectangle" x="1.35" y="1.35" width="46.8" height="12.7" rx="4.4"></rect>
+                <path d="M5.75,14.45 L5.75,36.2 C5.75,37.8844685 7.11553151,39.25 8.8,39.25 L40.7,39.25 C42.3844685,39.25 43.75,37.8844685 43.75,36.2 L43.75,14.45 L5.75,14.45 Z" id="Rectangle-Copy-2"></path>
+                <path d="M24.55,1.67869791 L24.55,37.4970796" id="Path-3" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+            <g id="Group-Copy" transform="translate(33.000000, 31.021302)">
+                <circle id="Oval" fill="#202D3E" cx="11" cy="11" r="11"></circle>
+                <text id="8" font-family="OpenSans-Extrabold, Open Sans" font-size="13.2" font-weight="600" fill="#FFFFFF">
+                    <tspan x="7.7" y="15.1">8</tspan>
+                </text>
+            </g>
+            <path d="M24.85,8.35245589 C29.5338557,2.78415196 33.7616915,3.04183861e-16 37.5335074,0 C41.3053234,0 38.4764614,3.3 29.0469215,9.9" id="Path-6" stroke="#202D3E" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M10,8.35245589 C14.6838557,2.78415196 18.9116915,3.04183861e-16 22.6835074,0 C26.4553234,0 23.6264614,3.3 14.1969215,9.9" id="Path-6" stroke="#202D3E" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" transform="translate(17.150000, 4.950000) scale(-1, 1) translate(-17.150000, -4.950000) "></path>
+        </g>
+        <rect id="Rectangle" fill="#FFFFFF" x="27" y="50" width="4" height="7" rx="2"></rect>
+    </g>
+</svg>

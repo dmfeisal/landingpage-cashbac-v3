@@ -12,7 +12,7 @@ const BusinessFeatures = () => (
 		What Makes Cashbac Business Different?
 		</h1>
 		<p className="subtitle has-text-centered-desktop has-text-centered-mobile" > 
-			Shift advertising budget directly to consumers and generate more purchases,
+			Shift advertising budget directly to consumers and generate more purchases, <div></div>
 			repeat customer visits and positive brand propagation. Really, it's that easy.
 		</p>	
 			<br/>

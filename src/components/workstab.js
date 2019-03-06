@@ -4,6 +4,7 @@ import React from 'react';
 import linkcardMockup from '../images/mockup/how-it-works-link-cards.png';
 import finddealsMockup from '../images/mockup/how-it-works-find-deals.png';
 import getcashbackMockup from '../images/mockup/how-it-works-get-cashback.png';
+import referralMockup from '../images/mockup/how-it-works-referral.png';
 
 import Emoji from './emoji';
  
@@ -74,7 +75,7 @@ class Workstab extends React.Component {
 														<img role="presentation" src={getcashbackMockup} />
 													</div>
 													<div className="screen" id="step-referral" href="#">
-														<img role="presentation" src={getcashbackMockup} />
+														<img role="presentation" src={referralMockup} />
 													</div>
 												</div>
 										</div>

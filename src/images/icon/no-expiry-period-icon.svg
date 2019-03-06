@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>No Expiry Period</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#64C0C6" offset="0%"></stop>
+            <stop stop-color="#6680C1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#64C0C6" offset="0%"></stop>
+            <stop stop-color="#6680C1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="No-Expiry-Period" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(26.000000, 27.000000)">
+            <path d="M2.52880597,9.91114182 L35.3965934,9.78010718 L43.6239389,9.78010718 L47.628806,26.7422875 C47.8821579,32.473287 47.8821579,36.2669586 47.628806,38.1233023 C47.083492,42.1188914 46.3241678,44 41.7259964,44 C30.0220589,44 25.1285132,43.1934259 17.6878949,41.3807654 C10.2472765,39.568105 5.84295264,46.6629784 2.52880597,46.6629784 C0.319374861,46.6629784 0.319374861,41.6470829 2.52880597,31.6152919 L2.52880597,9.91114182 Z" id="Path" fill="url(#linearGradient-1)"></path>
+            <g id="Group" transform="translate(13.200000, 16.500000)">
+                <circle id="Oval" fill="#202D3E" cx="11" cy="15.4" r="11"></circle>
+                <text id="∞" font-family="OpenSans-Bold, Open Sans" font-size="22" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="3.3" y="24">∞</tspan>
+                </text>
+            </g>
+            <rect id="Rectangle" stroke="#1E2C3D" stroke-width="2.7" x="1.35" y="5.75" width="45.7" height="42.4" rx="4.4"></rect>
+            <rect id="Rectangle" stroke="#1E2C3D" stroke-width="2.7" fill="url(#linearGradient-2)" x="1.35" y="5.75" width="45.7" height="12.7" rx="4.4"></rect>
+            <rect id="Rectangle" fill="#202D3E" x="11" y="0" width="5.5" height="9.9" rx="2.75"></rect>
+            <rect id="Rectangle-Copy" fill="#202D3E" x="33" y="0" width="5.5" height="9.9" rx="2.75"></rect>
+        </g>
+        <rect id="Rectangle" fill="#FFFFFF" x="25" y="50" width="4" height="7" rx="2"></rect>
+    </g>
+</svg>
