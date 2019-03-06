@@ -20,6 +20,15 @@ const Hero = ({ siteTitle }) => (
 	      		<p className="subtitle has-text-centered-mobile has-text-centered-mobile">
 	      		Cashbac is a free mobile app that gives you instant cashback for every transaction at your favorite merchants, setting you free from many hassles in getting promos and rewarding yourself.
 	      		</p>
+	      		<div>
+					<a href="https://cashbac.onelink.me/1sXQ/homepage">
+					<img width="140px" src={buttonGooglePlay} alt="Get On Google Play" />
+					</a>
+					&nbsp; &nbsp;
+					<a href="https://cashbac.onelink.me/1sXQ/homepage">
+					<img width="140px" src={buttonAppStore} alt="Get On App Store" />
+					</a>
+				</div>	
 	      		
 	      	</div>
 	    </div>
