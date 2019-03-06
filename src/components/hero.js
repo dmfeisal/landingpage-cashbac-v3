@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'gatsby';
 import buttonGooglePlay from '../images/google_badge_en_get.svg';
 import buttonAppStore from '../images/appstore_badge_en.svg';
+import consumerIllustration from '../images/cashbac-for-consumers-illustration.png';
+
 // import 'bulma';
 // import heroBusiness from '../images/slider/cashbac-business-hero.png';
 // import Navbar from './navbar';
@@ -15,10 +17,10 @@ const Hero = ({ siteTitle }) => (
 		<div>
 			<div className="has-text-centered-mobile">
 	      		<h1 className="title hero-title-homepage has-text-centered-mobile">
-	      		Easiest way to get instant cashback. Anytime. Anywhere.
+	      		Most effortless way to get instant cashback. Anytime. Anywhere.
 	      		</h1>
 	      		<p className="subtitle has-text-centered-mobile has-text-centered-mobile">
-	      		Cashbac is a free mobile app that gives you instant cashback for every transaction at your favorite merchants, setting you free from many hassles in getting promos and rewarding yourself.
+	      		Cashbac is a free mobile app that gives you instant cashback for every transaction and allows you to earn multiple rewards from a variety of partners.
 	      		</p>
 	      		<div>
 					<a href="https://cashbac.onelink.me/1sXQ/homepage">
@@ -37,17 +39,23 @@ const Hero = ({ siteTitle }) => (
 
 {/* DESKTOP AND TABLET HERO*/}
 
+
+	
 	<section className="section has-text-left-tablet has-text-left-desktop is-hidden-mobile" id="hero-homepage">
-		
+			
+			<div>
+				<img src={consumerIllustration} alt="The Best Promos Around You" className="hero-illustration"/>
+		    </div>
+
 			<div>
 	      		<div className="container">
 		      		<div className="columns">
 			      		<div className="column">
 			      		<h1 className="hero-title-homepage has-text-left-tablet has-text-left-desktop title">
-			      		Easiest way to get instant cashback. Anytime. Anywhere.
+			      		Most effortless way to get instant cashback. Anytime. Anywhere.
 			      		</h1>
 			      		<p className="hero-subtitle-homepage has-text-left-tablet has-text-left-desktop has-text-centered-tablet subtitle">
-			      		Cashbac is a free mobile app that gives you instant cashback for every transaction at your favorite merchants, setting you free from many hassles in getting promos and rewarding yourself.
+			      		Cashbac is a free mobile app that gives you instant cashback for every transaction and allows you to earn multiple rewards from a variety of partners.
 			      		</p>
 				      		<div>
 								<a href="https://cashbac.onelink.me/1sXQ/homepage">
@@ -59,11 +67,7 @@ const Hero = ({ siteTitle }) => (
 								</a>
 							</div>
 					</div>
-					<div className="column">
-					NANTI GAMBAR DISINI
-		      		
-
-		      		</div>
+					
 	      		<hr className="spacer is-2"></hr>
 	      		</div>
 	      	</div>

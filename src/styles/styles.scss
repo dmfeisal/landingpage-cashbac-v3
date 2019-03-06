@@ -68,9 +68,6 @@
 
 }
 
-
-
-
 	.faq {
 		color: $cashbac-primary;
 		font-weight: bold;
@@ -85,9 +82,9 @@
 	padding-bottom: 4rem;
 	figure {
 		justify-content: center;
-		align-items: top;
+		align-items: center;
 		display: flex;
-		min-height: 150px;
+		min-height: 135px;
 	}
 	h5 {
 		color: $cashbac-primary;
@@ -224,8 +221,16 @@
 	background: linear-gradient(277deg, #63c7c5, #5c8cc9 75%, #6273b7);
 }
 
+
+.hero-illustration {
+	width: 550px;
+	position: absolute;
+	right: 20px;
+	bottom: 100px;
+}
+
 #hero-homepage {
-	background: url('../images/slider/hero-cashbac-bg.png');
+	background-image: linear-gradient(#BCEDE8, #AAB3C8);
 	height: 100%;
 	min-height: 720px;
 	position: relative;
@@ -235,7 +240,8 @@
 
   	.hero-title-homepage {
   		color: white;
-		font-size: 55px;
+		font-size: 35px;
+		max-width: 450px;
 		margin-top: 170px;
 		width: 900px;
 		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
@@ -244,7 +250,8 @@
 
 	.hero-subtitle-homepage {
   		color: white;
-		font-size: 26px;
+		font-size: 18px;
+		max-width: 430px;
 		margin-top: 30px;
 		width: 900px;
 		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
@@ -254,7 +261,7 @@
 
 
 #hero-homepage-mobile {
-	background: url('../images/slider/hero-cashbac-bg.png');
+	background-image: linear-gradient(#BCEDE8, #AAB3C8);
 	height: 100%;
 	min-height: 720px;
 	position: relative;

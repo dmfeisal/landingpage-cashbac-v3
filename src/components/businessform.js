@@ -130,7 +130,7 @@ class Businessform extends Component {
 					<div id="mc_embed_signup" style={{ StyleForm }}>
 						<form onSubmit={this.handleSubmit} action="https://cashbac.us17.list-manage.com/subscribe/post?u=3f44c3c094349bbc733eb377c&amp;id=89d454641c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
 							<div id="mc_embed_signup_scroll">
-								<div className="indicates-required"><span className="asterisk">*</span> indicates required</div>
+								<div className="indicates-required"><span className="asterisk">*</span> indicates field required</div>
 								<div className="mc-field-group">
 									<label htmlFor="mce-FNAME">First Name <span className="asterisk">*</span>
 									</label>
