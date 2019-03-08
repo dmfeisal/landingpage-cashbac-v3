@@ -84,7 +84,8 @@
 		justify-content: center;
 		align-items: center;
 		display: flex;
-		min-height: 135px;
+		height: auto;
+		min-height: 155px;
 	}
 	h5 {
 		color: $cashbac-primary;
@@ -156,7 +157,25 @@
 	}
 }
 
-#featured-logo {
+#press.section {
+	#press-logo {
+		-webkit-filter: grayscale(100%);
+	  	filter: grayscale(100%);
+    	display: inline-block;
+    	vertical-align: middle;
+    	justify-content: center;
+		align-items: center;
+		padding: 10px;
+	}
+	.column {
+
+		}
+
+	#press-logo:hover {
+		-webkit-filter: grayscale(0%);
+  		filter: grayscale(0%);
+	}
+
 }
 
 #quotes.section {
@@ -169,6 +188,10 @@
 	}
 
 	figure {
+		column {
+			justify-content: center;
+			align-items: center;
+		}
 		justify-content: center;
 		align-items: top;
 		display: flex;
@@ -192,6 +215,9 @@
 }
 
 #businessform.section {
+	.has-background-blue {
+  	background-color: coral !important;
+	}
 
 	padding-top: 6rem;
 	padding-bottom: 6rem;
@@ -244,7 +270,7 @@
 		max-width: 450px;
 		margin-top: 170px;
 		width: 900px;
-		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 
   	}
 
@@ -254,7 +280,7 @@
 		max-width: 430px;
 		margin-top: 30px;
 		width: 900px;
-		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   	}
 
 }
@@ -443,6 +469,7 @@
 .text-overlay {
   color: white;
   font-size: 14px;
+  font-weight: 700;
   position: absolute;
   top: 50%;
   left: 50%;
