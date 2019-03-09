@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import businessIllustration from '../images/cashbac-for-business-illustration.png';
 // import 'bulma';
 // import heroBusiness from '../images/slider/cashbac-business-hero.png';
 // import Navbar from './navbar';
@@ -7,7 +8,7 @@ import { Link } from 'gatsby';
 
 
 const Businesshero = ({ siteTitle }) => (
-	<div>
+<div>
 {/* MOBILE HERO*/}
 	<section className="section hero is-hidden-desktop is-hidden-tablet">
 		<div id="business-hero">
@@ -29,12 +30,19 @@ const Businesshero = ({ siteTitle }) => (
 
 
 {/* DESKTOP AND TABLET HERO*/}
-	<section className="section hero is-hidden-mobile">
-		<div id="business-hero-desktop">
-			<div className=" container has-text-left-desktop has-text-left-tablet">
+
+	<section className="section hero is-hidden-mobile" id="business-hero-desktop">
+		<div>
+			<div className="container">	
+				<div>
+					<img src={businessIllustration} alt="The Best Promos Around You" className="hero-business-illustration"/>
+				</div>
+
+		
+			<div className="has-text-left-desktop has-text-left-tablet">
 	      		<div>
 	      		<h1 className="hero-text-title-desktop title">
-	      		Solve marketing issues.<div></div>Complete business goals.
+	      		Solve marketing issues.<div className="new-line"></div>Complete business goals.
 	      		</h1>
 	      		<p className="subtitle hero-text-subtitle-desktop">
 	      		From increasing your traffic to understanding your customers, Cashbac Business is the growth marketing platform that helps you do it all with consumer insights and profile packed in a single dashboard just for you. 
@@ -47,8 +55,10 @@ const Businesshero = ({ siteTitle }) => (
 	      		</div>
 	      	</div>
 	    </div>
-	</section>
 	</div>
+	
+	</section>
+</div>
 );
 
 export default Businesshero;

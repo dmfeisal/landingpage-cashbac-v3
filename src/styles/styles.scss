@@ -9,6 +9,11 @@
 @import './global';
 @import './carousel';
 
+.has-background-dark {
+  color: #26ade4 !important;
+}
+
+
 .title {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
@@ -255,6 +260,15 @@
 	bottom: 0;
 }
 
+.hero-business-illustration {
+	width: 550px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+
+
 #hero-homepage {
 	background-image: linear-gradient(#BCEDE8, #AAB3C8);
 	height: 100%;
@@ -298,9 +312,8 @@
   	.title {
   		color: white;
 		font-size: 30px;
-		margin-top: 170px;
 		width: 100%;
-		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 
 
   	}
@@ -310,53 +323,44 @@
 		font-size: 20px;
 		margin-top: 30px;
 		width: 100%;
-		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   	}
 }
 
 
 
 .hero {
+	background-image: linear-gradient(#BCEDE8, #AAB3C8);
 	height: 100%;
 	min-height: 720px;
 	position: relative;
-	background: url('../images/slider/cashbac-business-hero.png');
 	background-size: cover;
 	background-position: center;
   	background-repeat: no-repeat;
 }
 
-.hero-text-title {
-	color: white;
-	font-size: 55px;
-	margin-top: 170px;
-}
-
-.hero-text-subtitle {
-	color: white;
-	font-size: 26px;
-}
-
 
 #business-hero-desktop {
-	text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+	text-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+	position: relative;
+	.hero-text-title-desktop {
+		margin-top: 170px;
+		color: white;
+		font-size: 35px;
+		width: 100%;
+		max-width: 450px;
+		width: 900px;
+	}
+
+	.hero-text-subtitle-desktop {
+		color: white;
+		font-size: 18px;
+		max-width: 450px;
+		width: 900px;
+	}
+
 }
 
-.hero-text-title-desktop {
-	color: white;
-	font-size: 55px;
-	width: 100%;
-	bottom: 0;
-	margin-top: 250px;	
-
-}
-
-.hero-text-subtitle-desktop {
-	color: white;
-	font-size: 26px;
-	width: 100%;
-	padding-top: 30px;
-}
 
 .cta-business {
 	a {
@@ -369,8 +373,6 @@
 		color: white;
 	}
 }
-
-
 
 .center {
 	display: flex;

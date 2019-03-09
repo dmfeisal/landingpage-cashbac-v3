@@ -53,7 +53,7 @@ class Businessform extends Component {
 	
 	render() {
 		return (
-			<section className="section columns has-text-centered has-background-blue" id="businessform">
+			<section className="section columns has-text-centered has-background-dark" id="businessform">
 				{/*VIEW ON DESTOP AND TAB*/}
 				<div className="container column is-12-mobile has-text-centered box is-6 is-hidden-mobile">
 					<div className="has-text-centered-desktop">
