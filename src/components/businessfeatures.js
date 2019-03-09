@@ -12,8 +12,8 @@ const BusinessFeatures = () => (
 		What Makes Cashbac Business Different?
 		</h1>
 		<p className="subtitle has-text-centered-desktop has-text-centered-mobile" > 
-			Shift advertising budget directly to consumers and generate more purchases, <div></div>
-			repeat customer visits and positive brand propagation. Really, it's that easy.
+			Re-imagine how you grow your business with Cashbac. From generating more sales to propagating a positive brand <div></div>
+			and understanding your customers - you name it and Cashbac helps you get there with so much convenience.
 		</p>	
 			<br/>
 
@@ -30,7 +30,7 @@ const BusinessFeatures = () => (
 								<div className="content">
 					   				<h5 className="title-feature">Real-time Transaction</h5>
 									<p className="has-text-left">
-									Transaction data automatically collected in the system. Tracking it every time, everywhere.
+									All transaction data is automatically collected to the system and made available for your easy tracking in real time, anytime and anywhere.
 									</p>
 								</div>
 							</div>
