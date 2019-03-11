@@ -2,29 +2,28 @@ import React, { Component } from 'react';
 // import merchant from '../data/merchant.json';
 import mcdLogo from '../images/merchants/mcd.svg';
 import dcostLogo from '../images/merchants/dcost.png';
-import erickayserLogo from '../images/merchants/Eric_Kayser.png';
-import donburiLogo from '../images/merchants/donburi_ichiya.png';
-import namnamLogo from '../images/merchants/namnam.png';
-import mamLogo from '../images/merchants/mam.svg';
-import osakaLogo from '../images/merchants/osaka.png';
-import lewiscarollLogo from '../images/merchants/lewiscaroll.png';
+import penangbistroLogo from '../images/merchants/penangbistro.png';
+import soursallyLogo from '../images/merchants/soursally.png';
+import platinumLogo from '../images/merchants/platinum.png';
+import negiyaLogo from '../images/merchants/negiya.png';
+import weenamkeeLogo from '../images/merchants/weenamkee.png';
+import magalLogo from '../images/merchants/magal.jpg';
+import kopikenanganLogo from '../images/merchants/kopikenangan.png';
+import gromLogo from '../images/merchants/grom.png';
+import excelsoLogo from '../images/merchants/excelso.png';
+import chatimeLogo from '../images/merchants/chatime.jpg';
+import forecoffeeLogo from '../images/merchants/forecoffee.png';
+import hophopLogo from '../images/merchants/hophop.png';
+import hokkaidoLogo from '../images/merchants/hokkaido.png';
+import oldchangkeeLogo from '../images/merchants/oldchangkee.png';
 import altitudeLogo from '../images/merchants/altitude.jpg';
-// import enmaruLogo from '../images/merchants/enmaru.png';
-import shabu2Logo from '../images/merchants/shabu2.png';
-import sweethutLogo from '../images/merchants/sweethut.png';
 import annawijayaLogo from '../images/merchants/annawijaya.svg';
-import luxeLogo from '../images/merchants/luxe.svg';
 import relaxlivingLogo from '../images/merchants/relaxliving.svg';
-import realyogaLogo from '../images/merchants/realyoga.svg';
-import alegroLogo from '../images/merchants/alegro.png';
-import aromagelatoLogo from '../images/merchants/aroma.svg';
-import ombekoffieLogo from '../images/merchants/ombe.svg';
-import trafiqueLogo from '../images/merchants/trafique.svg';
-import bebekbengilLogo from '../images/merchants/bengil.svg';
-import illuaLogo from '../images/merchants/illua.svg';
-import gaiaLogo from '../images/merchants/gaia.svg';
-import cloudLogo from '../images/merchants/cloud.svg';
-
+import alfamartLogo from '../images/merchants/alfamart.png';
+import familymartLogo from '../images/merchants/familymart.png';
+import gramediaLogo from '../images/merchants/gramedia.png';
+import masterpieceLogo from '../images/merchants/masterpiece.png';
+import kidzaniaLogo from '../images/merchants/kidzania.png';
 
 class Merchants extends Component {
 	// listItem = listData => {
@@ -52,124 +51,225 @@ class Merchants extends Component {
 							<hr className="spacer is-3"></hr>
 					</div>
 					<div className="container">
+
 							<div className="columns is-multiline is-mobile">
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac Mcd" width="70px" src={mcdLogo}/>
+										<img alt="Merchant Cashbac McDonald's" width="70px" src={mcdLogo}/>
+										<div className="overlay">
+											<div className="text-overlay noselect">McDonald's</div>
+										</div>
 									</figure>
 								</div>
 
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac" height="50px" src={dcostLogo}/>
+										<img alt="Sour Sally Merchant Cashbac" width="100px" src={soursallyLogo}/>
+										<div className="overlay">
+											<div className="text-overlay noselect">Sour Sally</div>
+										</div>									
 									</figure>
 								</div>
+
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac" width="70px" src={erickayserLogo}/>
-									</figure>
-								</div>
-								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
-									<figure className="box">
-										<img alt="Merchant Cashbac" width="70px" src={donburiLogo}/>
-									</figure>
-								</div>
-								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
-									<figure className="box">
-										<img alt="Merchant Cashbac" width="70px" src={namnamLogo}/>
-									</figure>
-								</div>
-								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
-									<figure className="box">
-										<img alt="Merchant Cashbac" width="100px" src={mamLogo}/>
-									</figure>
-								</div>
-								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
-									<figure className="box">
-										<img alt="Merchant Cashbac" width="100px" src={osakaLogo}/>
-									</figure>
-								</div>
-								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
-									<figure className="box">
-									<img alt="Merchant Cashbac" width="70px" src={lewiscarollLogo}/>
-									</figure>
-								</div>
-								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
-									<figure className="box">
-										<img alt="Merchant Cashbac" width="100px" src={altitudeLogo}/>
-									</figure>
-								</div>
-								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
-									<figure className="box">
-										<img alt="Merchant Cashbac" width="50px" src={shabu2Logo}/>
-									</figure>
-								</div>
-								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
-									<figure className="box">
-										<img alt="Merchant Cashbac" width="100px" src={sweethutLogo}/>
-									</figure>
-								</div>
-								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
-									<figure className="box">
-									<img alt="Merchant Cashbac" width="100px" src={annawijayaLogo}/>
-									</figure>
-								</div>
-								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
-									<figure className="box">
-										<img alt="Merchant Cashbac" width="70px" src={luxeLogo}/>
+										<img alt="Merchant Cashbac" width="120px" src={penangbistroLogo}/>
+										<div className="overlay">
+											<div className="text-overlay noselect">Penang Bistro</div>
+										</div>									
 									</figure>
 								</div>
 								
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac" width="70px" src={relaxlivingLogo}/>
+										<img alt="Merchant Cashbac" width="100px" src={platinumLogo}/>
+										<div className="overlay">
+											<div className="text-overlay noselect">Platinum</div>
+										</div>									
 									</figure>
 								</div>
+								
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac" width="70px" src={realyogaLogo}/>
+										<img alt="Merchant Cashbac" width="80px" src={negiyaLogo}/>
+										<div className="overlay">
+											<div className="text-overlay noselect">Negiya</div>
+										</div>									
 									</figure>
 								</div>
+								
+
 								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
 									<figure className="box">
-										<img alt="Merchant Cashbac" width="70px" src={alegroLogo}/>
-									</figure>
-								</div>
-								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
-									<figure className="box">
-										<img alt="Merchant Cashbac" width="70px" src={aromagelatoLogo}/>
-									</figure>
-								</div>
-								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
-									<figure className="box">
-										<img alt="Merchant Cashbac" width="50px" src={ombekoffieLogo}/>			    
-									</figure>
-								</div>
-								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
-									<figure className="box">
-										<img alt="Merchant Cashbac" width="70px" src={trafiqueLogo}/>
-									</figure>
-								</div>
-									<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
-										<figure className="box">
-											<img alt="Merchant Cashbac" width="70px" src={bebekbengilLogo}/>
-										</figure>
+										<img alt="Merchant Cashbac" width="100px" src={altitudeLogo}/>
+									<div className="overlay">
+											<div className="text-overlay noselect">Altitude</div>
 									</div>
-									<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
-										<figure className="box">
-											<img alt="Merchant Cashbac" width="70px" src={illuaLogo}/>
-										</figure>
-									</div>
-									<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
-										<figure className="box">
-											<img alt="Merchant Cashbac" width="60px" src={gaiaLogo}/>
-										</figure>
-									</div>
-									<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
-										<figure className="box">
-											<img alt="Merchant Cashbac" width="70px" src={cloudLogo}/>
-										</figure>
-									</div>	
+									</figure>
+								</div>
+
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+									<img alt="Wee Nam Kee Merchant Cashbac" width="100px" src={weenamkeeLogo}/>
+									<div className="overlay">
+											<div className="text-overlay noselect">Wee Nam Kee</div>
+										</div>
+									</figure>
+								</div>
+
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+									<img alt="Magal Merchant Cashbac" width="100px" src={magalLogo}/>
+									<div className="overlay">
+											<div className="text-overlay noselect">Magal</div>
+										</div>
+									</figure>
+								</div>
+
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+									<img alt="GROM Merchant Cashbac" width="100px" src={gromLogo}/>
+									<div className="overlay">
+											<div className="text-overlay noselect">GROM</div>
+										</div>
+									</figure>
+								</div>
+
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+										<img alt="Merchant Cashbac" height="70px" src={dcostLogo}/>
+										<div className="overlay">
+											<div className="text-overlay noselect">D'Cost</div>
+										</div>
+									</figure>
+								</div>
+								
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+									<img alt="Kopi Kenangan Merchant Cashbac" width="100px" src={kopikenanganLogo}/>
+									<div className="overlay">
+											<div className="text-overlay noselect">Kopi Kenangan</div>
+										</div>
+									</figure>
+								</div>
+
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+									<img alt="Excelso Merchant Cashbac" width="70px" src={excelsoLogo}/>
+									<div className="overlay">
+											<div className="text-overlay noselect">Excelso</div>
+										</div>
+									</figure>
+								</div>
+
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+									<img alt="Fore Coffee Merchant Cashbac" width="100px" src={forecoffeeLogo}/>
+									<div className="overlay">
+											<div className="text-overlay noselect">Fore Coffee</div>
+										</div>
+									</figure>
+								</div>
+
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+									<img alt="Chatime Merchant Cashbac" width="100px" src={chatimeLogo}/>
+									<div className="overlay">
+											<div className="text-overlay noselect">Chatime</div>
+										</div>
+									</figure>
+								</div>
+
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+									<img alt="Hop Hop Merchant Cashbac" width="70px" src={hophopLogo}/>
+									<div className="overlay">
+											<div className="text-overlay noselect">Hop Hop</div>
+										</div>
+									</figure>
+								</div>
+
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+									<img alt="Hokkaido Merchant Cashbac" width="80px" src={hokkaidoLogo}/>
+									<div className="overlay">
+											<div className="text-overlay noselect">Hokkaido Cheese Cake</div>
+										</div>
+									</figure>
+								</div>
+
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+									<img alt="Old Chang Kee Merchant Cashbac" width="90px" src={oldchangkeeLogo}/>
+									<div className="overlay">
+											<div className="text-overlay noselect">Old Chang Kee</div>
+										</div>
+									</figure>
+								</div>
+
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+									<img alt="Family Mart Merchant Cashbac" width="110px" src={familymartLogo}/>
+									<div className="overlay">
+											<div className="text-overlay noselect">Family Mart</div>
+										</div>
+									</figure>
+								</div>
+
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+									<img alt="Alfamart Merchant Cashbac" width="90px" src={alfamartLogo}/>
+									<div className="overlay">
+											<div className="text-overlay noselect">Alfamart</div>
+										</div>
+									</figure>
+								</div>
+
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+									<img alt="Gramedia Merchant Cashbac" width="110px" src={gramediaLogo}/>
+									<div className="overlay">
+											<div className="text-overlay noselect">Gramedia</div>
+										</div>
+									</figure>
+								</div>
+
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+									<img alt="Masterpiece Signature Family KTV Merchant Cashbac" width="120px" src={masterpieceLogo}/>
+									<div className="overlay">
+											<div className="text-overlay noselect">Masterpiece Signature Family KTV</div>
+										</div>
+									</figure>
+								</div>
+
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+									<img alt="KidZania Merchant Cashbac" width="110px" src={kidzaniaLogo}/>
+									<div className="overlay">
+											<div className="text-overlay noselect">KidZania</div>
+										</div>
+									</figure>
+								</div>
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+										<img alt="Relax Living Spa Merchant Cashbac" width="70px" src={relaxlivingLogo}/>
+										<div className="overlay">
+											<div className="text-overlay noselect">Relax Living Spa</div>
+										</div>
+									</figure>
+								</div>
+								
+								<div className="has-text-centered column is-6-mobile is-2-desktop is-3-tablet">
+									<figure className="box">
+									<img alt="Anna Wijaya Merchant Cashbac" width="100px" src={annawijayaLogo}/>
+									<div className="overlay">
+											<div className="text-overlay noselect">Anna Wijaya</div>
+										</div>
+									</figure>
+								</div>
+								
+	
 							</div>
 
 							</div>

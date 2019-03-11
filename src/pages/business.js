@@ -3,7 +3,7 @@ import React from 'react';
 import Helmet from '../components/helmet';
 import Businessnavbar from '../components/businessnavbar';
 import Businesshero from '../components/businesshero';
-import Quotes from '../components/quotes';
+// import Quotes from '../components/quotes';
 import Businessfeatures from '../components/businessfeatures';
 import Featuredmerchants from '../components/featuredmerchants';
 import Businessform from '../components/businessform';
@@ -16,7 +16,7 @@ const BusinessPage = ({ children }) => (
 		<Businesshero />
 		<Featuredmerchants />
 		<Businessfeatures />
-		<Quotes />
+		
 		<Businessform />
 		<Footer />
 	</div>

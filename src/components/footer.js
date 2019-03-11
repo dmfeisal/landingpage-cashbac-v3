@@ -32,7 +32,7 @@ const Footer = () => (
 				<div className="column is-6-mobile is-2-desktop is-4-tablet">
 					<b>About </b>
 					<article>
-						<a href="https://www.linkedin.com/company/13423684/" title="Cashbac Company Page">Company</a>
+						<a href="https://www.linkedin.com/company/cashbac" title="Cashbac Company Page">Company</a>
 					</article>
 					<article>
 						<a href="mailto:recruitment@cashbac.com" title="Email your cv to recruitment@cashbac.com">Careers</a>
@@ -66,7 +66,7 @@ const Footer = () => (
 						<a href="https://www.facebook.com/cashbacapp/" title="Cashbac Facebook profile" target="_blank" rel="noopener noreferrer">
 							<FaFacebook className="icon-footer"/>
 						</a>
-						<a href="https://www.twitter.com/cashbacapp/" title="Cashbac LinkedIn" target="_blank" rel="noopener noreferrer">
+						<a href="https://www.linkedin.com/company/cashbac" title="Cashbac LinkedIn" target="_blank" rel="noopener noreferrer">
 							<FaLinkedin className="icon-footer"/>
 						</a>
 						<a href="https://www.twitter.com/cashbacapp/" title="Cashbac Twitter profile" target="_blank" rel="noopener noreferrer">

@@ -9,6 +9,11 @@
 @import './global';
 @import './carousel';
 
+.has-background-blue {
+  background-color: #e2f7ff !important;
+}
+
+
 .title {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
@@ -68,9 +73,6 @@
 
 }
 
-
-
-
 	.faq {
 		color: $cashbac-primary;
 		font-weight: bold;
@@ -85,9 +87,10 @@
 	padding-bottom: 4rem;
 	figure {
 		justify-content: center;
-		align-items: top;
+		align-items: center;
 		display: flex;
-		height: 190px;
+		height: auto;
+		min-height: 155px;
 	}
 	h5 {
 		color: $cashbac-primary;
@@ -159,7 +162,25 @@
 	}
 }
 
-#featured-logo {
+#press.section {
+	#press-logo {
+		-webkit-filter: grayscale(100%);
+	  	filter: grayscale(100%);
+    	display: inline-block;
+    	vertical-align: middle;
+    	justify-content: center;
+		align-items: center;
+		padding: 10px;
+	}
+	.column {
+
+		}
+
+	#press-logo:hover {
+		-webkit-filter: grayscale(0%);
+  		filter: grayscale(0%);
+	}
+
 }
 
 #quotes.section {
@@ -172,6 +193,10 @@
 	}
 
 	figure {
+		column {
+			justify-content: center;
+			align-items: center;
+		}
 		justify-content: center;
 		align-items: top;
 		display: flex;
@@ -195,7 +220,7 @@
 }
 
 #businessform.section {
-
+	margin-bottom: 0rem;
 	padding-top: 6rem;
 	padding-bottom: 6rem;
 	.box {
@@ -224,8 +249,35 @@
 	background: linear-gradient(277deg, #63c7c5, #5c8cc9 75%, #6273b7);
 }
 
+
+.hero-illustration {
+	width: 550px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.hero-illustration-mobile {
+	width: 100%;
+	padding: 2rem;
+}
+
+.hero-business-illustration {
+	width: 550px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.hero-business-illustration-mobile {
+	width: 100%;
+	padding: 2rem;
+}
+
+
+
 #hero-homepage {
-	background: url('../images/slider/hero-cashbac-bg.png');
+	background-image: linear-gradient(#BCEDE8, #AAB3C8);
 	height: 100%;
 	min-height: 720px;
 	position: relative;
@@ -235,26 +287,28 @@
 
   	.hero-title-homepage {
   		color: white;
-		font-size: 55px;
-		margin-top: 170px;
+		font-size: 35px;
+		max-width: 450px;
+		margin-top: 190px;
 		width: 900px;
-		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 
   	}
 
 	.hero-subtitle-homepage {
   		color: white;
-		font-size: 26px;
+		font-size: 18px;
+		max-width: 430px;
 		margin-top: 30px;
 		width: 900px;
-		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   	}
 
 }
 
 
 #hero-homepage-mobile {
-	background: url('../images/slider/hero-cashbac-bg.png');
+	background-image: linear-gradient(#BCEDE8, #AAB3C8);
 	height: 100%;
 	min-height: 720px;
 	position: relative;
@@ -265,9 +319,8 @@
   	.title {
   		color: white;
 		font-size: 30px;
-		margin-top: 170px;
 		width: 100%;
-		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 
 
   	}
@@ -277,58 +330,73 @@
 		font-size: 20px;
 		margin-top: 30px;
 		width: 100%;
-		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   	}
 }
 
 
 
 .hero {
+	background-image: linear-gradient(#BCEDE8, #AAB3C8);
 	height: 100%;
 	min-height: 720px;
 	position: relative;
-	background: url('../images/slider/cashbac-business-hero.png');
 	background-size: cover;
 	background-position: center;
   	background-repeat: no-repeat;
 }
 
-.hero-text-title {
-	color: white;
-	font-size: 55px;
-	margin-top: 170px;
-}
-
-.hero-text-subtitle {
-	color: white;
-	font-size: 26px;
-}
-
 
 #business-hero-desktop {
-	padding-left: 200px;
-	padding-right: 200px;
-	button {
-		margin-left: 120px;
+	text-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+	position: relative;
+	.hero-text-title-desktop {
+		margin-top: 190px;
+		color: white;
+		font-size: 35px;
+		width: 100%;
+		max-width: 450px;
+		width: 900px;
+	}
+
+	.hero-text-subtitle-desktop {
+		margin-top: 30px;
+		color: white;
+		font-size: 18px;
+		max-width: 450px;
+		width: 900px;
 	}
 
 }
 
-.hero-text-title-desktop {
-	color: white;
-	font-size: 55px;
-	width: 100%;
-	bottom: 0;
-	margin-top: 250px;
+#business-hero-mobile {
+	background-image: linear-gradient(#BCEDE8, #AAB3C8);
+	height: 100%;
+	min-height: 720px;
+	position: relative;
+	background-size: cover;
+	background-position: right;
+  	background-repeat: no-repeat;
 
+  	.title {
+  		color: white;
+		font-size: 30px;
+		width: 100%;
+		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+
+  	}
+
+	.subtitle {
+  		color: white;
+		font-size: 20px;
+		margin-top: 30px;
+		width: 100%;
+		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  	}
 }
 
-.hero-text-subtitle-desktop {
-	color: white;
-	font-size: 26px;
-	width: 100%;
-	padding-top: 30px;
-}
+
 
 .cta-business {
 	a {
@@ -341,8 +409,6 @@
 		color: white;
 	}
 }
-
-
 
 .center {
 	display: flex;
@@ -381,6 +447,15 @@
 	justify-content: center;
 	align-items: center;
 }
+
+
+#footer-column {
+	.column {
+	display: flex;
+	justify-content: space-between;
+	}
+}
+
 
 .footer {
 	display: flex;
@@ -425,6 +500,39 @@
 }
 
 
+
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: $cashbac-primary;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.text-overlay {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
 .box {
 	position: relative;
 	display: flex;
@@ -436,7 +544,7 @@
 }
 
 
-.box::after {
+.box::after .overlay {
   content: "";
   border-color: none;
   border-radius: 5px;
@@ -451,7 +559,8 @@
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.box:hover {
+.box:hover .overlay{
+  opacity: 1;
   -webkit-transform: scale(1.05, 1.05);
   transform: scale(1.05, 1.05);
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -461,6 +570,9 @@
   opacity: 1;
 }
 
+
+
+
 #logo-merchant {
 	width: 130px;
 	margin-right: 25px;
@@ -468,10 +580,9 @@
 
 
 .icon-feature {
-	height: 2rem;
-	width: 2rem;
+	height: 6rem;
+	width: 6rem;
 	margin-bottom: 5px;
-	color: $cashbac-primary;
 }
 
 .business-icon-feature {

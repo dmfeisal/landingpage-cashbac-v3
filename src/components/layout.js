@@ -5,6 +5,7 @@ import Hero from './hero';
 import Features from '../components/features';
 import Workstab from './workstab';
 import Merchants from './merchants';
+import Press from './press';
 import Footer from './footer';
 
 
@@ -16,6 +17,7 @@ const Layout = ({ children }) => (
 		<Features />
 		<Workstab />
 		<Merchants />
+		<Press />
 		<Footer />
 	</div>
 );
