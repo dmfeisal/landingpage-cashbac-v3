@@ -9,8 +9,8 @@
 @import './global';
 @import './carousel';
 
-.has-background-dark {
-  color: #26ade4 !important;
+.has-background-blue {
+  background-color: #e2f7ff !important;
 }
 
 
@@ -220,10 +220,7 @@
 }
 
 #businessform.section {
-	.has-background-blue {
-  	background-color: coral !important;
-	}
-
+	margin-bottom: 0rem;
 	padding-top: 6rem;
 	padding-bottom: 6rem;
 	.box {
