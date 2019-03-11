@@ -10,8 +10,10 @@ import businessIllustration from '../images/cashbac-for-business-illustration.pn
 const Businesshero = ({ siteTitle }) => (
 <div>
 {/* MOBILE HERO*/}
-	<section className="section hero is-hidden-desktop is-hidden-tablet">
-		<div id="business-hero">
+	<section className="section hero is-hidden-desktop is-hidden-tablet" id="business-hero-mobile">
+			<div>
+				<img src={businessIllustration} alt="The Best Promos Around You" className="hero-business-illustration-mobile"/>
+			</div>
 			<div className="has-text-centered-mobile">
 	      		<h1 className="hero-text-title title has-text-centered-mobile">
 	      		Drive your traffic. <div className="new-line"></div>Grow your business.
@@ -25,7 +27,6 @@ const Businesshero = ({ siteTitle }) => (
 		          	</Link>
 	      		</div>
 	      	</div>
-	    </div>
 	</section>
 
 

@@ -21,7 +21,7 @@ const Press = () => (
 			<div className="container">
 			
 					<h1 className="title has-text-centered-desktop has-text-centered-mobile has-text-centered-tablet">
-						As seen in:
+						As seen on:
 					</h1>
 			
 			</div>

@@ -15,6 +15,9 @@ const Hero = ({ siteTitle }) => (
 {/* MOBILE HERO*/}
 	<section className="section is-hidden-desktop is-hidden-tablet" id="hero-homepage-mobile">
 		<div>
+			<div>
+				<img src={consumerIllustration} alt="The Best Promos Around You" className="hero-illustration-mobile"/>
+			</div>
 			<div className="has-text-centered-mobile">
 	      		<h1 className="title hero-title-homepage has-text-centered-mobile">
 	      		Most effortless way to get instant cashback. Anytime. Anywhere.

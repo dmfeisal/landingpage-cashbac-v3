@@ -260,11 +260,21 @@
 	bottom: 0;
 }
 
+.hero-illustration-mobile {
+	width: 100%;
+	padding: 2rem;
+}
+
 .hero-business-illustration {
 	width: 550px;
 	position: absolute;
 	right: 0;
 	bottom: 0;
+}
+
+.hero-business-illustration-mobile {
+	width: 100%;
+	padding: 2rem;
 }
 
 
@@ -361,6 +371,34 @@
 	}
 
 }
+
+#business-hero-mobile {
+	background-image: linear-gradient(#BCEDE8, #AAB3C8);
+	height: 100%;
+	min-height: 720px;
+	position: relative;
+	background-size: cover;
+	background-position: right;
+  	background-repeat: no-repeat;
+
+  	.title {
+  		color: white;
+		font-size: 30px;
+		width: 100%;
+		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+
+  	}
+
+	.subtitle {
+  		color: white;
+		font-size: 20px;
+		margin-top: 30px;
+		width: 100%;
+		text-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  	}
+}
+
 
 
 .cta-business {
