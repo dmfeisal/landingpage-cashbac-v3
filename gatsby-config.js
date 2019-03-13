@@ -64,29 +64,8 @@ module.exports = {
 				// Setting this parameter is optional (requried for some countries such as Germany)
 				anonymize: true
 			}
-		},
-		{
-			resolve: `gatsby-plugin-sitemap`,
-			options: {
-				output: `/cashbac.xml`,
-				query: `
-					{
-						site {
-							siteMetadata {
-								siteUrl
-							}
-						}
-	 
-						allSitePage {
-							edges {
-								node {
-									path
-								}
-							}
-						}
-				}`
-			}
 		}
+		//,`gatsby-plugin-sitemap`
 		// this (optional) plugin enables Progressive Web App + Offline functionality
 		// To learn more, visit: https://gatsby.app/offline
 		// 'gatsby-plugin-offline',
