@@ -5,6 +5,8 @@ require('dotenv').config({
 });
 const siteURL = `${process.env.CB_HOST}`
 
+console.log(siteURL)
+
 module.exports = {
 	siteMetadata: {
 		title: 'Cashback App with Best Deals in Indonesia | cashbac.com',
@@ -63,7 +65,28 @@ module.exports = {
 				anonymize: true
 			}
 		},
-		`gatsby-plugin-sitemap`
+		{
+			resolve: `gatsby-plugin-sitemap`,
+			options: {
+				output: `/cashbac.xml`,
+				query: `
+					{
+						site {
+							siteMetadata {
+								siteUrl
+							}
+						}
+	 
+						allSitePage {
+							edges {
+								node {
+									path
+								}
+							}
+						}
+				}`
+			}
+		}
 		// this (optional) plugin enables Progressive Web App + Offline functionality
 		// To learn more, visit: https://gatsby.app/offline
 		// 'gatsby-plugin-offline',

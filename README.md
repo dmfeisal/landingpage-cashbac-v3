@@ -1,6 +1,8 @@
 # Cashbac Static pages rendered by gatsby js
 
-* Node JS
+* Node JS version v10.15.3
+* NPM version 6.4.1
+* Yarn version 1.13.*
 * Gatsby JS
 * Bulma
 * CSS Modules
@@ -23,53 +25,54 @@ SSR for CSS modules use `css-loader/locals`, no extra wrapper function for compo
 ## Development guide
 
 ## Prerequisites
-- [Node.js](https://nodejs.org/en/) (8.0.0+)
+- [Node.js](https://nodejs.org/en/) (Version 8.0.* +)
+- [NPM](https://nodejs.org/en/) (Version 6.4.* +)
 - [Yarn](https://yarnpkg.com) (Optional. You can still use `npm` if you want, but highly recommended for your own sanity.)
 
 ## Installation
 ```javascript
 npm install
+or
+yarn install
 ```
 ...as usual...
 
 ## Development
-
 Run website in development mode on `localhost:8000`, with Hot Module Replacement for Reducers and Components
 
 ```javascript
-npm run start /
+npm run start
+```
+
+## Staging
+
+### Build
+
+Run build Static server and client ( SSR and Styled Components Active )
+
+```
+npm run build-staging
+```
+
+Run service on background
+
+```
+npm run serve
 ```
 
 ## Production
 
 ### Build
 
-Run build server and client ( SSR and Styled Components Active )
+Run build Static server and client ( SSR and Styled Components Active )
 
 ```
 npm run build
 ```
 
-Run build Static ( CSS Modules and PWA )
+Run service on background
 
 ```
-npm run serve
-```
-
-### Start 
-
-Run website in production mode on `localhost:8000`
-
-```
-npm run start
-```
-
-## After deploy
-
-After deploy, you can run these commands for a complete live environment on `localhost:`:
- 
-````
-npm run build
 npm run serve
 ```
 
