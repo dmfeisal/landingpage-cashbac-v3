@@ -1,7 +1,11 @@
+let activeEnv = process.env.ACTIVE_ENV || process.env.NODE_ENV || "development"
+
 require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`
+  path: `.env.${activeEnv}`
 });
 const siteURL = `${process.env.CB_HOST}`
+
+console.log(siteURL)
 
 module.exports = {
 	siteMetadata: {
@@ -60,8 +64,8 @@ module.exports = {
 				// Setting this parameter is optional (requried for some countries such as Germany)
 				anonymize: true
 			}
-		},
-		`gatsby-plugin-sitemap`
+		}
+		//,`gatsby-plugin-sitemap`
 		// this (optional) plugin enables Progressive Web App + Offline functionality
 		// To learn more, visit: https://gatsby.app/offline
 		// 'gatsby-plugin-offline',

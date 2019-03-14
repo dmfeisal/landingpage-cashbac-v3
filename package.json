@@ -37,10 +37,11 @@
 	],
 	"license": "MIT",
 	"scripts": {
-		"build": "gatsby build",
-		"serve": "gatsby serve",
+		"build": "ACTIVE_ENV=production gatsby build",
+		"serve": "ACTIVE_ENV=production gatsby serve",
+		"build-staging": "ACTIVE_ENV=development gatsby build",
 		"develop": "gatsby develop",
-		"start": "npm run develop",
+		"start": "ACTIVE_ENV=development npm run develop",
 		"format": "prettier --write \"src/**/*.js\"",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
