@@ -7,18 +7,15 @@ import secureIcon from '../images/business/secure-icon.png';
 const BusinessFeatures = () => (
 	<div>
 		<section className="section has-background-light" id="business-features">
-		<div className="container ">
-			<h1 className="title has-text-centered-desktop has-text-centered-mobile has-text-centered-desktop has-text-centered-tablet"> 
-			What Makes Cashbac Business Different?
-			</h1>
-		<p className="has-text-centered-desktop has-text-centered-mobile" > 
-			Re-imagine how you grow your business with Cashbac. From generating more sales to propagating a positive brand <div></div>
-			and understanding your customers - you name it and Cashbac helps you get there with so much convenience.
-		</p>	
-			<br/>
-
-			<div className="columns is-multiline is-mobile is-tablet"> 
-					
+			<div className="container ">
+				<h1 className="title has-text-centered-desktop has-text-centered-mobile has-text-centered-desktop has-text-centered-tablet"> What Makes Cashbac Business Different?</h1>
+				<p className="has-text-centered-desktop has-text-centered-mobile" > 
+					Re-imagine how you grow your business with Cashbac. From generating more sales to propagating a positive brand 
+					<br/>
+					and understanding your customers - you name it and Cashbac helps you get there with so much convenience.
+				</p>	
+				<br/>
+				<div className="columns is-multiline is-mobile is-tablet"> 
 					<div className="column is-12-mobile is-6-desktop is-6-tablet is-half-fullhd">
 					    <figure className="media box">
 							<div className="media-left">
@@ -38,7 +35,7 @@ const BusinessFeatures = () => (
 					</div>
 
 					<div className="column is-12-mobile is-6-desktop is-6-tablet is-half-fullhd">
-					    <figure className="media box">
+					  <figure className="media box">
 							<div className="media-left" id="business-icon-feature">
 								<span>
 									<img className="business-icon-feature" alt="Reach All Your Customers" src={funnelIcon}/>
@@ -52,11 +49,11 @@ const BusinessFeatures = () => (
 									</p>
 								</div>
 							</div>
-					    </figure>
+					  </figure>
 					</div>
 
 					<div className="column is-12-mobile is-6-desktop is-6-tablet is-half-fullhd">
-					    <figure className="media box">
+					  <figure className="media box">
 							<div className="media-left">
 					   			<span>
 									<img className="business-icon-feature" alt="Secure, Direct Payment" src={secureIcon}/>
@@ -90,14 +87,10 @@ const BusinessFeatures = () => (
 							</div>
 					  </figure>
 					</div>
-
-
 				</div>
 			</div>
-
 		</section>
 	</div>
-
 	);
 
 export default BusinessFeatures;
