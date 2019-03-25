@@ -12,15 +12,15 @@ const Termscomponent = () => (
 				<ol>
 				
 					<li>CASHBAC adalah produk pemasaran berbasis aplikasi mobile berbasis sistem operasi iOS dan
-								Android yang dikelola DMG (“PT Global Pay Indonesia”) yaitu berupa layanan pemasaran
+								Android yang dikelola GPI (“PT Global Pay Indonesia”) yaitu berupa layanan pemasaran
 								yang memberikan penawaran istimewa bagi User apabila User melakukan Transaksi, yang mana
 								penawaran istimewa tersebut dapat berupa Cashback, potongan harga, diskon, harga khusus
 								dan lain sebagainya. Agar dapat menikmati keuntungan dari CASHBAC, User dapat
 								menggunakan Aplikasi CASHBAC di seluruh Merchant CASHBAC (merchant yang telah
-								bekerjasama dengan DMG).
+								bekerjasama dengan GPI).
 					</li>
 					<li>Cashback adalah pengembalian uang dalam nilai tertentu yang diberikan kepada User oleh
-						DMG atas Transaksi sebagai bagian dari penawaran Program CASHBAC, yang mana dapat
+						GPI atas Transaksi sebagai bagian dari penawaran Program CASHBAC, yang mana dapat
 						digunakan untuk mengurangi nilai Transaksi berikutnya.
 					</li>
 					<li>User adalah konsumen pengguna Aplikasi CASHBAC yang telah terdaftar secara resmi dalam
@@ -69,7 +69,7 @@ const Termscomponent = () => (
 									<li>User dapat melakukan registrasi lebih dari 1 (satu) Metode Pembayaran atau
 										sesuai kebijakasanaan CASHBAC.
 									</li>
-									<li>DMG memastikan bahwa DMG telah mengimplementasi fitur keamanan yang memadai
+									<li>GPI memastikan bahwa GPI telah mengimplementasi fitur keamanan yang memadai
 										sehingga seluruh informasi rekening milik User yang didaftarkan tersimpan dengan
 										aman dan rahasia.
 									</li>
@@ -99,7 +99,7 @@ const Termscomponent = () => (
 									</li>
 									<li>User dilarang memberikan Password dan/atau PIN untuk mengakses dan menggunakan
 										layanan CASHBAC miliknya kepada pihak manapun termasuk kepada staf atau karyawan
-										DMG.
+										GPI.
 									</li>
 								</ol>
 							</li>
@@ -128,7 +128,7 @@ const Termscomponent = () => (
 										ketentuan Penerbit dan Mitra Payment Processor.
 									</li>
 									<li>User wajib mematuhi ketentuan dan kebijakan dari Penerbit terkait penggunaan
-										Metode Pembayaran dalam melakukan Transaksi. DMG tidak bertanggung jawab atas
+										Metode Pembayaran dalam melakukan Transaksi. GPI tidak bertanggung jawab atas
 										segala risiko apapun yang dibebabkan oleh kelalaian User dalam mematuhi
 										ketentuan dan kebijakan dari Penerbit tersebut.
 									</li>
@@ -183,9 +183,9 @@ const Termscomponent = () => (
 								
 								<ol className="list-pointer">
 									<li>(i) tidak ditutup secara permanen oleh User; atau (ii) tidak ditutup berdasarkan
-										kebijaksanaan DMG.
+										kebijaksanaan GPI.
 									</li>
-									<li>User dapat mengajukan penutupan akun CASHBAC dengan menghubungi DMG secara
+									<li>User dapat mengajukan penutupan akun CASHBAC dengan menghubungi GPI secara
 										langsung.
 									</li>
 									<li>Penutupan akun CASHBAC menyebabkan saldo Cashback Usert tidak berlaku lagi dan
@@ -199,22 +199,22 @@ const Termscomponent = () => (
 							<li>User dibebaskan dari biaya administrasi bulanan, penutupan akun, AutoTransaksi dan Gagal
 								AutoTransaksi.
 							</li>
-							<li>User dapat menghubungi DMG atau melihat Aplikasi CASHBAC serta website CASHBAC untuk
+							<li>User dapat menghubungi GPI atau melihat Aplikasi CASHBAC serta website CASHBAC untuk
 								mengetahui informasi terkini mengenai layanan CASHBAC dan Program CASHBAC serta melihat
 								daftar Merchant CASHBAC.
 							</li>
-							<li>User dapat menerima pemberitahuan dari DMG mengenai Program CASHBAC terkini termasuk
+							<li>User dapat menerima pemberitahuan dari GPI mengenai Program CASHBAC terkini termasuk
 								melihat bukti pembayaran beserta data historisnya melalui short message service (SMS) ke
 								nomor MDN yang terdaftar pada sistem CASHBAC, Aplikasi CASHBAC, email pribadi User atau
-								sarana lainnya yang ditentukan oleh DMG.
+								sarana lainnya yang ditentukan oleh GPI.
 							</li>
 							<li>User dapat mengajukan pertanyaan (informasi) seputar layanan
 								CASHBAC maupun menyampaikan keluhan terkait Program CASHBAC dan Transaksi dengan Call
-								Center DMG di nomor 0888-1100-888 atau melalui email ke help@cashbac.com. User juga
+								Center GPI di nomor 0888-1100-888 atau melalui email ke help@cashbac.com. User juga
 								dapat melihat informasi dan program terkini mengenai layanan CASHBAC secara langsung
 								pada Aplikasi CASHBAC atau via website di www.cashbac.com.
 								<ol className="list-pointer">
-									<li>DMG tidak bertanggung jawab apapun atas keluhan User atas bentuk, tipe dan
+									<li>GPI tidak bertanggung jawab apapun atas keluhan User atas bentuk, tipe dan
 										kualitas barang dan/atau jasa yang dibeli oleh User di Merchant CASHBAC melalui
 										Aplikasi CASHBAC termasuk namun tidak terbatas pada kualitas layanan dan
 										pengiriman barang dan/atau jasa oleh Merchant CASHBAC yang tidak sesuai dengan
@@ -225,18 +225,18 @@ const Termscomponent = () => (
 										CASHBAC terkait pembelian, Transaksi atau pengiriman barang dan/atau jasa
 										tersebut.
 									</li>
-									<li>DMG tidak bertanggung jawab apapun apabila di kemudian hari Merchant CASHBAC (i)
+									<li>GPI tidak bertanggung jawab apapun apabila di kemudian hari Merchant CASHBAC (i)
 										tidak dapat menyediakan barang dan/atau jasa yang diinginkan oleh User; dan/atau
 										(ii) tidak beroperasi atau berhenti beroperasi yang menyebabkan User tidak dapat
 										menggunakan haknya untuk menikmati Program CASHBAC, selama hal-hal tersebut
-										tidak disebabkan oleh DMG.
+										tidak disebabkan oleh GPI.
 									</li>
 								</ol>
 							</li>
 							<li>Penghentian layanan CASHBAC dapat dimungkinkan dalam hal sebagai
 								berikut :
 								<ol className="list-pointer">
-									<li>DMG berhak untuk menghentikan sementara atau permanen
+									<li>GPI berhak untuk menghentikan sementara atau permanen
 										layanan CASHBAC bagi User, termasuk pemblokiran akses ke Aplikasi CASHBAC,
 										pemblokiran akun CASHBAC, dan lain sebagainya, apabila salah satu atau beberapa
 										hal di bawah ini berlaku:
@@ -257,8 +257,8 @@ const Termscomponent = () => (
 										</ol>
 									</li>
 									<li>User dapat mengajukan permohonan pembukaan blokir layanan CASHBAC melalui Call
-										Center DMG atau sarana penanganan User lainnya yang disediakan oleh DMG namun
-										persetujuan atas permohonan tersebut mengacu pada kebijaksanaan DMG.
+										Center GPI atau sarana penanganan User lainnya yang disediakan oleh GPI namun
+										persetujuan atas permohonan tersebut mengacu pada kebijaksanaan GPI.
 									</li>
 								</ol>
 							</li>
@@ -266,7 +266,7 @@ const Termscomponent = () => (
 								sebagaimana berikut :
 								<ol className="list-pointer">
 									<li>User wajib menyimpan dan menjaga Smartphone miliknya dan sangat disarankan untuk
-										menggunakan sandi khusus untuk mengakses Smartphone milik User tersebut. DMG
+										menggunakan sandi khusus untuk mengakses Smartphone milik User tersebut. GPI
 										tidak bertanggung jawab atas kerusakan atau kehilangan Smartphone milik User
 										serta penyalahgunaan Smartphone milik User oleh karena kelalaian User yang
 										mengakibatkan kerugian apapun bagi User termasuk namun tidak terbatas pada
@@ -275,13 +275,13 @@ const Termscomponent = () => (
 									<li>Data/informasi pribadi milik User termasuk Password dan PIN disimpan dalam
 										server sistem CASHBAC dan terenkripsi dengan aman.
 									</li>
-									<li>DMG tidak pernah meminta staf atau karyawannya untuk menanyakan Password atau
+									<li>GPI tidak pernah meminta staf atau karyawannya untuk menanyakan Password atau
 										PIN secara langsung kepada User. Apabila terindikasi pelanggaran atas hal
-										tersebut oleh staf atau karyawan DMG, User disarankan untuk segera melaporkan
-										kejadian tersebut kepada DMG.
+										tersebut oleh staf atau karyawan GPI, User disarankan untuk segera melaporkan
+										kejadian tersebut kepada GPI.
 									</li>
 									<li>Sehubungan dengan kerjasamanya dengan pihak Penerbit dan pihak Mitra Payment
-										Processor, DMG telah memastikan bahwa Penerbit dan Mitra Payment Processor
+										Processor, GPI telah memastikan bahwa Penerbit dan Mitra Payment Processor
 										memiliki kapabilitas dan mengaplikasikan standar keamanan yang memadai untuk
 										memproses permintaan Transaksi dari User termasuk dalam pengaturan penyimpanan
 										data rekening Metode Pembayaran milik User.
@@ -290,7 +290,7 @@ const Termscomponent = () => (
 										Perangkat Elektronik di Merchant CASHBAC diselenggarakan dengan mengaplikasikan
 										standar keamanan yang memadai.
 									</li>
-									<li>DMG dapat sewaktu-waktu mengolah atau mengungkapkan
+									<li>GPI dapat sewaktu-waktu mengolah atau mengungkapkan
 										data/informasi User:
 										<ol>
 											<li>untuk keperluan peningkatan pelayanan terhadap User; atau</li>
@@ -301,14 +301,14 @@ const Termscomponent = () => (
 												otoritas negara yang berwenang; atau
 											</li>
 											<li>kepada penegak hukum atau otoritas berwenang di Republik Indonesia
-												apabila menurut kebijaksanaan DMG, User terindikasi melakukan kegiatan
+												apabila menurut kebijaksanaan GPI, User terindikasi melakukan kegiatan
 												pencucian uang, pendanaan terorisme atau pelanggaran hukum lainnya.
 											</li>
 										</ol>
 									</li>
 								</ol>
 							</li>
-							<li>DMG tidak bertanggung jawab atas risiko apapun yang terjadi akibat penyalahgunaan Akun
+							<li>GPI tidak bertanggung jawab atas risiko apapun yang terjadi akibat penyalahgunaan Akun
 								CASHBAC dan Transaksi termasuk namun tidak terbatas pada pencurian, manipulasi,
 								perubahan dan penyalahgunaan data/informasi User yang tercatat/terdaftar pada Akun
 								CASHBAC yang dilakukan oleh pihak manapun tanpa sepengetahuan User.
@@ -318,19 +318,19 @@ const Termscomponent = () => (
 									<li>Dalam hal terjadi gangguan teknis pada jaringan (network) yang terhubung dengan
 										sistem CASHBAC atau sedang dilakukannya peningkatan, perubahan, perbaikan dan
 										atau pemeliharaan jaringan (network) dan/atau sistem CASHBAC yang mengakibatkan
-										terganggunya layanan dan Aplikasi CASHBAC, maka DMG akan melakukan penanganan
+										terganggunya layanan dan Aplikasi CASHBAC, maka GPI akan melakukan penanganan
 										dan perbaikan segera sesuai sesuai ketentuan service level agreement (SLA) yag
 										berlaku kecuali gangguan tersebut disebabkan oleh adanya Force Majeure dan dalam
-										hal ini User akan menerima notifikasi dari DMG atas terganggunya layanan dan
+										hal ini User akan menerima notifikasi dari GPI atas terganggunya layanan dan
 										Aplikasi CASHBAC tersebut.
 									</li>
 									<li>Dalam hal terjadinya kesalahan atau gangguan pada sistem CASHBAC yang
 										mengakibatkan terganggunya layanan CASHBAC atau kesalahan pelaksanaan Transaksi
-										yang bukan disebabkan oleh User, maka DMG akan melakukan perbaikan secepatnya
+										yang bukan disebabkan oleh User, maka GPI akan melakukan perbaikan secepatnya
 										atas kesalahan tersebut dalam 1 (satu) Hari Kerja atau maksimum dalam 3 (tiga)
 										Hari Kerja sejak ditemukannya kesalahan tersebut.
 									</li>
-									<li>DMG berhak sewaktu-waktu sesuai dengan kebijakannya (i) mengubah atau
+									<li>GPI berhak sewaktu-waktu sesuai dengan kebijakannya (i) mengubah atau
 										memperbaharui isi dari Syarat dan Ketentuan Penggunaan CASHBAC; dan/atau (ii)
 										menghentikan atau mengubah mekanisme Program CASHBAC, dengan atau tanpa
 										pemberitahuan sebelumnya kepada User.
@@ -338,9 +338,9 @@ const Termscomponent = () => (
 								</ol>
 							</li>
 							<li>Tidak dilaksanakannya atau tertundanya pelaksanaan sebagian atau keseluruhan kewajiban
-								berdasarkan Syarat dan Ketentuan Penggunaan CASHBAC ini oleh DMG, tidak dianggap sebagai
+								berdasarkan Syarat dan Ketentuan Penggunaan CASHBAC ini oleh GPI, tidak dianggap sebagai
 								pelanggaran terhadap Syarat dan Ketentuan Penggunaan CASHBAC apabila hal tersebut
-								terjadi karena keadaan diluar kendali DMG (”Force Majeure”), termasuk tapi tidak
+								terjadi karena keadaan diluar kendali GPI (”Force Majeure”), termasuk tapi tidak
 								terbatas pada: (i) bencana alam, (ii) peristiwa kebakaran, pemogokan, perang, huru-hara,
 								pemberontakan atau tindakan militer lainnya, (iii) tindakan pihak/instansi yang
 								berwenang yang mempengaruhi kelangsungan penyelenggaraan jasa telekomunikasi, dan (iv)
@@ -352,8 +352,8 @@ const Termscomponent = () => (
 								<ol className="list-pointer">
 									<li>Telah membaca, mengerti, dan menyetujui seluruh isi Syarat dan Ketentuan
 										Penggunaan CASHBAC ini termasuk pengkiniannya serta syarat dan ketentuan lainnya
-										yang dikeluarkan oleh DMG, Penerbit atau Mitra Payment Prosesor, Merchant
-										CASHBAC atau oleh pihak lain yang bekerjasama dengan DMG di kemudian hari.
+										yang dikeluarkan oleh GPI, Penerbit atau Mitra Payment Prosesor, Merchant
+										CASHBAC atau oleh pihak lain yang bekerjasama dengan GPI di kemudian hari.
 									</li>
 									<li>User bertanggung jawab sepenuhnya terhadap segala penggunaan layanan CASHBAC
 										melalui Aplikasi CASHBAC milik User, termasuk tapi tidak terbatas pada setiap
@@ -362,18 +362,18 @@ const Termscomponent = () => (
 										sebagai akibat langsung maupun tidak langsung.
 									</li>
 									<li>User menyatakan bahwa segala data/informasi pribadi (termasuk nomor rekening
-										Metode Pembayaran yang dipilih) yang diberikan oleh User kepada DMG adalah
+										Metode Pembayaran yang dipilih) yang diberikan oleh User kepada GPI adalah
 										benar, akurat dan up-to-date adanya dan User bertanggung jawab sepenuhnya atas
 										pemalsuan dan ketidakakuratan data/informasi termasuk penyalahgunaan nomor
 										rekening Metode Pembayaran milik pihak lain yang diberikan oleh User tersebut.
-										Atas adanya pelanggaran tersebut oleh User, dengan ini User setuju bahwa (i) DMG
+										Atas adanya pelanggaran tersebut oleh User, dengan ini User setuju bahwa (i) GPI
 										berhak untuk menindak lanjuti pelanggaran terhadap ayat ini sesuai dengan
 										kebijakannya termasuk mengajukan tuntutan hukum kepada User; (ii) User
-										membebaskan DMG dari segala tuntutan apapun atas pelaksanaan kebijakan yang
-										ditempuh oleh DMG; (iii) DMG tidak bertanggung jawab atas risiko atau kerugian
-										apapun yang diderita oleh User; (iv) User membebaskan DMG dari gugatan, tuntutan
+										membebaskan GPI dari segala tuntutan apapun atas pelaksanaan kebijakan yang
+										ditempuh oleh GPI; (iii) GPI tidak bertanggung jawab atas risiko atau kerugian
+										apapun yang diderita oleh User; (iv) User membebaskan GPI dari gugatan, tuntutan
 										dan ganti rugi apapun dari pihak manapun; dan (iv) User wajib bertanggung jawab
-										mengganti segala kerugian finansial yang berdampak kepada DMG maupun pihak-pihak
+										mengganti segala kerugian finansial yang berdampak kepada GPI maupun pihak-pihak
 										terkait lainnya termasuk namun tidak terbatas pada penggantian biaya pemrosesan
 										hukum, pengembalian dana, dan lain sebagainya.
 									</li>
@@ -381,11 +381,11 @@ const Termscomponent = () => (
 										regulasi dan perundang-undangan yang berlaku di Republik Indonesia dari waktu ke
 										waktu.
 									</li>
-									<li>User menyetujui bahwa DMG atas pertimbangan dan kebijaksanaannya berhak untuk
+									<li>User menyetujui bahwa GPI atas pertimbangan dan kebijaksanaannya berhak untuk
 										menolak pengajuan Registrasi User atau Registrasi Metode Pembayaran tanpa
 										menginformasikan alasan ataupun penyebab ditolaknya pengajuan tersebut.
 									</li>
-									<li>User membebaskan DMG dari keluhan atau tuntutan apapun apabila terjadi penolakan
+									<li>User membebaskan GPI dari keluhan atau tuntutan apapun apabila terjadi penolakan
 										dari pihak Penerbit atau Mitra Payment Processor pada saat pemrosesan Metode
 										Pembayaran.
 									</li>
@@ -402,10 +402,10 @@ const Termscomponent = () => (
 										https://www.kominfo.go.id.
 									</li>
 									<li>Segala data, informasi dan dokumen pribadi (apabila ada) yang telah diserahkan
-										kepada DMG baik dalam hardcopy ataupun softcopy akan disimpan oleh DMG dan tidak
+										kepada GPI baik dalam hardcopy ataupun softcopy akan disimpan oleh GPI dan tidak
 										dapat dikembalikan kepada User dengan alasan apapun.
 									</li>
-									<li>User setuju untuk membebaskan dan melepaskan DMG dari segala tuntutan, gugatan,
+									<li>User setuju untuk membebaskan dan melepaskan GPI dari segala tuntutan, gugatan,
 										dan/atau ganti kerugian dari pihak manapun sehubungan dengan kelalaian User
 										dalam memenuhi ketentuan pernyataan dan jaminan ini.
 									</li>
@@ -415,7 +415,7 @@ const Termscomponent = () => (
 								hukum Republik Indonesia.
 							</li>
 							<li>Apabila terjadi perselisihan dalam penafsiran dan pelaksanaan Syarat dan Ketentuan
-								Penggunaan CASHBAC ini, DMG dan User sepakat untuk menyelesaikannya secara musyawarah
+								Penggunaan CASHBAC ini, GPI dan User sepakat untuk menyelesaikannya secara musyawarah
 								untuk mufakat.
 							</li>
 						</ol>
@@ -438,7 +438,7 @@ const Termscomponent = () => (
 								(handphone/mobile phone) milik User yang didaftarkan dalam sistem CashBac pada saat
 								proses Registrasi User dilakukan.
 							</li>
-							<li><strong>Mitra Payment Processor</strong> adalah pihak yang menjalin kerjasama dan terkoneksi dengan DMG
+							<li><strong>Mitra Payment Processor</strong> adalah pihak yang menjalin kerjasama dan terkoneksi dengan GPI
 								dalam hal pemrosesan Metode Pembayaran pada saat Transaksi.
 							</li>
 							<li><strong>Password</strong> adalah kode sandi rahasia milik User yang didaftarkan dalam sistem CASHBAC agar
@@ -457,7 +457,7 @@ const Termscomponent = () => (
 								kerjasama dengan anggotanya seperti Penerbit, pihak acquiring maupun pihak lainnya
 								seperti Mitra Payment Processor.
 							</li>
-							<li><strong>Program CASHBAC</strong> adalah program promosi yang ditawarkan oleh DMG kepada User yang mana
+							<li><strong>Program CASHBAC</strong> adalah program promosi yang ditawarkan oleh GPI kepada User yang mana
 								User dapat menikmati promosi tersebut pada Merchant CASHBAC.
 							</li>
 							<li><strong>Smartphone</strong> adalah telepon genggam pintar berbasis sistem operasi iOS atau Android yang
