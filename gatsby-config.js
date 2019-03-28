@@ -9,12 +9,16 @@ console.log(siteURL)
 
 module.exports = {
 	siteMetadata: {
-		title: 'Cashback App with Best Deals in Indonesia | cashbac.com',
+		title: 'Most effortless way to get instant cashback. Anytime. Anywhere.',
 		author: 'PT. Global Pay Indonesia',
 		imageUrl: 'https://i.imgur.com/Vz81GEl.png',
-		description: 'Cashback App with the Best Deals in Indonesia | Cashbac.com',
-		keywords: `Cashbac is a cashback app with many rewards promo that can be used at your favorite merchants in Indonesia. Download Cashbac now!`,
+		description: 'Cashbac is a free mobile app that gives you instant cashback for every transaction and allows you to earn multiple rewards from a variety of partners.',
+		keywords: `Cashbac, Cashback, Promo, Voucher, Promotion, Outlet, Favorite Restaurant, Reward, Cashbac is a cashback app with many rewards promo that can be used at your favorite merchants in Indonesia. Download Cashbac now!`,
 		twitter: 'https://twitter.com/cashbacapp',
+    facebook: 'https://www.facebook.com/cashbacapp/',
+		instagram: 'https://www.instagram.com/cashbacapp/',
+		linkedin: 'https://www.linkedin.com/company/cashbac',
+		youtube: 'https://www.youtube.com/channel/UC9QEz3fWvpp1guO81L6ejBw',
 		gatsby: 'https://www.gatsbyjs.org/',
 		siteUrl: siteURL
 	},
@@ -64,7 +68,38 @@ module.exports = {
 				// Setting this parameter is optional (requried for some countries such as Germany)
 				anonymize: true
 			}
-		}
+		},
+		{
+			resolve: `gatsby-plugin-sitemap`,
+			options: {
+				output: `/sitemap.xml`,
+				exclude: ["/blog/*"],
+				query: `
+					{
+						site {
+							siteMetadata {
+								siteUrl
+							}
+						}
+	 
+						allSitePage {
+							edges {
+								node {
+									path
+								}
+							}
+						}
+				}`
+			}
+		},
+		{
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: siteURL,
+        sitemap: `${siteURL}/sitemap.xml`,
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    }
 		//,`gatsby-plugin-sitemap`
 		// this (optional) plugin enables Progressive Web App + Offline functionality
 		// To learn more, visit: https://gatsby.app/offline
