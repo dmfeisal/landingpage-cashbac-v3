@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'gatsby';
 import cashbacLogoColor from '../images/cashbac-logo-color.png';
 
@@ -22,7 +22,7 @@ class Navbar2 extends React.Component {
               <Link className="navbar-item" to="/" title="cashbac.com">
                 <img src={cashbacLogoColor} alt="Cashbac App"  />
               </Link>
-              <a onClick={e => { this.handleClick(e) } } role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="cb-navbar">
+              <a href="#nav" onClick={e => { this.handleClick(e) } } role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="cb-navbar">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>

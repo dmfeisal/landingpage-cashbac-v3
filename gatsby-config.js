@@ -9,10 +9,10 @@ console.log(siteURL)
 
 module.exports = {
 	siteMetadata: {
-		title: 'Most effortless way to get instant cashback. Anytime. Anywhere.',
+		title: 'Cashbac App - Get Instant Cashback for Every Transaction',
 		author: 'PT. Global Pay Indonesia',
-		imageUrl: 'https://i.imgur.com/Vz81GEl.png',
-		description: 'Cashbac is a free mobile app that gives you instant cashback for every transaction and allows you to earn multiple rewards from a variety of partners.',
+		imageUrl: 'https://dl.dropboxusercontent.com/s/yp5xezri84yv0bn/logo-cashbac.png',
+		description: 'Guaranteed instant cashback rewards when you dine, shop, and more at thousands of merchants in Indonesia. No expiry period. No top-ups needed.',
 		keywords: `Cashbac, Cashback, Promo, Voucher, Promotion, Outlet, Favorite Restaurant, Reward, Cashbac is a cashback app with many rewards promo that can be used at your favorite merchants in Indonesia. Download Cashbac now!`,
 		twitter: 'https://twitter.com/cashbacapp',
     facebook: 'https://www.facebook.com/cashbacapp/',
