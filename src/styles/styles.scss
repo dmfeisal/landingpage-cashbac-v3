@@ -10,7 +10,7 @@
 @import './carousel';
 
 .has-background-blue {
-  background-color: #e2f7ff !important;
+  background-color: #eefaff !important;
 }
 
 
@@ -111,7 +111,7 @@
 		justify-content: center;
 		align-items: center;
 		display: flex;
-		min-height: 130px;
+		min-height: 150px;
 		height: auto;
 	}
 }
@@ -279,7 +279,7 @@
 #hero-homepage {
 	background-image: linear-gradient(#BCEDE8, #AAB3C8);
 	height: 100%;
-	min-height: 720px;
+	min-height: 680px;
 	position: relative;
 	background-size: cover;
 	background-position: center;
@@ -339,11 +339,11 @@
 .hero {
 	background-image: linear-gradient(#BCEDE8, #AAB3C8);
 	height: 100%;
-	min-height: 720px;
+	min-height: 680px;
 	position: relative;
 	background-size: cover;
 	background-position: center;
-  	background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 
 
@@ -878,4 +878,26 @@
 	.screens .screen {
 		max-width: 460px
 	}
+}
+
+@media screen and (min-width: 1281px) {
+
+	#business-hero-desktop .hero-text-title-desktop, #business-hero-desktop .hero-text-subtitle-desktop, #hero-homepage .hero-title-homepage, #hero-homepage .hero-subtitle-homepage {
+		width: 500px;
+	}
+
+	.hero-illustration {
+		width: 650px;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+
+	.hero-business-illustration {
+		width: 650px;
+		position: absolute;
+		right: 0;
+		bottom: -70px;
+	}
+
 }

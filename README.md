@@ -3,6 +3,7 @@
 * Node JS version v10.15.3
 * NPM version 6.4.1
 * Yarn version 1.13.*
+* PM2 version 3.4.0
 * Gatsby JS
 * Bulma
 * CSS Modules
@@ -79,9 +80,20 @@ npm run serve
 ## deployment reference
 [https://www.gatsbyjs.org/docs/deploying-and-hosting/](https://www.gatsbyjs.org/docs/deploying-and-hosting/)
 
+## run app on service background
+access application folder
+and run pm2 with this command
+```
+npm run serve
+```
+pm2 start node_modules/react-scripts/bin/react-scripts.js --name cashbac -- serve
+```
+[https://medium.com/@jayfallon/serving-efficient-react-angular-express-applications-with-pm2-195e5911e9a7](https://medium.com/@jayfallon/serving-efficient-react-angular-express-applications-with-pm2-195e5911e9a7)
+
 ## server reference
 [https://www.netlify.com/features/](https://www.netlify.com/features/)
 
 
 ## Contributing
 [https://github.com/cashbac](https://github.com/cashbac)
+

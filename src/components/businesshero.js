@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import businessIllustration from '../images/cashbac-for-business-illustration.png';
+import businessIllustration from '../images/business.png';
 // import 'bulma';
-// import heroBusiness from '../images/slider/cashbac-business-hero.png';
+// import heroBusiness from '../images/slider/business.png';
 // import Navbar from './navbar';
 // import Carousel from 'bulma-carousel';
 

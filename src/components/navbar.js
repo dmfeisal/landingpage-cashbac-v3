@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'gatsby';
 import cashbacLogoColor from '../images/cashbac-logo-color.png';
 
@@ -22,7 +22,7 @@ class Navbar extends React.Component {
               <Link className="navbar-item" to="/" title="cashbac.com">
                 <img src={cashbacLogoColor} alt="Cashbac App"  />
               </Link>
-              <a role="button" onClick={e => { this.handleClick(e) } } className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="cb-navbar">
+              <a href="#nav" role="button" onClick={e => { this.handleClick(e) } } className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="cb-navbar">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -31,23 +31,23 @@ class Navbar extends React.Component {
             <div id="cb-navbar" className="navbar-menu are-small">
               <div className="navbar-end">
                 <div className="navbar-item">
-                    <a className="navbar-item" href="/#works">
+                    <a className="navbar-item" href="/#works" title="Cashbac - How it Works">
                       HOW IT WORKS
                     </a>
                 </div>
                 <div className="navbar-item">
-                  <a className="navbar-item" href="/#merchants">
+                  <a className="navbar-item" href="/#merchants" title="Cashbac - List Merchant">
                     MERCHANTS
                   </a>
                   </div>
                 <div className="navbar-item">
-                    <a className="navbar-item" href="https://cashbac.com/blog/" target="_blank">
+                    <a className="navbar-item" href="https://cashbac.com/blog/" target="_blank" rel="noopener" title="Cashbac - Blog">
                       BLOG
                     </a>
                 </div>
                 <div className="navbar-item">
                   <div className="buttons">
-                        <Link className="button is-info is-small is-rounded" to="/business" target="_blank">
+                        <Link className="button is-info is-small is-rounded" to="/business" target="_blank" title="Cashbac - For Business">
                           CASHBAC FOR BUSINESS
                         </Link>
                   </div>

@@ -11,6 +11,7 @@ import Footer from './footer';
 
 const Layout = ({ children }) => (
 	<div>
+		<div className="pageloader"><span className="title">Pageloader</span></div>
 		<Helmet />
 		<Navbar />
 		<Hero />
