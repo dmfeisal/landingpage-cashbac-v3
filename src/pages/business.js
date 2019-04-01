@@ -16,7 +16,7 @@ const BusinessPage = ({ children }) => (
 			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 			<meta name="description" content="Increase Traffic, Reach Goals. Generate Brand Awareness and Loyalty with Cashbac Business – The Marketing Platform Made for You and Your Customers." />
 			<meta name="keywords" content="Merchant, marketing tools, cashbac apps, cashback tools, cashbac marketing tools, Cashbac business" />
-			<title>Cashbac Business - Transform How You Do Business</title>
+			<title>Transform How You Do Business | Cashbac Business</title>
 			<html lang="en" />
 			{/* Google / Search Engine Meta Tags */}
 			<meta itemprop="name" content="PT. Global Pay Indonesia" />
