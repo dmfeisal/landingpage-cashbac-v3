@@ -1,0 +1,31 @@
+@import './variables.scss';
+
+html, body {
+  font: normal 14px/1.5 "Open Sans", Helvetica, Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: $cb-body-color;
+  cursor: auto;
+}
+
+p { color: $cb-body-color; }
+
+h1, h2, h3, h4, h5, h6, span, p { cursor: auto; }
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+.new-line {
+	white-space: pre-wrap;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}

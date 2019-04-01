@@ -1,0 +1,57 @@
+{
+	"name": "cashbac-landing",
+	"description": "Cashbac landing pages for users & business",
+	"version": "1.0.0",
+	"author": "Cashbac Dev <dev@casbhac.com>",
+	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^1.2.15",
+		"@fortawesome/free-brands-svg-icons": "^5.7.2",
+		"@fortawesome/free-solid-svg-icons": "^5.7.2",
+		"@fortawesome/react-fontawesome": "^0.1.4",
+		"bulma": "^0.7.2",
+		"bulma-carousel": "^3.0.0",
+		"gatsby": "^2.0.19",
+		"gatsby-image": "^2.0.15",
+		"gatsby-plugin-google-analytics": "^2.0.7",
+		"gatsby-plugin-manifest": "^2.0.5",
+		"gatsby-plugin-offline": "^2.0.11",
+		"gatsby-plugin-react-helmet": "^3.0.0",
+		"gatsby-plugin-robots-txt": "^1.4.0",
+		"gatsby-plugin-sass": "^2.0.4",
+		"gatsby-plugin-sharp": "^2.0.17",
+		"gatsby-plugin-sitemap": "^2.0.2",
+		"gatsby-source-filesystem": "^2.0.4",
+		"gatsby-transformer-json": "^2.1.8",
+		"gatsby-transformer-sharp": "^2.1.4",
+		"node-sass": "^4.10.0",
+		"react": "^16.5.1",
+		"react-dom": "^16.5.1",
+		"react-helmet": "^5.2.0",
+		"react-icons": "^3.2.2"
+	},
+	"keywords": [
+		"gatsby",
+		"bulma",
+		"starter",
+		"kit",
+		"template"
+	],
+	"license": "MIT",
+	"scripts": {
+		"build": "ACTIVE_ENV=production gatsby build",
+		"serve": "ACTIVE_ENV=production gatsby serve",
+		"build-staging": "ACTIVE_ENV=development gatsby build",
+		"develop": "gatsby develop",
+		"start": "ACTIVE_ENV=development npm run develop",
+		"format": "prettier --write \"src/**/*.js\"",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"dotenv": "^6.2.0",
+		"prettier": "^1.14.2"
+	},
+	"repository": {
+		"type": "gitlab",
+		"url": "https://github.com/amandeepmittal/gatsby-bulma-quickstart"
+	}
+}

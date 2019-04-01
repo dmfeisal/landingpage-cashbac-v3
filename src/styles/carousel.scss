@@ -1,0 +1,18 @@
+.carousel .carousel-navigation.is-overlay .carousel-nav-left, .carousel .carousel-navigation.is-overlay .carousel-nav-right {
+  	width: 50px;
+  	height: 1000px;
+  	background: rgba(0, 0, 0, 0.01);
+  	color: #fff;
+}
+
+.icon-carousel {
+	height: 40px;
+	width: 40px;
+	-webkit-filter: drop-shadow( 3px 3px 3px rgba(0, 0, 0, .2));
+  	filter: drop-shadow( 3px 3px 3px rgba(0, 0, 0, .2));
+}
+
+.carousel {
+	position: relative;
+	z-index: 0;
+}

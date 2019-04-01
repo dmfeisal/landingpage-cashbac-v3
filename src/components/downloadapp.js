@@ -1,0 +1,33 @@
+import React from 'react';
+import buttonGooglePlay from '../images/google_badge_en_get.svg';
+import buttonAppStore from '../images/appstore_badge_en.svg';
+
+const Downloadapp = () => (
+
+		<div className="gradientBg">
+		<section className="section container">
+		<div>
+			<div className="columns ">
+				<div className="column center is-6 container">
+			
+					<h2 className="title has-text-centered-mobile has-text-white">Start earning millions with Cashbac 
+					
+					</h2>
+				</div>
+				<div  className="column center">
+					<a href="https://cashbac.onelink.me/1sXQ/homepage">
+					<img width="140px" src={buttonGooglePlay} alt="Get On Google Play" />
+					</a>
+					&nbsp; &nbsp;
+					<a href="https://cashbac.onelink.me/1sXQ/homepage">
+					<img width="140px" src={buttonAppStore} alt="Get On App Store" />
+					</a>
+				</div>	
+				</div>
+			</div>
+		</section>
+	</div>
+
+	);
+
+export default Downloadapp;
