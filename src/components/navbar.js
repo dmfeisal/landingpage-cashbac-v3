@@ -41,7 +41,7 @@ class Navbar extends React.Component {
                   </a>
                   </div>
                 <div className="navbar-item">
-                    <a className="navbar-item" href="https://cashbac.com/blog/" target="_blank" rel="noopener" title="Cashbac - Blog">
+                    <a className="navbar-item" href="https://cashbac.com/blog/" target="_blank" rel="noopener noreferrer" title="Cashbac - Blog">
                       BLOG
                     </a>
                 </div>
