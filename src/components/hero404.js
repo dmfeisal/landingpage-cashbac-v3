@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { FaChevronLeft } from 'react-icons/fa';
+// import { FaChevronLeft } from 'react-icons/fa';
 import beaconImage from '../images/cashbac-beacon.svg';
 // import 'bulma';
 // import heroBusiness from '../images/slider/cashbac-business-hero.png';
@@ -13,7 +13,7 @@ const Hero404 = ({ siteTitle }) => (
 	{/* MOBILE HERO*/}
 		<section className="section hero is-hidden-desktop is-hidden-tablet has-text-centered-mobile" id="hero-404-mobile">
 				<div>
-					<img src={beaconImage} alt="Cashbac Beacon Image" className="illustration404-mobile"/>
+					<img src={beaconImage} alt="Cashbac Beacon" className="illustration404-mobile"/>
 				</div>
 				<div className="has-text-centered-mobile">
 					<h1 className="title">
@@ -38,7 +38,7 @@ const Hero404 = ({ siteTitle }) => (
 			<div>
 				<div className="container">	
 					<div>
-						<img src={beaconImage} alt="Cashbac Beacon Image" className="illustration404"/>
+						<img src={beaconImage} alt="Cashbac Beacon" className="illustration404"/>
 					</div>
 
 			
