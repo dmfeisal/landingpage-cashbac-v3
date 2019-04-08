@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from '../../components/helmet';
 import Faqcomponent from '../../components/faqcomponent';
 
-const PlainFaq = ({ children }) => (
+const FaqPlain = ({ children }) => (
 	<div>
 		<Helmet />
 		<Faqcomponent />
@@ -10,4 +10,4 @@ const PlainFaq = ({ children }) => (
 	</div>
 );
 
-export default PlainFaq;
+export default FaqPlain;

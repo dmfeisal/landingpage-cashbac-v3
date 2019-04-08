@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { FaChevronLeft } from 'react-icons/fa';
 import beaconImage from '../images/cashbac-beacon.svg';
 // import 'bulma';
 // import heroBusiness from '../images/slider/cashbac-business-hero.png';
