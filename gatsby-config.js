@@ -9,7 +9,7 @@ console.log(siteURL)
 
 module.exports = {
 	siteMetadata: {
-		title: 'Cashbac App - Get Instant Cashback for Every Transaction',
+		title: 'Get Instant Cashback for Every Transaction | Cashbac App',
 		author: 'PT. Global Pay Indonesia',
 		imageUrl: 'https://dl.dropboxusercontent.com/s/yp5xezri84yv0bn/logo-cashbac.png',
 		description: 'Guaranteed instant cashback rewards when you dine, shop, and more at thousands of merchants in Indonesia. No expiry period. No top-ups needed.',
@@ -99,7 +99,14 @@ module.exports = {
         sitemap: `${siteURL}/sitemap.xml`,
         policy: [{ userAgent: '*', allow: '/' }]
       }
-    }
+		},
+		{
+      resolve: `gatsby-transformer-json`,
+      options: {
+				typeName: 'Json',
+				path: `./src/data/`,
+      },
+		}
 		//,`gatsby-plugin-sitemap`
 		// this (optional) plugin enables Progressive Web App + Offline functionality
 		// To learn more, visit: https://gatsby.app/offline

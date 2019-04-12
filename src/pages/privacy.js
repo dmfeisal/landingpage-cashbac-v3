@@ -8,15 +8,15 @@ const PrivacyPage = ({ children }) => (
 	<div>
 		<Helmet>
 			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-			<meta name="description" content="Cashbac menetapkan Kebijakan Privasi ini untuk membantu User membuat keputusan yang jelas tentang apakah User tidak menggunakan atau tetap menggunakan Cashbac" />
+			<meta name="description" content="Read our privacy policy to learn more about how your data is collected, used and protected by Cashbac" />
 			<meta name="keywords" content="Cashbac privacy, Cashbac terms, Cashbac ketentuan" />
-			<title>Cashbac - Kebijakan privasi penggunaan cashbac</title>
+			<title>Privacy Policy | Cashbac App</title>
 			<html lang="en" />
 			{/* Google / Search Engine Meta Tags */}
 			<meta itemprop="name" content="PT. Global Pay Indonesia" />
 			<meta
 				itemprop="description"
-				content="Cashbac menetapkan Kebijakan Privasi ini untuk membantu User membuat keputusan yang jelas tentang apakah User tidak menggunakan atau tetap menggunakan Cashbac"
+				content="Read our privacy policy to learn more about how your data is collected, used and protected by Cashbac"
 			/>
 			<meta itemprop="image" content="https://dl.dropboxusercontent.com/s/yp5xezri84yv0bn/logo-cashbac.png" />
 			<script type="text/javascript" src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
