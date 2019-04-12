@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react'
+import React from 'react'
 import { isIOS } from 'react-device-detect';
 import { isSafari } from 'react-device-detect';
 
