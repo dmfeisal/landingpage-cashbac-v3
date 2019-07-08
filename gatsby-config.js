@@ -1,16 +1,24 @@
+let activeEnv = process.env.ACTIVE_ENV || process.env.NODE_ENV || "development"
+
 require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`
+  path: `.env.${activeEnv}`
 });
 const siteURL = `${process.env.CB_HOST}`
 
+console.log(siteURL)
+
 module.exports = {
 	siteMetadata: {
-		title: 'Cashback App with Best Deals in Indonesia | cashbac.com',
+		title: 'Get Instant Cashback for Every Transaction | Cashbac App',
 		author: 'PT. Global Pay Indonesia',
-		imageUrl: 'https://i.imgur.com/Vz81GEl.png',
-		description: 'Cashback App with the Best Deals in Indonesia | Cashbac.com',
-		keywords: `Cashbac is a cashback app with many rewards promo that can be used at your favorite merchants in Indonesia. Download Cashbac now!`,
+		imageUrl: 'https://dl.dropboxusercontent.com/s/yp5xezri84yv0bn/logo-cashbac.png',
+		description: 'Guaranteed instant cashback rewards when you dine, shop, and more at thousands of merchants in Indonesia. No expiry period. No top-ups needed.',
+		keywords: `Cashbac, Cashback, Promo, Voucher, Promotion, Outlet, Favorite Restaurant, Reward, Cashbac is a cashback app with many rewards promo that can be used at your favorite merchants in Indonesia. Download Cashbac now!`,
 		twitter: 'https://twitter.com/cashbacapp',
+    facebook: 'https://www.facebook.com/cashbacapp/',
+		instagram: 'https://www.instagram.com/cashbacapp/',
+		linkedin: 'https://www.linkedin.com/company/cashbac',
+		youtube: 'https://www.youtube.com/channel/UC9QEz3fWvpp1guO81L6ejBw',
 		gatsby: 'https://www.gatsbyjs.org/',
 		siteUrl: siteURL
 	},
@@ -61,7 +69,45 @@ module.exports = {
 				anonymize: true
 			}
 		},
-		`gatsby-plugin-sitemap`
+		{
+			resolve: `gatsby-plugin-sitemap`,
+			options: {
+				output: `/sitemap.xml`,
+				exclude: ["/blog/*"],
+				query: `
+					{
+						site {
+							siteMetadata {
+								siteUrl
+							}
+						}
+	 
+						allSitePage {
+							edges {
+								node {
+									path
+								}
+							}
+						}
+				}`
+			}
+		},
+		{
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: siteURL,
+        sitemap: `${siteURL}/sitemap.xml`,
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+		},
+		{
+      resolve: `gatsby-transformer-json`,
+      options: {
+				typeName: 'Json',
+				path: `./src/data/`,
+      },
+		}
+		//,`gatsby-plugin-sitemap`
 		// this (optional) plugin enables Progressive Web App + Offline functionality
 		// To learn more, visit: https://gatsby.app/offline
 		// 'gatsby-plugin-offline',

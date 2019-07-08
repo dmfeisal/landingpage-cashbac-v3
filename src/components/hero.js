@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 import buttonGooglePlay from '../images/google_badge_en_get.svg';
 import buttonAppStore from '../images/appstore_badge_en.svg';
 import consumerIllustration from '../images/cashbac-for-consumers-illustration.png';

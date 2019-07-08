@@ -22,7 +22,7 @@ class Businessnavbar extends React.Component {
               <Link className="navbar-item" to="/" title="cashbac.com">
                 <img src={cashbacLogoWhite} alt="Cashbac App"  />
               </Link>
-              <a role="button" onClick={e => { this.handleClick(e) } } className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="cb-navbar">
+              <a href="#nav" role="button" onClick={e => { this.handleClick(e) } } className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="cb-navbar">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>

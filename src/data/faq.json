@@ -1,0 +1,96 @@
+[{
+    "title": "Cara mendapatkan kode referral?",
+    "detail": "Anda bisa mendapatkan kode referral dari teman anda sesama pengguna Cashbac."
+},
+{
+    "title": "Bagaimana cara menghapus account Cashbac?",
+    "detail": "Bila anda tidak ingin melanjutkan pengalaman anda mendapatkan cashback dalam aplikasi, anda bisa menghapus kartu yang terhubung di halaman pembayaran dan log out dari aplikasi. Bila anda juga ingin menutup akun anda secara total dari Cashbac, silakan hubungi Customer Service kami dan kami akan membantu anda untuk menutup akun."
+},
+{
+    "title": "Bagaimana cara penggunaan kode voucher di aplikasi Cashbac?",
+    "detail": "Anda bisa masuk ke dalam menu “Pay” yang terletak di bagian bawah tengah layar. Masukkan pin atau fingerprint anda untuk akses. Masukkan kode voucher yang sudah anda dapatkan ke kolom voucher yang terletak di bawah “Cashbac Balance”."
+},
+{
+    "title": "Kenapa saya mendapatkan notifikasi duplicate account?*",
+    "detail": "Karena anda terindikasi melakukan registrasi account di device yang sama lebih dari 1 kali."
+},
+{
+    "title": "Apakah saya dapat mengetahui alamat email saya yang terdaftar di aplikasi Cashbac karena saya di nyatakan duplicate account?",
+    "detail": "Anda tidak bisa mengetahui email anda dinyatakan duplicate account, karena aplikasi Cashbac membaca dari device anda. Jadi bila di device yang sama anda mendaftarkan akun yang lain, maka akan dibaca duplicate account. 1 device untuk 1 akun."
+},
+{
+    "title": "Biaya konfirmasi kartu apakah akan dikembalikan dan berapa lama estimasinya?",
+    "detail": "Biaya yang ditarik untuk perihal konfirmasi kartu akan dikembalikan. Untuk estimasi pengembalian sesuai dengan yang kami janjikan, untuk kartu debit 60 hari kerja dan untuk kartu kredit 14 hari kerja."
+},
+{
+    "title": "Apa yang harus saya lakukan apabila saya lupa PIN?",
+    "detail": "Apabila anda lupa dengan pin, anda bisa reset pin di dalam aplikasi dengan tahap akses :"
+},
+{
+    "title": "Buka Cashbac - Pilih Akun - Secure Pin - Change Secure Pin - Forgot Pin",
+    "detail": "Bila anda sudah ada di halaman 'Forgot Pin', kami akan mengkonfirmasi anda dengan pertanyaan rahasia (security question). Bila sudah menjawab dengan benar, maka kami akan mengirimkan email konfirmasi berupa kode yang harus diisi di dalam aplikasi. Setelah anda isi kodenya, maka kami akan meminta anda membuat pin baru lagi "
+},
+{
+    "title": "Apa yang harus saya lakukan apabila saya lupa jawaban security question?",
+    "detail": "Security question merupakan salah satu jaminan kami untuk keamanan proses pemulihan pin anda. Bila anda lupa atau tidak bisa menjawab security question, maka anda akan dianggap bukan pemilik sah dari akun ini dan tidak akan ada langkah lain untuk melompati langkah ini"
+},
+{
+    "title": "Apakah saya dapat merubah alamat email di akun Cashbac?",
+    "detail": "Anda tidak dapat merubah alamat email anda. Karena alamat email merupakan salah satu cara kami menyimpan akun agar keamanan anda bisa terjaga setiap saat. Merubah atau email baru sama saja anda dengan membuat akun baru. Dan setiap informasi dari akun lama tidak akan bisa dipindahkan ke dalam akun baru."
+},
+{
+    "title": "Apabila saya menggunakan saldo Cashback untuk transaksi, apakah saya masih akan mendapatkan Cashback kembali?",
+    "detail": "Setiap transaksi yang dilakukan dengan aplikasi Cashbac akan selalu mendapatkan cashback. Sesuai dengan janji kami untuk memberikan pengalaman berbelanja yang menarik."
+},
+{
+    "title": "Saya belum menerima pengembalian dari biaya konfirmasi kartu sebesar 5000 rupiah apa yang harus saya lakukan?",
+    "detail": "Anda bisa menghubungi Customer Service kami yang siap membantu 24 jam. Kami akan membantu menyelidiki kenapa hal ini bisa terjadi. Tentunya dengan dukungan bantuan anda dengan menyediakan bukti-bukti kalau biaya konfirmasi belum dikembalikan, misalnya dengan melampirkan bukti catatan tagihan anda atau mutasi rekening anda. Bila memang benar terbukti ada proses yang error, kami akan dengan senang hati mengembalikan biaya konfirmasi anda."
+},
+{
+    "title": "Mengapa transaksi saya terdebet dua kali?",
+    "detail": "Pastikan anda tidak melakukan pembayaran secara berulang, sebelumnya anda dapat memastikan riwayat transaksi terlebih dahulu. Hal ini bisa terjadi karena kurang informasi dari kasir ke customer. Customer telah melakukan proses pembayaran pada saat taping atau scan, tetapi perhatian kasir teralih dan mengakibatkan kasir menganggap belum terbayar kemudian kasir kembali membuat bill yg sama dan customer kembali membayar."
+},
+{
+    "title": "Bagaimana pengajuan refund untuk transaksi yang terdebet dua kali atau transaksi yang gagal?",
+    "detail": "Silakan menghubungi Customer Service Cashbac melalui email dengan memberikan lampiran struk dari merchant, billing tagihan atau mutasi rekening yang menyatakan transaksi terdebet dua kali atau transaksi gagal tetapi terdebet."
+},
+{
+    "title": "Apa perbedaan transaksi menggunakan barcode dan scan QR ?",
+    "detail": "Transaksi menggunakan barcode artinya anda sebagai user Cashbac yang mengeluarkan barcode dan memperlihatkan ke kasir untuk proses scanning. Sedangkan scan QR yaitu anda melakukan scan QR kasir dengan kamera device anda melalui aplikasi Cashbac."
+},
+{
+    "title": "Saya terlewat menginput kode referral bagaimana cara kembali ke halaman input kode referral tersebut?",
+    "detail": "Anda tidak bisa kembali ke halaman input kode referral bila anda sudah melewatkannya."
+},
+{
+    "title": "Saya bingung memilih opsi pembayaran di merchant2 cashbac. Opsi mana yang harus saya pilih karena di aplikasi ada tap to pay, scan qr code atau show barcode?",
+    "detail": "Tergantung dari kebijakan yang ada di merchant/outlet, pilih yang menurut anda terbaik dan tercepat. Pada dasarnya semua pembayaran sama, hanya saja kami mempunyai berbagai merchant/outlet yang menerima pembayaran Cashbac dengan cara tertentu. Seperti contoh, ada yang hanya menggunakan Tap, ada yang hanya menggunakan scan, atau keduanya tap dan scan. Dan ada juga yang hanya menerima pembayaran Cashbac dengan show barcode anda. Untuk memastikan anda bisa menanyakan ke kasir. "
+},
+{
+    "title": "Untuk menggunakan aplikasi Cashbac apakah diperlukan tipe HP dengan spesifikasi tertentu?",
+    "detail": "Untuk Android dimulai dari versi 4.3 (KitKat) keatas, dan untuk iOS dimulai dari versi 10.0.0 keatas."
+},
+{
+    "title": "Jenis kartu kredit / kartu debit apa saja yang bisa di gunakan di aplikasi Cashbac?",
+    "detail": "Kartu Kredit yang bisa dipakai hampir semua dengan dukungan Visa dan Mastercard (Indonesia dan Singapura), sedangkan untuk Kartu Debit kami baru mendukung Jenius, Digibank, Commonwealth, Permata, dan Bank Tabungan Negara."
+},
+{
+    "title": "Baterai HP menjadi boros, mengapa bluetooth harus menyala pada saat menggunakan aplikasi Cashbac? ",
+    "detail": "Cashbac membutuhkan bluetooth untuk memberi informasi kepada anda merchant apa saja yang bekerjasama dengan kami bila ada berada dalam suatu tempat (misalnya seperti mall), dan bluetooth sendiri berperan sangat penting untuk proses pembayaran di merchant outlet dan pemberian cashback itu sendiri (proses transaksi)"
+}, {
+    "title": "Apakah di aplikasi ada informasi user bisa mendapatkan salah satu promo yang tertinggi?",
+    "detail": "Masing-masing promo mempunyai kebijakan sendiri, karena itu diharapkan anda membaca terlebih dahulu syarat dan ketentuan promo yang sedang berlaku."
+},
+{
+    "title": "Apabila saya memiliki kode voucher apakah bisa di gabung dengan promo merchant atau promo bank?",
+    "detail": "Kode voucher bisa digabung dengan promo merchant atau promo bank"
+},
+{
+    "title": "Sebagai referral owner, apabila saya dinyatakan duplicate account apakah saya masih tetap bisa mendapatkan referral reward 25.000?",
+    "detail": "Berdasarkan term & condition Cashbac, duplicate account akan terindikasi sebagai kecurangan baik disengaja maupun tidak disengaja. Dan 1 device hanya bisa didaftarkan untuk 1 akun."
+},
+{
+    "title": "Bagaimana perhitungan hari untuk promo tambahan cashback 1x/minggu?",
+    "detail": "Perhitungan rentang waktu satu minggu bagi promo Cashbac yaitu dari hari Minggu ke hari Sabtu, jadi jangan lewatkan promo dari kami."
+}
+]

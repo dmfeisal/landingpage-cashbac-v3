@@ -78,7 +78,7 @@ const Footer = () => (
 			
 			<div className="columns is-size-8">
 				<div  className="column">
-					<p> &copy; 2019 PT GlobalPay Indonesia.
+					<p> &copy; 2019 PT Global Pay Indonesia. All Rights Reserved.
 						&nbsp; &nbsp; &nbsp;
 						<Link to="/terms">Terms and Condition</Link>
 						&nbsp; &nbsp; &nbsp; 
