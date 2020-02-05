@@ -10,7 +10,9 @@
 
 ## Notes
 
-- Live from January 2019 - January 2020 on https://cashbac.com
+- Live from January 2019 - February 2020 on https://cashbac.com
+
+- Check in Web Archive: http://web.archive.org/web/20200201165504/https://cashbac.com/
 
 
 **Happy Coding!** 🎉🎉
