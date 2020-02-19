@@ -6,7 +6,7 @@
 
 ## Demo 💯
 
-- [Demo Link](https://cashbac.netlify.com/)
+- [Demo Link](https://cashbac.netlify.app/)
 
 ## Notes
 
